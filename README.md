@@ -25,15 +25,13 @@ Causality detection is a nascent field in Natural Language Processing domain. It
 forms ranging from using explicit pattern-matching rules to more Machine Learning oriented results.
 The entities involved in the detection of causality can vary from one use case to another. We can
 find causal relations between sentences, events, or entities in a sentence.
-In this work, we will consider the previous data to extract causal relationships between macroeco-
-nomic entities from millions of financial news articles. These relations would serve as the main brick
+In this work, we will consider the previous data to extract causal relationships between macroeconomic entities from millions of financial news articles. These relations would serve as the main brick
 to the construction of the Bayesian Network.
 
 ## CNN for causality detection
 
 Convolutional Neural Networks (CNN) were initially developed in the field of neural network image
-processing, where they achieved break-through results in classifying objects from predefined cate-
-gories.
+processing, where they achieved break-through results in classifying objects from predefined categories.
 In recent years, CNN have shown ground-breaking performance in various NLP tasks. One particular
 task is sentence classification, i.e., classifying short phrases (i.e., roughly 20–50 tokens), from a set of
 pre-defined categories. In the next paragraphs we will explain how CNN can be applied to classify
@@ -41,8 +39,7 @@ causal sentences.
 
 ## Data
 
-On this step we will use SemEval-2 Task8 by [Hendrickx and Kim, 2010] which focuses on multiple-
-way classification of the semantic relationships between nominal pairs. It is a testbed for automatic
+On this step we will use SemEval-2 Task8 by [Hendrickx and Kim, 2010] which focuses on multiple way classification of the semantic relationships between nominal pairs. It is a testbed for automatic
 classification of semantic relations.
 23This dataset consists of 8000 sentences that have been annotated in accordance with SemEval-2 Task
 8’s guidelines. Some sentences have been reused from SemEval-1 Task4 (Classification of Semantic
@@ -113,8 +110,7 @@ the classifiers for semantic relation identification. The idea behind the pretra
 Dependency Based Skip-gram is to predict as output the context neighbors words in a sentence
 from the target word given as input based on using other contextual features, such as contexts
 from dependency graphs of sentences. and finally each word is fed into a model as a one hot
-encoding vector. It is slower than the algorithms that predict the target word from the con-
-text words but skip-gram does a better job predicting infrequent words and is more suitable
+encoding vector. It is slower than the algorithms that predict the target word from the context words but skip-gram does a better job predicting infrequent words and is more suitable
 for large corpus with higher dimensions. Furthermore, the dependency context embeddings
 improve performance with all tested classifiers. </li>
 </ul>
@@ -143,9 +139,7 @@ This pretrained wordembeddings includes:
 <li> Word embeddings were trained on Wikipedia August 2015. </li>
 <li> Includes embeddings of words and dependency contexts appearing more than 100 times in the
 corpus. </li>
-<li> The dependency types used are [Universal_Dependencies, 2015] which is a framework for con-
-sistent annotation of grammar (parts of speech, morphological features, and syntactic depen-
-dencies) across different human languages. </li>
+<li> The dependency types used are [Universal_Dependencies, 2015] which is a framework for consistent annotation of grammar (parts of speech, morphological features, and syntactic dependencies) across different human languages. </li>
 <li> Inverse relations are encoded with the string "_inv_" between the dependency type and the
 word. </li>
 <li> Training corpus size: 2 billion words </li>
@@ -171,8 +165,7 @@ same length. As a result, you must ensure that all sequences are the same length
 accomplished via padding sequences. Shorter sequences will be padded with zeros, while longer
 ones will be truncated. As a result, you’ll need to declare the truncation and padding types. </li>
  <li> Split data into train, test and validation batches. </li>
- <li> Set class weights using Sklearn class weight since the SemEval2010 task8 for causality classifi-
-cation has imbalanced classes: (6996 "Other" relation, 659 "Cause-Effect(e2,e1)" effect relation,
+ <li> Set class weights using Sklearn class weight since the SemEval2010 task8 for causality classification has imbalanced classes: (6996 "Other" relation, 659 "Cause-Effect(e2,e1)" effect relation,
 344 "Cause-Effect(e1,e2)" causality relation ) in order to force the algorithm to treat every
 instance of class 0, 1 and 2 as its adjusted class weight indicates:
   class_weight = 0: 0.38111572, 1: 7.75193798, 2: 4.04653515 </li>
@@ -180,8 +173,7 @@ instance of class 0, 1 and 2 as its adjusted class weight indicates:
 
 ## Model training
 
-The next step is to use the words embeddings layer in a Keras model. We use the simple Convo-
-lutional Neural Network of [Daojian Zeng and Zhao, 2014] that has been shown to perform well in
+The next step is to use the words embeddings layer in a Keras model. We use the simple Convolutional Neural Network of [Daojian Zeng and Zhao, 2014] that has been shown to perform well in
 multiple sentence classification tasks. Let’s define the model as follows:
 
 
@@ -364,13 +356,11 @@ extraction can be improved
 
  
 In this part we evaluated our CNN in terms of speed ,accuracy and efficiency by proving that the
-CNN model is capable to handle the problem of causality classification on textual data to model relationships be-
-tween macro-economic factors with Bayesian Network and based on large financial news textual data
+CNN model is capable to handle the problem of causality classification on textual data to model relationships between macro-economic factors with Bayesian Network and based on large financial news textual data
 extracted. We used Convolutional Neural Networks (CNN) for Sentence Classification, to extract causal relations from financial news and to build a database of causalities. Next
 the project main goal is to use these causalities to feed an optimization algorithm to build and fit a
 Bayesian Network to compare macro-economic before and after the COVID outbreak to understand
 what factors were impacted.
  
-As an extension of our work, we intend to improve causality extraction, direction detection us-
-ing rule-based methods to ensure better precision in producing Bayesian network-based economic
+As an extension of our work, we intend to improve causality extraction, direction detection using rule-based methods to ensure better precision in producing Bayesian network-based economic
 and financial insights.
