@@ -1,0 +1,2932 @@
+Sentence #2 (1 tokens):
+Fangame
+[Text=Fangame CharacterOffsetBegin=87 CharacterOffsetEnd=94 PartOfSpeech=NNP Lemma=Fangame NamedEntityTag=PERSON]
+root(ROOT-0, Fangame-1)
+
+Sentence #3 (16 tokens):
+Fangames are video games made by fans based on one or more established video games.
+[Text=Fangames CharacterOffsetBegin=96 CharacterOffsetEnd=104 PartOfSpeech=NNS Lemma=fangame NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=video CharacterOffsetBegin=109 CharacterOffsetEnd=114 PartOfSpeech=JJ Lemma=video NamedEntityTag=O]
+[Text=games CharacterOffsetBegin=115 CharacterOffsetEnd=120 PartOfSpeech=NNS Lemma=game NamedEntityTag=O]
+[Text=made CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=VBN Lemma=make NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=fans CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O]
+[Text=based CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=VBN Lemma=base NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=140 CharacterOffsetEnd=142 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=143 CharacterOffsetEnd=146 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=>=1.0]
+[Text=or CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=JJR Lemma=more NamedEntityTag=O]
+[Text=established CharacterOffsetBegin=155 CharacterOffsetEnd=166 PartOfSpeech=JJ Lemma=established NamedEntityTag=O]
+[Text=video CharacterOffsetBegin=167 CharacterOffsetEnd=172 PartOfSpeech=NN Lemma=video NamedEntityTag=O]
+[Text=games CharacterOffsetBegin=173 CharacterOffsetEnd=178 PartOfSpeech=NNS Lemma=game NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, Fangames-1)
+acl(Fangames-1, are-2)
+amod(games-4, video-3)
+nsubj(are-2, games-4)
+acl(games-4, made-5)
+case(fans-7, by-6)
+nmod:by(made-5, fans-7)
+acl(fans-7, based-8)
+case(one-10, on-9)
+nmod:on(based-8, one-10)
+cc(one-10, or-11)
+conj:or(one-10, more-12)
+amod(games-15, established-13)
+compound(games-15, video-14)
+dep(one-10, games-15)
+punct(Fangames-1, .-16)
+
+Sentence #4 (38 tokens):
+Many fangames attempt to "clone" or remake the original game's design, gameplay and characters, but it is equally common for fans to develop a unique game using another only as a template.
+[Text=Many CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=JJ Lemma=many NamedEntityTag=O]
+[Text=fangames CharacterOffsetBegin=185 CharacterOffsetEnd=193 PartOfSpeech=NNS Lemma=fangame NamedEntityTag=O]
+[Text=attempt CharacterOffsetBegin=194 CharacterOffsetEnd=201 PartOfSpeech=VBP Lemma=attempt NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=202 CharacterOffsetEnd=204 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=clone CharacterOffsetBegin=206 CharacterOffsetEnd=211 PartOfSpeech=NN Lemma=clone NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=remake CharacterOffsetBegin=216 CharacterOffsetEnd=222 PartOfSpeech=VB Lemma=remake NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=original CharacterOffsetBegin=227 CharacterOffsetEnd=235 PartOfSpeech=JJ Lemma=original NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=240 CharacterOffsetEnd=242 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=design CharacterOffsetBegin=243 CharacterOffsetEnd=249 PartOfSpeech=NN Lemma=design NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=249 CharacterOffsetEnd=250 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=gameplay CharacterOffsetBegin=251 CharacterOffsetEnd=259 PartOfSpeech=NN Lemma=gameplay NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=characters CharacterOffsetBegin=264 CharacterOffsetEnd=274 PartOfSpeech=NNS Lemma=character NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=274 CharacterOffsetEnd=275 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=280 CharacterOffsetEnd=282 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=283 CharacterOffsetEnd=285 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=equally CharacterOffsetBegin=286 CharacterOffsetEnd=293 PartOfSpeech=RB Lemma=equally NamedEntityTag=O]
+[Text=common CharacterOffsetBegin=294 CharacterOffsetEnd=300 PartOfSpeech=JJ Lemma=common NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=301 CharacterOffsetEnd=304 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=fans CharacterOffsetBegin=305 CharacterOffsetEnd=309 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=310 CharacterOffsetEnd=312 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=develop CharacterOffsetBegin=313 CharacterOffsetEnd=320 PartOfSpeech=VB Lemma=develop NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=321 CharacterOffsetEnd=322 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=unique CharacterOffsetBegin=323 CharacterOffsetEnd=329 PartOfSpeech=JJ Lemma=unique NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=using CharacterOffsetBegin=335 CharacterOffsetEnd=340 PartOfSpeech=VBG Lemma=use NamedEntityTag=O]
+[Text=another CharacterOffsetBegin=341 CharacterOffsetEnd=348 PartOfSpeech=DT Lemma=another NamedEntityTag=O]
+[Text=only CharacterOffsetBegin=349 CharacterOffsetEnd=353 PartOfSpeech=RB Lemma=only NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=354 CharacterOffsetEnd=356 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=357 CharacterOffsetEnd=358 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=template CharacterOffsetBegin=359 CharacterOffsetEnd=367 PartOfSpeech=NN Lemma=template NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=367 CharacterOffsetEnd=368 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, attempt-3)
+amod(fangames-2, Many-1)
+nsubj(attempt-3, fangames-2)
+case(clone-6, to-4)
+punct(clone-6, ``-5)
+nmod:to(attempt-3, clone-6)
+punct(clone-6, ''-7)
+cc(clone-6, or-8)
+conj:or(clone-6, remake-9)
+det(game-12, the-10)
+amod(game-12, original-11)
+nmod:poss(design-14, game-12)
+case(game-12, 's-13)
+dobj(remake-9, design-14)
+punct(design-14, ,-15)
+conj:and(design-14, gameplay-16)
+cc(design-14, and-17)
+conj:and(design-14, characters-18)
+punct(attempt-3, ,-19)
+cc(attempt-3, but-20)
+nsubj(common-24, it-21)
+cop(common-24, is-22)
+advmod(common-24, equally-23)
+conj:but(attempt-3, common-24)
+case(fans-26, for-25)
+nmod:for(common-24, fans-26)
+mark(develop-28, to-27)
+acl(fans-26, develop-28)
+det(game-31, a-29)
+amod(game-31, unique-30)
+dobj(develop-28, game-31)
+xcomp(develop-28, using-32)
+dobj(using-32, another-33)
+advmod(template-37, only-34)
+case(template-37, as-35)
+det(template-37, a-36)
+nmod:as(another-33, template-37)
+punct(attempt-3, .-38)
+
+Sentence #5 (26 tokens):
+Though the quality of fangames has always been variable, recent advances in computer technology and in available tools have made creating high-quality games easier.
+[Text=Though CharacterOffsetBegin=369 CharacterOffsetEnd=375 PartOfSpeech=IN Lemma=though NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=376 CharacterOffsetEnd=379 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=quality CharacterOffsetBegin=380 CharacterOffsetEnd=387 PartOfSpeech=NN Lemma=quality NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=388 CharacterOffsetEnd=390 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=fangames CharacterOffsetBegin=391 CharacterOffsetEnd=399 PartOfSpeech=NNS Lemma=fangame NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=400 CharacterOffsetEnd=403 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=always CharacterOffsetBegin=404 CharacterOffsetEnd=410 PartOfSpeech=RB Lemma=always NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=411 CharacterOffsetEnd=415 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=variable CharacterOffsetBegin=416 CharacterOffsetEnd=424 PartOfSpeech=JJ Lemma=variable NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=424 CharacterOffsetEnd=425 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=recent CharacterOffsetBegin=426 CharacterOffsetEnd=432 PartOfSpeech=JJ Lemma=recent NamedEntityTag=O]
+[Text=advances CharacterOffsetBegin=433 CharacterOffsetEnd=441 PartOfSpeech=NNS Lemma=advance NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=442 CharacterOffsetEnd=444 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=computer CharacterOffsetBegin=445 CharacterOffsetEnd=453 PartOfSpeech=NN Lemma=computer NamedEntityTag=O]
+[Text=technology CharacterOffsetBegin=454 CharacterOffsetEnd=464 PartOfSpeech=NN Lemma=technology NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=465 CharacterOffsetEnd=468 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=469 CharacterOffsetEnd=471 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=available CharacterOffsetBegin=472 CharacterOffsetEnd=481 PartOfSpeech=JJ Lemma=available NamedEntityTag=O]
+[Text=tools CharacterOffsetBegin=482 CharacterOffsetEnd=487 PartOfSpeech=NNS Lemma=tool NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=488 CharacterOffsetEnd=492 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=made CharacterOffsetBegin=493 CharacterOffsetEnd=497 PartOfSpeech=VBN Lemma=make NamedEntityTag=O]
+[Text=creating CharacterOffsetBegin=498 CharacterOffsetEnd=506 PartOfSpeech=VBG Lemma=create NamedEntityTag=O]
+[Text=high-quality CharacterOffsetBegin=507 CharacterOffsetEnd=519 PartOfSpeech=JJ Lemma=high-quality NamedEntityTag=O]
+[Text=games CharacterOffsetBegin=520 CharacterOffsetEnd=525 PartOfSpeech=NNS Lemma=game NamedEntityTag=O]
+[Text=easier CharacterOffsetBegin=526 CharacterOffsetEnd=532 PartOfSpeech=RBR Lemma=easier NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=532 CharacterOffsetEnd=533 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, made-21)
+mark(variable-9, Though-1)
+det(quality-3, the-2)
+nsubj(variable-9, quality-3)
+case(fangames-5, of-4)
+nmod:of(quality-3, fangames-5)
+aux(variable-9, has-6)
+advmod(variable-9, always-7)
+cop(variable-9, been-8)
+advcl(made-21, variable-9)
+punct(made-21, ,-10)
+amod(advances-12, recent-11)
+nsubj(made-21, advances-12)
+case(technology-15, in-13)
+compound(technology-15, computer-14)
+nmod:in(advances-12, technology-15)
+cc(advances-12, and-16)
+case(tools-19, in-17)
+amod(tools-19, available-18)
+conj:and(advances-12, tools-19)
+aux(made-21, have-20)
+xcomp(made-21, creating-22)
+amod(games-24, high-quality-23)
+nsubj(easier-25, games-24)
+advmod(creating-22, easier-25)
+punct(made-21, .-26)
+
+Sentence #6 (3 tokens):
+Fangame development.
+[Text=Fangame CharacterOffsetBegin=534 CharacterOffsetEnd=541 PartOfSpeech=NNP Lemma=Fangame NamedEntityTag=O]
+[Text=development CharacterOffsetBegin=542 CharacterOffsetEnd=553 PartOfSpeech=NN Lemma=development NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=553 CharacterOffsetEnd=554 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, development-2)
+compound(development-2, Fangame-1)
+punct(development-2, .-3)
+
+Sentence #7 (28 tokens):
+Fangames are either developed as standalone games with their own engines, or as modifications to existing games that "piggyback" on the other's engines.
+[Text=Fangames CharacterOffsetBegin=555 CharacterOffsetEnd=563 PartOfSpeech=NNS Lemma=fangame NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=564 CharacterOffsetEnd=567 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=either CharacterOffsetBegin=568 CharacterOffsetEnd=574 PartOfSpeech=RB Lemma=either NamedEntityTag=O]
+[Text=developed CharacterOffsetBegin=575 CharacterOffsetEnd=584 PartOfSpeech=VBN Lemma=develop NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=585 CharacterOffsetEnd=587 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=standalone CharacterOffsetBegin=588 CharacterOffsetEnd=598 PartOfSpeech=JJ Lemma=standalone NamedEntityTag=O]
+[Text=games CharacterOffsetBegin=599 CharacterOffsetEnd=604 PartOfSpeech=NNS Lemma=game NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=605 CharacterOffsetEnd=609 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=their CharacterOffsetBegin=610 CharacterOffsetEnd=615 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O]
+[Text=own CharacterOffsetBegin=616 CharacterOffsetEnd=619 PartOfSpeech=JJ Lemma=own NamedEntityTag=O]
+[Text=engines CharacterOffsetBegin=620 CharacterOffsetEnd=627 PartOfSpeech=NNS Lemma=engine NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=627 CharacterOffsetEnd=628 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=629 CharacterOffsetEnd=631 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=632 CharacterOffsetEnd=634 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=modifications CharacterOffsetBegin=635 CharacterOffsetEnd=648 PartOfSpeech=NNS Lemma=modification NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=649 CharacterOffsetEnd=651 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=existing CharacterOffsetBegin=652 CharacterOffsetEnd=660 PartOfSpeech=VBG Lemma=exist NamedEntityTag=O]
+[Text=games CharacterOffsetBegin=661 CharacterOffsetEnd=666 PartOfSpeech=NNS Lemma=game NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=667 CharacterOffsetEnd=671 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=672 CharacterOffsetEnd=673 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=piggyback CharacterOffsetBegin=673 CharacterOffsetEnd=682 PartOfSpeech=NN Lemma=piggyback NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=682 CharacterOffsetEnd=683 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=684 CharacterOffsetEnd=686 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=687 CharacterOffsetEnd=690 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=other CharacterOffsetBegin=691 CharacterOffsetEnd=696 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=696 CharacterOffsetEnd=698 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=engines CharacterOffsetBegin=699 CharacterOffsetEnd=706 PartOfSpeech=NNS Lemma=engine NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=706 CharacterOffsetEnd=707 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, developed-4)
+nsubjpass(developed-4, Fangames-1)
+auxpass(developed-4, are-2)
+advmod(developed-4, either-3)
+case(games-7, as-5)
+amod(games-7, standalone-6)
+nmod:as(developed-4, games-7)
+conj:or(games-7, games-7')
+case(engines-11, with-8)
+nmod:poss(engines-11, their-9)
+amod(engines-11, own-10)
+nmod:with(games-7, engines-11)
+punct(engines-11, ,-12)
+cc(games-7, or-13)
+case(modifications-15, as-14)
+nmod:as(games-7', modifications-15)
+case(games-18, to-16)
+amod(games-18, existing-17)
+nmod:to(modifications-15, games-18)
+acl(modifications-15, that-19)
+punct(piggyback-21, ``-20)
+dep(that-19, piggyback-21)
+punct(piggyback-21, ''-22)
+case(engines-27, on-23)
+det(other-25, the-24)
+nmod:poss(engines-27, other-25)
+case(other-25, 's-26)
+nmod:on(piggyback-21, engines-27)
+punct(developed-4, .-28)
+
+Sentence #8 (26 tokens):
+Each approach has different advantages, as standalone games are generally accessible to larger audiences but may often be more difficult or time-consuming to develop.
+[Text=Each CharacterOffsetBegin=708 CharacterOffsetEnd=712 PartOfSpeech=DT Lemma=each NamedEntityTag=O]
+[Text=approach CharacterOffsetBegin=713 CharacterOffsetEnd=721 PartOfSpeech=NN Lemma=approach NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=722 CharacterOffsetEnd=725 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=different CharacterOffsetBegin=726 CharacterOffsetEnd=735 PartOfSpeech=JJ Lemma=different NamedEntityTag=O]
+[Text=advantages CharacterOffsetBegin=736 CharacterOffsetEnd=746 PartOfSpeech=NNS Lemma=advantage NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=746 CharacterOffsetEnd=747 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=748 CharacterOffsetEnd=750 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=standalone CharacterOffsetBegin=751 CharacterOffsetEnd=761 PartOfSpeech=JJ Lemma=standalone NamedEntityTag=O]
+[Text=games CharacterOffsetBegin=762 CharacterOffsetEnd=767 PartOfSpeech=NNS Lemma=game NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=768 CharacterOffsetEnd=771 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=generally CharacterOffsetBegin=772 CharacterOffsetEnd=781 PartOfSpeech=RB Lemma=generally NamedEntityTag=O]
+[Text=accessible CharacterOffsetBegin=782 CharacterOffsetEnd=792 PartOfSpeech=JJ Lemma=accessible NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=793 CharacterOffsetEnd=795 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=larger CharacterOffsetBegin=796 CharacterOffsetEnd=802 PartOfSpeech=JJR Lemma=larger NamedEntityTag=O]
+[Text=audiences CharacterOffsetBegin=803 CharacterOffsetEnd=812 PartOfSpeech=NNS Lemma=audience NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=813 CharacterOffsetEnd=816 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=may CharacterOffsetBegin=817 CharacterOffsetEnd=820 PartOfSpeech=MD Lemma=may NamedEntityTag=O]
+[Text=often CharacterOffsetBegin=821 CharacterOffsetEnd=826 PartOfSpeech=RB Lemma=often NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=827 CharacterOffsetEnd=829 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=830 CharacterOffsetEnd=834 PartOfSpeech=RBR Lemma=more NamedEntityTag=O]
+[Text=difficult CharacterOffsetBegin=835 CharacterOffsetEnd=844 PartOfSpeech=JJ Lemma=difficult NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=845 CharacterOffsetEnd=847 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=time-consuming CharacterOffsetBegin=848 CharacterOffsetEnd=862 PartOfSpeech=JJ Lemma=time-consuming NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=863 CharacterOffsetEnd=865 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=develop CharacterOffsetBegin=866 CharacterOffsetEnd=873 PartOfSpeech=VB Lemma=develop NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=873 CharacterOffsetEnd=874 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, has-3)
+det(approach-2, Each-1)
+nsubj(has-3, approach-2)
+amod(advantages-5, different-4)
+dobj(has-3, advantages-5)
+punct(has-3, ,-6)
+mark(accessible-12, as-7)
+amod(games-9, standalone-8)
+nsubj(accessible-12, games-9)
+cop(accessible-12, are-10)
+advmod(accessible-12, generally-11)
+advcl(has-3, accessible-12)
+case(audiences-15, to-13)
+amod(audiences-15, larger-14)
+nmod:to(accessible-12, audiences-15)
+cc(accessible-12, but-16)
+aux(difficult-21, may-17)
+advmod(difficult-21, often-18)
+cop(difficult-21, be-19)
+advmod(difficult-21, more-20)
+conj:but(accessible-12, difficult-21)
+cc(difficult-21, or-22)
+conj:or(difficult-21, time-consuming-23)
+mark(develop-25, to-24)
+dep(difficult-21, develop-25)
+punct(has-3, .-26)
+
+Sentence #9 (3 tokens):
+Standalone games.
+[Text=Standalone CharacterOffsetBegin=875 CharacterOffsetEnd=885 PartOfSpeech=JJ Lemma=standalone NamedEntityTag=O]
+[Text=games CharacterOffsetBegin=886 CharacterOffsetEnd=891 PartOfSpeech=NNS Lemma=game NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=891 CharacterOffsetEnd=892 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, games-2)
+amod(games-2, Standalone-1)
+punct(games-2, .-3)
+
+Sentence #10 (12 tokens):
+Generally, fangames are developed using pre-existing tools and game engines.
+[Text=Generally CharacterOffsetBegin=893 CharacterOffsetEnd=902 PartOfSpeech=RB Lemma=generally NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=902 CharacterOffsetEnd=903 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=fangames CharacterOffsetBegin=904 CharacterOffsetEnd=912 PartOfSpeech=NNS Lemma=fangame NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=913 CharacterOffsetEnd=916 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=developed CharacterOffsetBegin=917 CharacterOffsetEnd=926 PartOfSpeech=VBN Lemma=develop NamedEntityTag=O]
+[Text=using CharacterOffsetBegin=927 CharacterOffsetEnd=932 PartOfSpeech=VBG Lemma=use NamedEntityTag=O]
+[Text=pre-existing CharacterOffsetBegin=933 CharacterOffsetEnd=945 PartOfSpeech=JJ Lemma=pre-existing NamedEntityTag=O]
+[Text=tools CharacterOffsetBegin=946 CharacterOffsetEnd=951 PartOfSpeech=NNS Lemma=tool NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=952 CharacterOffsetEnd=955 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=956 CharacterOffsetEnd=960 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=engines CharacterOffsetBegin=961 CharacterOffsetEnd=968 PartOfSpeech=NNS Lemma=engine NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=968 CharacterOffsetEnd=969 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, developed-5)
+advmod(developed-5, Generally-1)
+punct(developed-5, ,-2)
+nsubjpass(developed-5, fangames-3)
+auxpass(developed-5, are-4)
+xcomp(developed-5, using-6)
+amod(tools-8, pre-existing-7)
+dobj(using-6, tools-8)
+cc(tools-8, and-9)
+compound(engines-11, game-10)
+conj:and(tools-8, engines-11)
+punct(developed-5, .-12)
+
+Sentence #11 (47 tokens):
+The Unity engine and Adobe Flash allow fans to develop standalone games, as do other programs such as , Construct (game engine), RPG Maker, or any of the Clickteam products (such as The Games Factory and Multimedia Fusion 2).
+[Text=The CharacterOffsetBegin=970 CharacterOffsetEnd=973 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Unity CharacterOffsetBegin=974 CharacterOffsetEnd=979 PartOfSpeech=NNP Lemma=Unity NamedEntityTag=O]
+[Text=engine CharacterOffsetBegin=980 CharacterOffsetEnd=986 PartOfSpeech=NN Lemma=engine NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=987 CharacterOffsetEnd=990 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Adobe CharacterOffsetBegin=991 CharacterOffsetEnd=996 PartOfSpeech=NNP Lemma=Adobe NamedEntityTag=O]
+[Text=Flash CharacterOffsetBegin=997 CharacterOffsetEnd=1002 PartOfSpeech=NNP Lemma=Flash NamedEntityTag=O]
+[Text=allow CharacterOffsetBegin=1003 CharacterOffsetEnd=1008 PartOfSpeech=VB Lemma=allow NamedEntityTag=O]
+[Text=fans CharacterOffsetBegin=1009 CharacterOffsetEnd=1013 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=1014 CharacterOffsetEnd=1016 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=develop CharacterOffsetBegin=1017 CharacterOffsetEnd=1024 PartOfSpeech=VB Lemma=develop NamedEntityTag=O]
+[Text=standalone CharacterOffsetBegin=1025 CharacterOffsetEnd=1035 PartOfSpeech=JJ Lemma=standalone NamedEntityTag=O]
+[Text=games CharacterOffsetBegin=1036 CharacterOffsetEnd=1041 PartOfSpeech=NNS Lemma=game NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1041 CharacterOffsetEnd=1042 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=1043 CharacterOffsetEnd=1045 PartOfSpeech=RB Lemma=as NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=1046 CharacterOffsetEnd=1048 PartOfSpeech=VBP Lemma=do NamedEntityTag=O]
+[Text=other CharacterOffsetBegin=1049 CharacterOffsetEnd=1054 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text=programs CharacterOffsetBegin=1055 CharacterOffsetEnd=1063 PartOfSpeech=NNS Lemma=program NamedEntityTag=O]
+[Text=such CharacterOffsetBegin=1064 CharacterOffsetEnd=1068 PartOfSpeech=JJ Lemma=such NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=1069 CharacterOffsetEnd=1071 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1072 CharacterOffsetEnd=1073 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Construct CharacterOffsetBegin=1074 CharacterOffsetEnd=1083 PartOfSpeech=NN Lemma=construct NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=1084 CharacterOffsetEnd=1085 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=1085 CharacterOffsetEnd=1089 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=engine CharacterOffsetBegin=1090 CharacterOffsetEnd=1096 PartOfSpeech=NN Lemma=engine NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=1096 CharacterOffsetEnd=1097 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1097 CharacterOffsetEnd=1098 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=RPG CharacterOffsetBegin=1099 CharacterOffsetEnd=1102 PartOfSpeech=NNP Lemma=RPG NamedEntityTag=O]
+[Text=Maker CharacterOffsetBegin=1103 CharacterOffsetEnd=1108 PartOfSpeech=NNP Lemma=Maker NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1108 CharacterOffsetEnd=1109 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=1110 CharacterOffsetEnd=1112 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=any CharacterOffsetBegin=1113 CharacterOffsetEnd=1116 PartOfSpeech=DT Lemma=any NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=1117 CharacterOffsetEnd=1119 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1120 CharacterOffsetEnd=1123 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Clickteam CharacterOffsetBegin=1124 CharacterOffsetEnd=1133 PartOfSpeech=NNP Lemma=Clickteam NamedEntityTag=MISC]
+[Text=products CharacterOffsetBegin=1134 CharacterOffsetEnd=1142 PartOfSpeech=NNS Lemma=product NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=1143 CharacterOffsetEnd=1144 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=such CharacterOffsetBegin=1144 CharacterOffsetEnd=1148 PartOfSpeech=JJ Lemma=such NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=1149 CharacterOffsetEnd=1151 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=1152 CharacterOffsetEnd=1155 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Games CharacterOffsetBegin=1156 CharacterOffsetEnd=1161 PartOfSpeech=NNPS Lemma=Games NamedEntityTag=O]
+[Text=Factory CharacterOffsetBegin=1162 CharacterOffsetEnd=1169 PartOfSpeech=NN Lemma=factory NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=1170 CharacterOffsetEnd=1173 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Multimedia CharacterOffsetBegin=1174 CharacterOffsetEnd=1184 PartOfSpeech=NNP Lemma=Multimedia NamedEntityTag=O]
+[Text=Fusion CharacterOffsetBegin=1185 CharacterOffsetEnd=1191 PartOfSpeech=NN Lemma=fusion NamedEntityTag=O]
+[Text=2 CharacterOffsetBegin=1192 CharacterOffsetEnd=1193 PartOfSpeech=CD Lemma=2 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0]
+[Text=-RRB- CharacterOffsetBegin=1193 CharacterOffsetEnd=1194 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=1194 CharacterOffsetEnd=1195 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, allow-7)
+det(engine-3, The-1)
+compound(engine-3, Unity-2)
+nsubj(allow-7, engine-3)
+cc(engine-3, and-4)
+compound(Flash-6, Adobe-5)
+conj:and(engine-3, Flash-6)
+dobj(allow-7, fans-8)
+mark(develop-10, to-9)
+xcomp(allow-7, develop-10)
+amod(games-12, standalone-11)
+dobj(develop-10, games-12)
+punct(allow-7, ,-13)
+advmod(do-15, as-14)
+advcl(allow-7, do-15)
+amod(programs-17, other-16)
+dobj(do-15, programs-17)
+amod(programs-17, such-18)
+mwe(such-18, as-19)
+punct(such-18, ,-20)
+root(,-20, Construct-21)
+punct(engine-24, -LRB--22)
+compound(engine-24, game-23)
+appos(Construct-21, engine-24)
+punct(engine-24, -RRB--25)
+punct(Construct-21, ,-26)
+compound(Maker-28, RPG-27)
+appos(Construct-21, Maker-28)
+punct(Construct-21, ,-29)
+cc(Construct-21, or-30)
+conj:or(Construct-21, any-31)
+case(products-35, of-32)
+det(products-35, the-33)
+compound(products-35, Clickteam-34)
+nmod:of(any-31, products-35)
+punct(Factory-41, -LRB--36)
+case(Factory-41, such-37)
+mwe(such-37, as-38)
+det(Factory-41, The-39)
+compound(Factory-41, Games-40)
+dep(products-35, Factory-41)
+cc(Factory-41, and-42)
+compound(Fusion-44, Multimedia-43)
+conj:and(Factory-41, Fusion-44)
+nummod(Fusion-44, 2-45)
+punct(Factory-41, -RRB--46)
+punct(Construct-21, .-47)
+
+Sentence #12 (38 tokens):
+Fangame developers often select and use free and open source game engines (such as OGRE, Crystal Space, DarkPlaces and Spring) to help fans create games without the cost of licensing a commercial alternative.
+[Text=Fangame CharacterOffsetBegin=1196 CharacterOffsetEnd=1203 PartOfSpeech=NNP Lemma=Fangame NamedEntityTag=O]
+[Text=developers CharacterOffsetBegin=1204 CharacterOffsetEnd=1214 PartOfSpeech=NNS Lemma=developer NamedEntityTag=O]
+[Text=often CharacterOffsetBegin=1215 CharacterOffsetEnd=1220 PartOfSpeech=RB Lemma=often NamedEntityTag=O]
+[Text=select CharacterOffsetBegin=1221 CharacterOffsetEnd=1227 PartOfSpeech=JJ Lemma=select NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=1228 CharacterOffsetEnd=1231 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=use CharacterOffsetBegin=1232 CharacterOffsetEnd=1235 PartOfSpeech=VB Lemma=use NamedEntityTag=O]
+[Text=free CharacterOffsetBegin=1236 CharacterOffsetEnd=1240 PartOfSpeech=JJ Lemma=free NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=1241 CharacterOffsetEnd=1244 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=open CharacterOffsetBegin=1245 CharacterOffsetEnd=1249 PartOfSpeech=JJ Lemma=open NamedEntityTag=O]
+[Text=source CharacterOffsetBegin=1250 CharacterOffsetEnd=1256 PartOfSpeech=NN Lemma=source NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=1257 CharacterOffsetEnd=1261 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=engines CharacterOffsetBegin=1262 CharacterOffsetEnd=1269 PartOfSpeech=NNS Lemma=engine NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=1270 CharacterOffsetEnd=1271 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=such CharacterOffsetBegin=1271 CharacterOffsetEnd=1275 PartOfSpeech=JJ Lemma=such NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=1276 CharacterOffsetEnd=1278 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=OGRE CharacterOffsetBegin=1279 CharacterOffsetEnd=1283 PartOfSpeech=NN Lemma=ogre NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1283 CharacterOffsetEnd=1284 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Crystal CharacterOffsetBegin=1285 CharacterOffsetEnd=1292 PartOfSpeech=NNP Lemma=Crystal NamedEntityTag=O]
+[Text=Space CharacterOffsetBegin=1293 CharacterOffsetEnd=1298 PartOfSpeech=NNP Lemma=Space NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1298 CharacterOffsetEnd=1299 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=DarkPlaces CharacterOffsetBegin=1300 CharacterOffsetEnd=1310 PartOfSpeech=NNP Lemma=DarkPlaces NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=1311 CharacterOffsetEnd=1314 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Spring CharacterOffsetBegin=1315 CharacterOffsetEnd=1321 PartOfSpeech=NNP Lemma=Spring NamedEntityTag=DATE NormalizedNamedEntityTag=Spring ]
+[Text=-RRB- CharacterOffsetBegin=1321 CharacterOffsetEnd=1322 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=1323 CharacterOffsetEnd=1325 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=help CharacterOffsetBegin=1326 CharacterOffsetEnd=1330 PartOfSpeech=VB Lemma=help NamedEntityTag=O]
+[Text=fans CharacterOffsetBegin=1331 CharacterOffsetEnd=1335 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O]
+[Text=create CharacterOffsetBegin=1336 CharacterOffsetEnd=1342 PartOfSpeech=VB Lemma=create NamedEntityTag=O]
+[Text=games CharacterOffsetBegin=1343 CharacterOffsetEnd=1348 PartOfSpeech=NNS Lemma=game NamedEntityTag=O]
+[Text=without CharacterOffsetBegin=1349 CharacterOffsetEnd=1356 PartOfSpeech=IN Lemma=without NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1357 CharacterOffsetEnd=1360 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=cost CharacterOffsetBegin=1361 CharacterOffsetEnd=1365 PartOfSpeech=NN Lemma=cost NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=1366 CharacterOffsetEnd=1368 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=licensing CharacterOffsetBegin=1369 CharacterOffsetEnd=1378 PartOfSpeech=VBG Lemma=license NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=1379 CharacterOffsetEnd=1380 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=commercial CharacterOffsetBegin=1381 CharacterOffsetEnd=1391 PartOfSpeech=JJ Lemma=commercial NamedEntityTag=O]
+[Text=alternative CharacterOffsetBegin=1392 CharacterOffsetEnd=1403 PartOfSpeech=NN Lemma=alternative NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=1403 CharacterOffsetEnd=1404 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, select-4)
+compound(developers-2, Fangame-1)
+nsubj(select-4, developers-2)
+advmod(select-4, often-3)
+cc(select-4, and-5)
+conj:and(select-4, use-6)
+amod(engines-12, free-7)
+cc(free-7, and-8)
+conj:and(free-7, open-9)
+compound(engines-12, source-10)
+compound(engines-12, game-11)
+dobj(use-6, engines-12)
+punct(OGRE-16, -LRB--13)
+case(OGRE-16, such-14)
+mwe(such-14, as-15)
+nmod:such_as(engines-12, OGRE-16)
+punct(OGRE-16, ,-17)
+compound(Space-19, Crystal-18)
+conj:and(OGRE-16, Space-19)
+punct(OGRE-16, ,-20)
+conj:and(OGRE-16, DarkPlaces-21)
+cc(OGRE-16, and-22)
+conj:and(OGRE-16, Spring-23)
+punct(OGRE-16, -RRB--24)
+mark(help-26, to-25)
+advcl(use-6, help-26)
+nsubj(create-28, fans-27)
+ccomp(help-26, create-28)
+dobj(create-28, games-29)
+case(cost-32, without-30)
+det(cost-32, the-31)
+nmod:without(create-28, cost-32)
+mark(licensing-34, of-33)
+acl(cost-32, licensing-34)
+det(alternative-37, a-35)
+amod(alternative-37, commercial-36)
+dobj(licensing-34, alternative-37)
+punct(select-4, .-38)
+
+Sentence #13 (40 tokens):
+These engines may be altered and redesigned within the terms of their open source license and often cost significantly less than commercial options, but do not always allow developers to easily create high-end visual effects without additional effort.
+[Text=These CharacterOffsetBegin=1405 CharacterOffsetEnd=1410 PartOfSpeech=DT Lemma=these NamedEntityTag=O]
+[Text=engines CharacterOffsetBegin=1411 CharacterOffsetEnd=1418 PartOfSpeech=NNS Lemma=engine NamedEntityTag=O]
+[Text=may CharacterOffsetBegin=1419 CharacterOffsetEnd=1422 PartOfSpeech=MD Lemma=may NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=1423 CharacterOffsetEnd=1425 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=altered CharacterOffsetBegin=1426 CharacterOffsetEnd=1433 PartOfSpeech=VBN Lemma=alter NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=1434 CharacterOffsetEnd=1437 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=redesigned CharacterOffsetBegin=1438 CharacterOffsetEnd=1448 PartOfSpeech=VBN Lemma=redesign NamedEntityTag=O]
+[Text=within CharacterOffsetBegin=1449 CharacterOffsetEnd=1455 PartOfSpeech=IN Lemma=within NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1456 CharacterOffsetEnd=1459 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=terms CharacterOffsetBegin=1460 CharacterOffsetEnd=1465 PartOfSpeech=NNS Lemma=term NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=1466 CharacterOffsetEnd=1468 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=their CharacterOffsetBegin=1469 CharacterOffsetEnd=1474 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O]
+[Text=open CharacterOffsetBegin=1475 CharacterOffsetEnd=1479 PartOfSpeech=JJ Lemma=open NamedEntityTag=O]
+[Text=source CharacterOffsetBegin=1480 CharacterOffsetEnd=1486 PartOfSpeech=NN Lemma=source NamedEntityTag=O]
+[Text=license CharacterOffsetBegin=1487 CharacterOffsetEnd=1494 PartOfSpeech=NN Lemma=license NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=1495 CharacterOffsetEnd=1498 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=often CharacterOffsetBegin=1499 CharacterOffsetEnd=1504 PartOfSpeech=RB Lemma=often NamedEntityTag=O]
+[Text=cost CharacterOffsetBegin=1505 CharacterOffsetEnd=1509 PartOfSpeech=VBD Lemma=cost NamedEntityTag=O]
+[Text=significantly CharacterOffsetBegin=1510 CharacterOffsetEnd=1523 PartOfSpeech=RB Lemma=significantly NamedEntityTag=O]
+[Text=less CharacterOffsetBegin=1524 CharacterOffsetEnd=1528 PartOfSpeech=JJR Lemma=less NamedEntityTag=O]
+[Text=than CharacterOffsetBegin=1529 CharacterOffsetEnd=1533 PartOfSpeech=IN Lemma=than NamedEntityTag=O]
+[Text=commercial CharacterOffsetBegin=1534 CharacterOffsetEnd=1544 PartOfSpeech=JJ Lemma=commercial NamedEntityTag=O]
+[Text=options CharacterOffsetBegin=1545 CharacterOffsetEnd=1552 PartOfSpeech=NNS Lemma=option NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1552 CharacterOffsetEnd=1553 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=1554 CharacterOffsetEnd=1557 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=1558 CharacterOffsetEnd=1560 PartOfSpeech=VBP Lemma=do NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=1561 CharacterOffsetEnd=1564 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=always CharacterOffsetBegin=1565 CharacterOffsetEnd=1571 PartOfSpeech=RB Lemma=always NamedEntityTag=O]
+[Text=allow CharacterOffsetBegin=1572 CharacterOffsetEnd=1577 PartOfSpeech=VB Lemma=allow NamedEntityTag=O]
+[Text=developers CharacterOffsetBegin=1578 CharacterOffsetEnd=1588 PartOfSpeech=NNS Lemma=developer NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=1589 CharacterOffsetEnd=1591 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=easily CharacterOffsetBegin=1592 CharacterOffsetEnd=1598 PartOfSpeech=RB Lemma=easily NamedEntityTag=O]
+[Text=create CharacterOffsetBegin=1599 CharacterOffsetEnd=1605 PartOfSpeech=VB Lemma=create NamedEntityTag=O]
+[Text=high-end CharacterOffsetBegin=1606 CharacterOffsetEnd=1614 PartOfSpeech=JJ Lemma=high-end NamedEntityTag=O]
+[Text=visual CharacterOffsetBegin=1615 CharacterOffsetEnd=1621 PartOfSpeech=JJ Lemma=visual NamedEntityTag=O]
+[Text=effects CharacterOffsetBegin=1622 CharacterOffsetEnd=1629 PartOfSpeech=NNS Lemma=effect NamedEntityTag=O]
+[Text=without CharacterOffsetBegin=1630 CharacterOffsetEnd=1637 PartOfSpeech=IN Lemma=without NamedEntityTag=O]
+[Text=additional CharacterOffsetBegin=1638 CharacterOffsetEnd=1648 PartOfSpeech=JJ Lemma=additional NamedEntityTag=O]
+[Text=effort CharacterOffsetBegin=1649 CharacterOffsetEnd=1655 PartOfSpeech=NN Lemma=effort NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=1655 CharacterOffsetEnd=1656 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, altered-5)
+det(engines-2, These-1)
+nsubjpass(altered-5, engines-2)
+aux(altered-5, may-3)
+auxpass(altered-5, be-4)
+cc(altered-5, and-6)
+conj:and(altered-5, redesigned-7)
+case(terms-10, within-8)
+det(terms-10, the-9)
+nmod:within(redesigned-7, terms-10)
+case(license-15, of-11)
+nmod:poss(license-15, their-12)
+amod(license-15, open-13)
+compound(license-15, source-14)
+nmod:of(terms-10, license-15)
+cc(altered-5, and-16)
+advmod(cost-18, often-17)
+conj:and(altered-5, cost-18)
+advmod(less-20, significantly-19)
+dobj(cost-18, less-20)
+case(options-23, than-21)
+amod(options-23, commercial-22)
+nmod:than(less-20, options-23)
+punct(altered-5, ,-24)
+cc(altered-5, but-25)
+aux(allow-29, do-26)
+neg(allow-29, not-27)
+advmod(allow-29, always-28)
+conj:and(altered-5, allow-29)
+dobj(allow-29, developers-30)
+mark(create-33, to-31)
+advmod(create-33, easily-32)
+xcomp(allow-29, create-33)
+amod(effects-36, high-end-34)
+amod(effects-36, visual-35)
+dobj(create-33, effects-36)
+case(effort-39, without-37)
+amod(effort-39, additional-38)
+nmod:without(create-33, effort-39)
+punct(altered-5, .-40)
+
+Sentence #14 (37 tokens):
+It is also possible for fans to develop original game engines from scratch using a programming language such as C++, although doing so takes much more time and technical ability than modifying an existing game.
+[Text=It CharacterOffsetBegin=1657 CharacterOffsetEnd=1659 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=1660 CharacterOffsetEnd=1662 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=also CharacterOffsetBegin=1663 CharacterOffsetEnd=1667 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=possible CharacterOffsetBegin=1668 CharacterOffsetEnd=1676 PartOfSpeech=JJ Lemma=possible NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=1677 CharacterOffsetEnd=1680 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=fans CharacterOffsetBegin=1681 CharacterOffsetEnd=1685 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=1686 CharacterOffsetEnd=1688 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=develop CharacterOffsetBegin=1689 CharacterOffsetEnd=1696 PartOfSpeech=VB Lemma=develop NamedEntityTag=O]
+[Text=original CharacterOffsetBegin=1697 CharacterOffsetEnd=1705 PartOfSpeech=JJ Lemma=original NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=1706 CharacterOffsetEnd=1710 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=engines CharacterOffsetBegin=1711 CharacterOffsetEnd=1718 PartOfSpeech=NNS Lemma=engine NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=1719 CharacterOffsetEnd=1723 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=scratch CharacterOffsetBegin=1724 CharacterOffsetEnd=1731 PartOfSpeech=NN Lemma=scratch NamedEntityTag=O]
+[Text=using CharacterOffsetBegin=1732 CharacterOffsetEnd=1737 PartOfSpeech=VBG Lemma=use NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=1738 CharacterOffsetEnd=1739 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=programming CharacterOffsetBegin=1740 CharacterOffsetEnd=1751 PartOfSpeech=NN Lemma=programming NamedEntityTag=O]
+[Text=language CharacterOffsetBegin=1752 CharacterOffsetEnd=1760 PartOfSpeech=NN Lemma=language NamedEntityTag=O]
+[Text=such CharacterOffsetBegin=1761 CharacterOffsetEnd=1765 PartOfSpeech=JJ Lemma=such NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=1766 CharacterOffsetEnd=1768 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=C++ CharacterOffsetBegin=1769 CharacterOffsetEnd=1772 PartOfSpeech=NNP Lemma=C++ NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1772 CharacterOffsetEnd=1773 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=although CharacterOffsetBegin=1774 CharacterOffsetEnd=1782 PartOfSpeech=IN Lemma=although NamedEntityTag=O]
+[Text=doing CharacterOffsetBegin=1783 CharacterOffsetEnd=1788 PartOfSpeech=VBG Lemma=do NamedEntityTag=O]
+[Text=so CharacterOffsetBegin=1789 CharacterOffsetEnd=1791 PartOfSpeech=RB Lemma=so NamedEntityTag=O]
+[Text=takes CharacterOffsetBegin=1792 CharacterOffsetEnd=1797 PartOfSpeech=VBZ Lemma=take NamedEntityTag=O]
+[Text=much CharacterOffsetBegin=1798 CharacterOffsetEnd=1802 PartOfSpeech=RB Lemma=much NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=1803 CharacterOffsetEnd=1807 PartOfSpeech=JJR Lemma=more NamedEntityTag=O]
+[Text=time CharacterOffsetBegin=1808 CharacterOffsetEnd=1812 PartOfSpeech=NN Lemma=time NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=1813 CharacterOffsetEnd=1816 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=technical CharacterOffsetBegin=1817 CharacterOffsetEnd=1826 PartOfSpeech=JJ Lemma=technical NamedEntityTag=O]
+[Text=ability CharacterOffsetBegin=1827 CharacterOffsetEnd=1834 PartOfSpeech=NN Lemma=ability NamedEntityTag=O]
+[Text=than CharacterOffsetBegin=1835 CharacterOffsetEnd=1839 PartOfSpeech=IN Lemma=than NamedEntityTag=O]
+[Text=modifying CharacterOffsetBegin=1840 CharacterOffsetEnd=1849 PartOfSpeech=VBG Lemma=modify NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=1850 CharacterOffsetEnd=1852 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=existing CharacterOffsetBegin=1853 CharacterOffsetEnd=1861 PartOfSpeech=JJ Lemma=existing NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=1862 CharacterOffsetEnd=1866 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=1866 CharacterOffsetEnd=1867 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, possible-4)
+nsubj(possible-4, It-1)
+cop(possible-4, is-2)
+advmod(possible-4, also-3)
+mark(develop-8, for-5)
+nsubj(develop-8, fans-6)
+mark(develop-8, to-7)
+advcl(possible-4, develop-8)
+amod(engines-11, original-9)
+compound(engines-11, game-10)
+dobj(develop-8, engines-11)
+case(scratch-13, from-12)
+nmod:from(develop-8, scratch-13)
+advcl(develop-8, using-14)
+det(language-17, a-15)
+compound(language-17, programming-16)
+dobj(using-14, language-17)
+case(C++-20, such-18)
+mwe(such-18, as-19)
+nmod:such_as(language-17, C++-20)
+punct(using-14, ,-21)
+mark(doing-23, although-22)
+advcl(using-14, doing-23)
+advmod(doing-23, so-24)
+dep(doing-23, takes-25)
+advmod(more-27, much-26)
+amod(time-28, more-27)
+dobj(takes-25, time-28)
+cc(time-28, and-29)
+amod(ability-31, technical-30)
+conj:and(time-28, ability-31)
+mark(modifying-33, than-32)
+acl(time-28, modifying-33)
+det(game-36, an-34)
+amod(game-36, existing-35)
+dobj(modifying-33, game-36)
+punct(possible-4, .-37)
+
+Sentence #15 (5 tokens):
+Modifications to existing games.
+[Text=Modifications CharacterOffsetBegin=1868 CharacterOffsetEnd=1881 PartOfSpeech=NNS Lemma=modification NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=1882 CharacterOffsetEnd=1884 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=existing CharacterOffsetBegin=1885 CharacterOffsetEnd=1893 PartOfSpeech=VBG Lemma=exist NamedEntityTag=O]
+[Text=games CharacterOffsetBegin=1894 CharacterOffsetEnd=1899 PartOfSpeech=NNS Lemma=game NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=1899 CharacterOffsetEnd=1900 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, Modifications-1)
+case(games-4, to-2)
+amod(games-4, existing-3)
+nmod:to(Modifications-1, games-4)
+punct(Modifications-1, .-5)
+
+Sentence #16 (22 tokens):
+Fangames are sometimes developed as a modification to an existing game, using features and software provided by many game engines.
+[Text=Fangames CharacterOffsetBegin=1901 CharacterOffsetEnd=1909 PartOfSpeech=NNS Lemma=fangame NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=1910 CharacterOffsetEnd=1913 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=sometimes CharacterOffsetBegin=1914 CharacterOffsetEnd=1923 PartOfSpeech=RB Lemma=sometimes NamedEntityTag=O]
+[Text=developed CharacterOffsetBegin=1924 CharacterOffsetEnd=1933 PartOfSpeech=VBN Lemma=develop NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=1934 CharacterOffsetEnd=1936 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=1937 CharacterOffsetEnd=1938 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=modification CharacterOffsetBegin=1939 CharacterOffsetEnd=1951 PartOfSpeech=NN Lemma=modification NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=1952 CharacterOffsetEnd=1954 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=1955 CharacterOffsetEnd=1957 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=existing CharacterOffsetBegin=1958 CharacterOffsetEnd=1966 PartOfSpeech=JJ Lemma=existing NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=1967 CharacterOffsetEnd=1971 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1971 CharacterOffsetEnd=1972 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=using CharacterOffsetBegin=1973 CharacterOffsetEnd=1978 PartOfSpeech=VBG Lemma=use NamedEntityTag=O]
+[Text=features CharacterOffsetBegin=1979 CharacterOffsetEnd=1987 PartOfSpeech=NNS Lemma=feature NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=1988 CharacterOffsetEnd=1991 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=software CharacterOffsetBegin=1992 CharacterOffsetEnd=2000 PartOfSpeech=NN Lemma=software NamedEntityTag=O]
+[Text=provided CharacterOffsetBegin=2001 CharacterOffsetEnd=2009 PartOfSpeech=VBN Lemma=provide NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=2010 CharacterOffsetEnd=2012 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=many CharacterOffsetBegin=2013 CharacterOffsetEnd=2017 PartOfSpeech=JJ Lemma=many NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=2018 CharacterOffsetEnd=2022 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=engines CharacterOffsetBegin=2023 CharacterOffsetEnd=2030 PartOfSpeech=NNS Lemma=engine NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=2030 CharacterOffsetEnd=2031 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, developed-4)
+nsubjpass(developed-4, Fangames-1)
+auxpass(developed-4, are-2)
+advmod(developed-4, sometimes-3)
+case(modification-7, as-5)
+det(modification-7, a-6)
+nmod:as(developed-4, modification-7)
+case(game-11, to-8)
+det(game-11, an-9)
+amod(game-11, existing-10)
+nmod:to(modification-7, game-11)
+punct(developed-4, ,-12)
+xcomp(developed-4, using-13)
+dobj(using-13, features-14)
+cc(features-14, and-15)
+conj:and(features-14, software-16)
+acl(features-14, provided-17)
+case(engines-21, by-18)
+amod(engines-21, many-19)
+compound(engines-21, game-20)
+nmod:by(provided-17, engines-21)
+punct(developed-4, .-22)
+
+Sentence #17 (28 tokens):
+Mods usually are not allowed to modify the original story and game graphics, but rather extend the current content that was provided by the original developer.
+[Text=Mods CharacterOffsetBegin=2032 CharacterOffsetEnd=2036 PartOfSpeech=NNS Lemma=mod NamedEntityTag=O]
+[Text=usually CharacterOffsetBegin=2037 CharacterOffsetEnd=2044 PartOfSpeech=RB Lemma=usually NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=2045 CharacterOffsetEnd=2048 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=2049 CharacterOffsetEnd=2052 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=allowed CharacterOffsetBegin=2053 CharacterOffsetEnd=2060 PartOfSpeech=VBN Lemma=allow NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=2061 CharacterOffsetEnd=2063 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=modify CharacterOffsetBegin=2064 CharacterOffsetEnd=2070 PartOfSpeech=VB Lemma=modify NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2071 CharacterOffsetEnd=2074 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=original CharacterOffsetBegin=2075 CharacterOffsetEnd=2083 PartOfSpeech=JJ Lemma=original NamedEntityTag=O]
+[Text=story CharacterOffsetBegin=2084 CharacterOffsetEnd=2089 PartOfSpeech=NN Lemma=story NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=2090 CharacterOffsetEnd=2093 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=2094 CharacterOffsetEnd=2098 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=graphics CharacterOffsetBegin=2099 CharacterOffsetEnd=2107 PartOfSpeech=NNS Lemma=graphic NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2107 CharacterOffsetEnd=2108 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=2109 CharacterOffsetEnd=2112 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=rather CharacterOffsetBegin=2113 CharacterOffsetEnd=2119 PartOfSpeech=RB Lemma=rather NamedEntityTag=O]
+[Text=extend CharacterOffsetBegin=2120 CharacterOffsetEnd=2126 PartOfSpeech=VB Lemma=extend NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2127 CharacterOffsetEnd=2130 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=current CharacterOffsetBegin=2131 CharacterOffsetEnd=2138 PartOfSpeech=JJ Lemma=current NamedEntityTag=O]
+[Text=content CharacterOffsetBegin=2139 CharacterOffsetEnd=2146 PartOfSpeech=NN Lemma=content NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=2147 CharacterOffsetEnd=2151 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=2152 CharacterOffsetEnd=2155 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=provided CharacterOffsetBegin=2156 CharacterOffsetEnd=2164 PartOfSpeech=VBN Lemma=provide NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=2165 CharacterOffsetEnd=2167 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2168 CharacterOffsetEnd=2171 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=original CharacterOffsetBegin=2172 CharacterOffsetEnd=2180 PartOfSpeech=JJ Lemma=original NamedEntityTag=O]
+[Text=developer CharacterOffsetBegin=2181 CharacterOffsetEnd=2190 PartOfSpeech=NN Lemma=developer NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=2190 CharacterOffsetEnd=2191 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, allowed-5)
+nsubjpass(allowed-5, Mods-1)
+advmod(allowed-5, usually-2)
+auxpass(allowed-5, are-3)
+neg(allowed-5, not-4)
+mark(modify-7, to-6)
+xcomp(allowed-5, modify-7)
+det(story-10, the-8)
+amod(story-10, original-9)
+dobj(modify-7, story-10)
+cc(story-10, and-11)
+compound(graphics-13, game-12)
+conj:and(story-10, graphics-13)
+punct(allowed-5, ,-14)
+cc(allowed-5, but-15)
+advmod(extend-17, rather-16)
+conj:negcc(allowed-5, extend-17)
+det(content-20, the-18)
+amod(content-20, current-19)
+dobj(extend-17, content-20)
+nsubjpass(provided-23, that-21)
+auxpass(provided-23, was-22)
+acl:relcl(content-20, provided-23)
+case(developer-27, by-24)
+det(developer-27, the-25)
+amod(developer-27, original-26)
+nmod:agent(provided-23, developer-27)
+punct(allowed-5, .-28)
+
+Sentence #18 (14 tokens):
+Modding an existing game is often cheaper than developing a fangame from scratch.
+[Text=Modding CharacterOffsetBegin=2192 CharacterOffsetEnd=2199 PartOfSpeech=VBG Lemma=mod NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=2200 CharacterOffsetEnd=2202 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=existing CharacterOffsetBegin=2203 CharacterOffsetEnd=2211 PartOfSpeech=JJ Lemma=existing NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=2212 CharacterOffsetEnd=2216 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=2217 CharacterOffsetEnd=2219 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=often CharacterOffsetBegin=2220 CharacterOffsetEnd=2225 PartOfSpeech=RB Lemma=often NamedEntityTag=O]
+[Text=cheaper CharacterOffsetBegin=2226 CharacterOffsetEnd=2233 PartOfSpeech=JJR Lemma=cheaper NamedEntityTag=O]
+[Text=than CharacterOffsetBegin=2234 CharacterOffsetEnd=2238 PartOfSpeech=IN Lemma=than NamedEntityTag=O]
+[Text=developing CharacterOffsetBegin=2239 CharacterOffsetEnd=2249 PartOfSpeech=VBG Lemma=develop NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=2250 CharacterOffsetEnd=2251 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=fangame CharacterOffsetBegin=2252 CharacterOffsetEnd=2259 PartOfSpeech=NN Lemma=fangame NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=2260 CharacterOffsetEnd=2264 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=scratch CharacterOffsetBegin=2265 CharacterOffsetEnd=2272 PartOfSpeech=NN Lemma=scratch NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=2272 CharacterOffsetEnd=2273 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, cheaper-7)
+nsubj(cheaper-7, Modding-1)
+det(game-4, an-2)
+amod(game-4, existing-3)
+dobj(Modding-1, game-4)
+cop(cheaper-7, is-5)
+advmod(cheaper-7, often-6)
+mark(developing-9, than-8)
+advcl(cheaper-7, developing-9)
+det(fangame-11, a-10)
+dobj(developing-9, fangame-11)
+case(scratch-13, from-12)
+nmod:from(fangame-11, scratch-13)
+punct(cheaper-7, .-14)
+
+Sentence #19 (32 tokens):
+Because of the complexity of developing an entirely new game, fangames are often made using pre-existing tools that either came with the original game, or are readily available elsewhere.
+[Text=Because CharacterOffsetBegin=2274 CharacterOffsetEnd=2281 PartOfSpeech=IN Lemma=because NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=2282 CharacterOffsetEnd=2284 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2285 CharacterOffsetEnd=2288 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=complexity CharacterOffsetBegin=2289 CharacterOffsetEnd=2299 PartOfSpeech=NN Lemma=complexity NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=2300 CharacterOffsetEnd=2302 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=developing CharacterOffsetBegin=2303 CharacterOffsetEnd=2313 PartOfSpeech=VBG Lemma=develop NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=2314 CharacterOffsetEnd=2316 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=entirely CharacterOffsetBegin=2317 CharacterOffsetEnd=2325 PartOfSpeech=RB Lemma=entirely NamedEntityTag=O]
+[Text=new CharacterOffsetBegin=2326 CharacterOffsetEnd=2329 PartOfSpeech=JJ Lemma=new NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=2330 CharacterOffsetEnd=2334 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2334 CharacterOffsetEnd=2335 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=fangames CharacterOffsetBegin=2336 CharacterOffsetEnd=2344 PartOfSpeech=NNS Lemma=fangame NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=2345 CharacterOffsetEnd=2348 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=often CharacterOffsetBegin=2349 CharacterOffsetEnd=2354 PartOfSpeech=RB Lemma=often NamedEntityTag=O]
+[Text=made CharacterOffsetBegin=2355 CharacterOffsetEnd=2359 PartOfSpeech=VBN Lemma=make NamedEntityTag=O]
+[Text=using CharacterOffsetBegin=2360 CharacterOffsetEnd=2365 PartOfSpeech=VBG Lemma=use NamedEntityTag=O]
+[Text=pre-existing CharacterOffsetBegin=2366 CharacterOffsetEnd=2378 PartOfSpeech=JJ Lemma=pre-existing NamedEntityTag=O]
+[Text=tools CharacterOffsetBegin=2379 CharacterOffsetEnd=2384 PartOfSpeech=NNS Lemma=tool NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=2385 CharacterOffsetEnd=2389 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=either CharacterOffsetBegin=2390 CharacterOffsetEnd=2396 PartOfSpeech=CC Lemma=either NamedEntityTag=O]
+[Text=came CharacterOffsetBegin=2397 CharacterOffsetEnd=2401 PartOfSpeech=VBD Lemma=come NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=2402 CharacterOffsetEnd=2406 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2407 CharacterOffsetEnd=2410 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=original CharacterOffsetBegin=2411 CharacterOffsetEnd=2419 PartOfSpeech=JJ Lemma=original NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=2420 CharacterOffsetEnd=2424 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2424 CharacterOffsetEnd=2425 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=2426 CharacterOffsetEnd=2428 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=2429 CharacterOffsetEnd=2432 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=readily CharacterOffsetBegin=2433 CharacterOffsetEnd=2440 PartOfSpeech=RB Lemma=readily NamedEntityTag=O]
+[Text=available CharacterOffsetBegin=2441 CharacterOffsetEnd=2450 PartOfSpeech=JJ Lemma=available NamedEntityTag=O]
+[Text=elsewhere CharacterOffsetBegin=2451 CharacterOffsetEnd=2460 PartOfSpeech=RB Lemma=elsewhere NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=2460 CharacterOffsetEnd=2461 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, made-15)
+case(complexity-4, Because-1)
+mwe(Because-1, of-2)
+det(complexity-4, the-3)
+nmod:because_of(made-15, complexity-4)
+mark(developing-6, of-5)
+acl(complexity-4, developing-6)
+det(game-10, an-7)
+advmod(new-9, entirely-8)
+amod(game-10, new-9)
+dobj(developing-6, game-10)
+punct(made-15, ,-11)
+nsubjpass(made-15, fangames-12)
+auxpass(made-15, are-13)
+advmod(made-15, often-14)
+xcomp(made-15, using-16)
+amod(tools-18, pre-existing-17)
+dobj(using-16, tools-18)
+nsubj(came-21, that-19)
+nsubj(came-21, either-20)
+acl:relcl(tools-18, came-21)
+case(game-25, with-22)
+det(game-25, the-23)
+amod(game-25, original-24)
+nmod:with(came-21, game-25)
+punct(came-21, ,-26)
+cc(came-21, or-27)
+cop(available-30, are-28)
+advmod(available-30, readily-29)
+conj:or(came-21, available-30)
+advmod(available-30, elsewhere-31)
+punct(made-15, .-32)
+
+Sentence #20 (37 tokens):
+Certain games, such as "Unreal Tournament 2004" and "Neverwinter Nights", come with map-editing and scripting tools to allow fans to develop mods using the engine provided with the original game.
+[Text=Certain CharacterOffsetBegin=2462 CharacterOffsetEnd=2469 PartOfSpeech=JJ Lemma=certain NamedEntityTag=O]
+[Text=games CharacterOffsetBegin=2470 CharacterOffsetEnd=2475 PartOfSpeech=NNS Lemma=game NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2475 CharacterOffsetEnd=2476 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=such CharacterOffsetBegin=2477 CharacterOffsetEnd=2481 PartOfSpeech=JJ Lemma=such NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=2482 CharacterOffsetEnd=2484 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=2485 CharacterOffsetEnd=2486 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=Unreal CharacterOffsetBegin=2486 CharacterOffsetEnd=2492 PartOfSpeech=NNP Lemma=Unreal NamedEntityTag=O]
+[Text=Tournament CharacterOffsetBegin=2493 CharacterOffsetEnd=2503 PartOfSpeech=NNP Lemma=Tournament NamedEntityTag=O]
+[Text=2004 CharacterOffsetBegin=2504 CharacterOffsetEnd=2508 PartOfSpeech=CD Lemma=2004 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2004.0]
+[Text='' CharacterOffsetBegin=2508 CharacterOffsetEnd=2509 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=2510 CharacterOffsetEnd=2513 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=2514 CharacterOffsetEnd=2515 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=Neverwinter CharacterOffsetBegin=2515 CharacterOffsetEnd=2526 PartOfSpeech=NNP Lemma=Neverwinter NamedEntityTag=O]
+[Text=Nights CharacterOffsetBegin=2527 CharacterOffsetEnd=2533 PartOfSpeech=NNPS Lemma=Nights NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=2533 CharacterOffsetEnd=2534 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2534 CharacterOffsetEnd=2535 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=come CharacterOffsetBegin=2536 CharacterOffsetEnd=2540 PartOfSpeech=VBN Lemma=come NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=2541 CharacterOffsetEnd=2545 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=map-editing CharacterOffsetBegin=2546 CharacterOffsetEnd=2557 PartOfSpeech=NN Lemma=map-editing NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=2558 CharacterOffsetEnd=2561 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=scripting CharacterOffsetBegin=2562 CharacterOffsetEnd=2571 PartOfSpeech=NN Lemma=scripting NamedEntityTag=O]
+[Text=tools CharacterOffsetBegin=2572 CharacterOffsetEnd=2577 PartOfSpeech=NNS Lemma=tool NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=2578 CharacterOffsetEnd=2580 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=allow CharacterOffsetBegin=2581 CharacterOffsetEnd=2586 PartOfSpeech=VB Lemma=allow NamedEntityTag=O]
+[Text=fans CharacterOffsetBegin=2587 CharacterOffsetEnd=2591 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=2592 CharacterOffsetEnd=2594 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=develop CharacterOffsetBegin=2595 CharacterOffsetEnd=2602 PartOfSpeech=VB Lemma=develop NamedEntityTag=O]
+[Text=mods CharacterOffsetBegin=2603 CharacterOffsetEnd=2607 PartOfSpeech=NNS Lemma=mod NamedEntityTag=O]
+[Text=using CharacterOffsetBegin=2608 CharacterOffsetEnd=2613 PartOfSpeech=VBG Lemma=use NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2614 CharacterOffsetEnd=2617 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=engine CharacterOffsetBegin=2618 CharacterOffsetEnd=2624 PartOfSpeech=NN Lemma=engine NamedEntityTag=O]
+[Text=provided CharacterOffsetBegin=2625 CharacterOffsetEnd=2633 PartOfSpeech=VBN Lemma=provide NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=2634 CharacterOffsetEnd=2638 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2639 CharacterOffsetEnd=2642 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=original CharacterOffsetBegin=2643 CharacterOffsetEnd=2651 PartOfSpeech=JJ Lemma=original NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=2652 CharacterOffsetEnd=2656 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=2656 CharacterOffsetEnd=2657 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, games-2)
+amod(games-2, Certain-1)
+punct(games-2, ,-3)
+case(Tournament-8, such-4)
+mwe(such-4, as-5)
+punct(Tournament-8, ``-6)
+compound(Tournament-8, Unreal-7)
+nmod:such_as(games-2, Tournament-8)
+nummod(Tournament-8, 2004-9)
+punct(Tournament-8, ''-10)
+cc(Tournament-8, and-11)
+punct(Tournament-8, ``-12)
+compound(Nights-14, Neverwinter-13)
+conj:and(Tournament-8, Nights-14)
+punct(Tournament-8, ''-15)
+punct(Tournament-8, ,-16)
+acl(Tournament-8, come-17)
+case(map-editing-19, with-18)
+nmod:with(come-17, map-editing-19)
+cc(map-editing-19, and-20)
+compound(tools-22, scripting-21)
+conj:and(map-editing-19, tools-22)
+mark(allow-24, to-23)
+xcomp(come-17, allow-24)
+dobj(allow-24, fans-25)
+mark(develop-27, to-26)
+xcomp(allow-24, develop-27)
+dobj(develop-27, mods-28)
+xcomp(develop-27, using-29)
+det(engine-31, the-30)
+dobj(using-29, engine-31)
+acl(engine-31, provided-32)
+case(game-36, with-33)
+det(game-36, the-34)
+amod(game-36, original-35)
+nmod:with(provided-32, game-36)
+punct(games-2, .-37)
+
+Sentence #21 (43 tokens):
+Games such as "Doom" are old enough (end-of-life) that their source code has been released, allowing radical changes to take place; more examples in the "List of commercial video games with available source code".
+[Text=Games CharacterOffsetBegin=2658 CharacterOffsetEnd=2663 PartOfSpeech=NNPS Lemma=Games NamedEntityTag=O]
+[Text=such CharacterOffsetBegin=2664 CharacterOffsetEnd=2668 PartOfSpeech=JJ Lemma=such NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=2669 CharacterOffsetEnd=2671 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=2672 CharacterOffsetEnd=2673 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=Doom CharacterOffsetBegin=2673 CharacterOffsetEnd=2677 PartOfSpeech=NN Lemma=doom NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=2677 CharacterOffsetEnd=2678 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=2679 CharacterOffsetEnd=2682 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=old CharacterOffsetBegin=2683 CharacterOffsetEnd=2686 PartOfSpeech=JJ Lemma=old NamedEntityTag=O]
+[Text=enough CharacterOffsetBegin=2687 CharacterOffsetEnd=2693 PartOfSpeech=JJ Lemma=enough NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=2694 CharacterOffsetEnd=2695 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=end-of-life CharacterOffsetBegin=2695 CharacterOffsetEnd=2706 PartOfSpeech=JJ Lemma=end-of-life NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=2706 CharacterOffsetEnd=2707 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=2708 CharacterOffsetEnd=2712 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=their CharacterOffsetBegin=2713 CharacterOffsetEnd=2718 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O]
+[Text=source CharacterOffsetBegin=2719 CharacterOffsetEnd=2725 PartOfSpeech=NN Lemma=source NamedEntityTag=O]
+[Text=code CharacterOffsetBegin=2726 CharacterOffsetEnd=2730 PartOfSpeech=NN Lemma=code NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=2731 CharacterOffsetEnd=2734 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=2735 CharacterOffsetEnd=2739 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=released CharacterOffsetBegin=2740 CharacterOffsetEnd=2748 PartOfSpeech=VBN Lemma=release NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2748 CharacterOffsetEnd=2749 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=allowing CharacterOffsetBegin=2750 CharacterOffsetEnd=2758 PartOfSpeech=VBG Lemma=allow NamedEntityTag=O]
+[Text=radical CharacterOffsetBegin=2759 CharacterOffsetEnd=2766 PartOfSpeech=JJ Lemma=radical NamedEntityTag=O]
+[Text=changes CharacterOffsetBegin=2767 CharacterOffsetEnd=2774 PartOfSpeech=NNS Lemma=change NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=2775 CharacterOffsetEnd=2777 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=take CharacterOffsetBegin=2778 CharacterOffsetEnd=2782 PartOfSpeech=VB Lemma=take NamedEntityTag=O]
+[Text=place CharacterOffsetBegin=2783 CharacterOffsetEnd=2788 PartOfSpeech=NN Lemma=place NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=2788 CharacterOffsetEnd=2789 PartOfSpeech=: Lemma=; NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=2790 CharacterOffsetEnd=2794 PartOfSpeech=JJR Lemma=more NamedEntityTag=O]
+[Text=examples CharacterOffsetBegin=2795 CharacterOffsetEnd=2803 PartOfSpeech=NNS Lemma=example NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=2804 CharacterOffsetEnd=2806 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2807 CharacterOffsetEnd=2810 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=2811 CharacterOffsetEnd=2812 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=List CharacterOffsetBegin=2812 CharacterOffsetEnd=2816 PartOfSpeech=NN Lemma=list NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=2817 CharacterOffsetEnd=2819 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=commercial CharacterOffsetBegin=2820 CharacterOffsetEnd=2830 PartOfSpeech=JJ Lemma=commercial NamedEntityTag=O]
+[Text=video CharacterOffsetBegin=2831 CharacterOffsetEnd=2836 PartOfSpeech=NN Lemma=video NamedEntityTag=O]
+[Text=games CharacterOffsetBegin=2837 CharacterOffsetEnd=2842 PartOfSpeech=NNS Lemma=game NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=2843 CharacterOffsetEnd=2847 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=available CharacterOffsetBegin=2848 CharacterOffsetEnd=2857 PartOfSpeech=JJ Lemma=available NamedEntityTag=O]
+[Text=source CharacterOffsetBegin=2858 CharacterOffsetEnd=2864 PartOfSpeech=NN Lemma=source NamedEntityTag=O]
+[Text=code CharacterOffsetBegin=2865 CharacterOffsetEnd=2869 PartOfSpeech=NN Lemma=code NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=2869 CharacterOffsetEnd=2870 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=2870 CharacterOffsetEnd=2871 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, old-8)
+nsubj(old-8, Games-1)
+case(Doom-5, such-2)
+mwe(such-2, as-3)
+punct(Doom-5, ``-4)
+nmod:such_as(Games-1, Doom-5)
+punct(Doom-5, ''-6)
+cop(old-8, are-7)
+xcomp(old-8, enough-9)
+punct(end-of-life-11, -LRB--10)
+dep(enough-9, end-of-life-11)
+punct(end-of-life-11, -RRB--12)
+mark(released-19, that-13)
+nmod:poss(code-16, their-14)
+compound(code-16, source-15)
+nsubjpass(released-19, code-16)
+aux(released-19, has-17)
+auxpass(released-19, been-18)
+ccomp(enough-9, released-19)
+punct(released-19, ,-20)
+xcomp(released-19, allowing-21)
+amod(changes-23, radical-22)
+dobj(allowing-21, changes-23)
+mark(take-25, to-24)
+acl(changes-23, take-25)
+dobj(take-25, place-26)
+punct(old-8, ;-27)
+amod(examples-29, more-28)
+dep(old-8, examples-29)
+case(List-33, in-30)
+det(List-33, the-31)
+punct(List-33, ``-32)
+nmod:in(examples-29, List-33)
+case(games-37, of-34)
+amod(games-37, commercial-35)
+compound(games-37, video-36)
+nmod:of(List-33, games-37)
+case(code-41, with-38)
+amod(code-41, available-39)
+compound(code-41, source-40)
+nmod:with(List-33, code-41)
+punct(examples-29, ''-42)
+punct(old-8, .-43)
+
+Sentence #22 (19 tokens):
+Another form of modding comes from editing the ROM images of older games, such as SNES games.
+[Text=Another CharacterOffsetBegin=2872 CharacterOffsetEnd=2879 PartOfSpeech=DT Lemma=another NamedEntityTag=O]
+[Text=form CharacterOffsetBegin=2880 CharacterOffsetEnd=2884 PartOfSpeech=NN Lemma=form NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=2885 CharacterOffsetEnd=2887 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=modding CharacterOffsetBegin=2888 CharacterOffsetEnd=2895 PartOfSpeech=NN Lemma=modding NamedEntityTag=O]
+[Text=comes CharacterOffsetBegin=2896 CharacterOffsetEnd=2901 PartOfSpeech=VBZ Lemma=come NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=2902 CharacterOffsetEnd=2906 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=editing CharacterOffsetBegin=2907 CharacterOffsetEnd=2914 PartOfSpeech=NN Lemma=editing NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=2915 CharacterOffsetEnd=2918 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=ROM CharacterOffsetBegin=2919 CharacterOffsetEnd=2922 PartOfSpeech=NN Lemma=rom NamedEntityTag=O]
+[Text=images CharacterOffsetBegin=2923 CharacterOffsetEnd=2929 PartOfSpeech=NNS Lemma=image NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=2930 CharacterOffsetEnd=2932 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=older CharacterOffsetBegin=2933 CharacterOffsetEnd=2938 PartOfSpeech=JJR Lemma=older NamedEntityTag=O]
+[Text=games CharacterOffsetBegin=2939 CharacterOffsetEnd=2944 PartOfSpeech=NNS Lemma=game NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=2944 CharacterOffsetEnd=2945 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=such CharacterOffsetBegin=2946 CharacterOffsetEnd=2950 PartOfSpeech=JJ Lemma=such NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=2951 CharacterOffsetEnd=2953 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=SNES CharacterOffsetBegin=2954 CharacterOffsetEnd=2958 PartOfSpeech=NNP Lemma=SNES NamedEntityTag=ORGANIZATION]
+[Text=games CharacterOffsetBegin=2959 CharacterOffsetEnd=2964 PartOfSpeech=NNS Lemma=game NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=2964 CharacterOffsetEnd=2965 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, comes-5)
+det(form-2, Another-1)
+nsubj(comes-5, form-2)
+case(modding-4, of-3)
+nmod:of(form-2, modding-4)
+case(editing-7, from-6)
+nmod:from(comes-5, editing-7)
+det(images-10, the-8)
+compound(images-10, ROM-9)
+dobj(editing-7, images-10)
+case(games-13, of-11)
+amod(games-13, older-12)
+nmod:of(images-10, games-13)
+punct(games-13, ,-14)
+case(games-18, such-15)
+mwe(such-15, as-16)
+compound(games-18, SNES-17)
+nmod:such_as(games-13, games-18)
+punct(comes-5, .-19)
+
+Sentence #23 (32 tokens):
+Programs such as Lunar Magic enable a user to modify the existing data in the ROM image and change levels, character graphics, or any other aspect the program allows.
+[Text=Programs CharacterOffsetBegin=2966 CharacterOffsetEnd=2974 PartOfSpeech=NNS Lemma=program NamedEntityTag=O]
+[Text=such CharacterOffsetBegin=2975 CharacterOffsetEnd=2979 PartOfSpeech=JJ Lemma=such NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=2980 CharacterOffsetEnd=2982 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=Lunar CharacterOffsetBegin=2983 CharacterOffsetEnd=2988 PartOfSpeech=NNP Lemma=Lunar NamedEntityTag=O]
+[Text=Magic CharacterOffsetBegin=2989 CharacterOffsetEnd=2994 PartOfSpeech=NNP Lemma=Magic NamedEntityTag=O]
+[Text=enable CharacterOffsetBegin=2995 CharacterOffsetEnd=3001 PartOfSpeech=VB Lemma=enable NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=3002 CharacterOffsetEnd=3003 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=user CharacterOffsetBegin=3004 CharacterOffsetEnd=3008 PartOfSpeech=NN Lemma=user NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=3009 CharacterOffsetEnd=3011 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=modify CharacterOffsetBegin=3012 CharacterOffsetEnd=3018 PartOfSpeech=VB Lemma=modify NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=3019 CharacterOffsetEnd=3022 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=existing CharacterOffsetBegin=3023 CharacterOffsetEnd=3031 PartOfSpeech=VBG Lemma=exist NamedEntityTag=O]
+[Text=data CharacterOffsetBegin=3032 CharacterOffsetEnd=3036 PartOfSpeech=NNS Lemma=datum NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=3037 CharacterOffsetEnd=3039 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=3040 CharacterOffsetEnd=3043 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=ROM CharacterOffsetBegin=3044 CharacterOffsetEnd=3047 PartOfSpeech=NNP Lemma=ROM NamedEntityTag=O]
+[Text=image CharacterOffsetBegin=3048 CharacterOffsetEnd=3053 PartOfSpeech=NN Lemma=image NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=3054 CharacterOffsetEnd=3057 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=change CharacterOffsetBegin=3058 CharacterOffsetEnd=3064 PartOfSpeech=NN Lemma=change NamedEntityTag=O]
+[Text=levels CharacterOffsetBegin=3065 CharacterOffsetEnd=3071 PartOfSpeech=NNS Lemma=level NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=3071 CharacterOffsetEnd=3072 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=character CharacterOffsetBegin=3073 CharacterOffsetEnd=3082 PartOfSpeech=NN Lemma=character NamedEntityTag=O]
+[Text=graphics CharacterOffsetBegin=3083 CharacterOffsetEnd=3091 PartOfSpeech=NNS Lemma=graphic NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=3091 CharacterOffsetEnd=3092 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=3093 CharacterOffsetEnd=3095 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=any CharacterOffsetBegin=3096 CharacterOffsetEnd=3099 PartOfSpeech=DT Lemma=any NamedEntityTag=O]
+[Text=other CharacterOffsetBegin=3100 CharacterOffsetEnd=3105 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text=aspect CharacterOffsetBegin=3106 CharacterOffsetEnd=3112 PartOfSpeech=NN Lemma=aspect NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=3113 CharacterOffsetEnd=3116 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=program CharacterOffsetBegin=3117 CharacterOffsetEnd=3124 PartOfSpeech=NN Lemma=program NamedEntityTag=O]
+[Text=allows CharacterOffsetBegin=3125 CharacterOffsetEnd=3131 PartOfSpeech=VBZ Lemma=allow NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=3131 CharacterOffsetEnd=3132 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, enable-6)
+nsubj(enable-6, Programs-1)
+case(Magic-5, such-2)
+mwe(such-2, as-3)
+compound(Magic-5, Lunar-4)
+nmod:such_as(Programs-1, Magic-5)
+det(user-8, a-7)
+dobj(enable-6, user-8)
+mark(modify-10, to-9)
+xcomp(enable-6, modify-10)
+det(data-13, the-11)
+amod(data-13, existing-12)
+dobj(modify-10, data-13)
+case(image-17, in-14)
+det(image-17, the-15)
+compound(image-17, ROM-16)
+nmod:in(modify-10, image-17)
+cc(modify-10, and-18)
+compound(levels-20, change-19)
+conj:and(modify-10, levels-20)
+punct(modify-10, ,-21)
+compound(graphics-23, character-22)
+conj:and(modify-10, graphics-23)
+punct(modify-10, ,-24)
+cc(modify-10, or-25)
+det(aspect-28, any-26)
+amod(aspect-28, other-27)
+conj:or(modify-10, aspect-28)
+det(program-30, the-29)
+nsubj(allows-31, program-30)
+acl:relcl(aspect-28, allows-31)
+punct(enable-6, .-32)
+
+Sentence #24 (42 tokens):
+While normally played on emulators, these newly edited ROM images could theoretically be used in conjunction with a flash drive to actually create carts for the older system, allowing the modified ROM images to run on the original hardware.
+[Text=While CharacterOffsetBegin=3133 CharacterOffsetEnd=3138 PartOfSpeech=IN Lemma=while NamedEntityTag=O]
+[Text=normally CharacterOffsetBegin=3139 CharacterOffsetEnd=3147 PartOfSpeech=RB Lemma=normally NamedEntityTag=O]
+[Text=played CharacterOffsetBegin=3148 CharacterOffsetEnd=3154 PartOfSpeech=VBN Lemma=play NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=3155 CharacterOffsetEnd=3157 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=emulators CharacterOffsetBegin=3158 CharacterOffsetEnd=3167 PartOfSpeech=NNS Lemma=emulator NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=3167 CharacterOffsetEnd=3168 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=these CharacterOffsetBegin=3169 CharacterOffsetEnd=3174 PartOfSpeech=DT Lemma=these NamedEntityTag=O]
+[Text=newly CharacterOffsetBegin=3175 CharacterOffsetEnd=3180 PartOfSpeech=RB Lemma=newly NamedEntityTag=O]
+[Text=edited CharacterOffsetBegin=3181 CharacterOffsetEnd=3187 PartOfSpeech=VBN Lemma=edit NamedEntityTag=O]
+[Text=ROM CharacterOffsetBegin=3188 CharacterOffsetEnd=3191 PartOfSpeech=NN Lemma=rom NamedEntityTag=O]
+[Text=images CharacterOffsetBegin=3192 CharacterOffsetEnd=3198 PartOfSpeech=NNS Lemma=image NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=3199 CharacterOffsetEnd=3204 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=theoretically CharacterOffsetBegin=3205 CharacterOffsetEnd=3218 PartOfSpeech=RB Lemma=theoretically NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=3219 CharacterOffsetEnd=3221 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=used CharacterOffsetBegin=3222 CharacterOffsetEnd=3226 PartOfSpeech=VBN Lemma=use NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=3227 CharacterOffsetEnd=3229 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=conjunction CharacterOffsetBegin=3230 CharacterOffsetEnd=3241 PartOfSpeech=NN Lemma=conjunction NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=3242 CharacterOffsetEnd=3246 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=3247 CharacterOffsetEnd=3248 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=flash CharacterOffsetBegin=3249 CharacterOffsetEnd=3254 PartOfSpeech=NN Lemma=flash NamedEntityTag=O]
+[Text=drive CharacterOffsetBegin=3255 CharacterOffsetEnd=3260 PartOfSpeech=NN Lemma=drive NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=3261 CharacterOffsetEnd=3263 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=actually CharacterOffsetBegin=3264 CharacterOffsetEnd=3272 PartOfSpeech=RB Lemma=actually NamedEntityTag=O]
+[Text=create CharacterOffsetBegin=3273 CharacterOffsetEnd=3279 PartOfSpeech=VB Lemma=create NamedEntityTag=O]
+[Text=carts CharacterOffsetBegin=3280 CharacterOffsetEnd=3285 PartOfSpeech=NNS Lemma=cart NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=3286 CharacterOffsetEnd=3289 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=3290 CharacterOffsetEnd=3293 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=older CharacterOffsetBegin=3294 CharacterOffsetEnd=3299 PartOfSpeech=JJR Lemma=older NamedEntityTag=O]
+[Text=system CharacterOffsetBegin=3300 CharacterOffsetEnd=3306 PartOfSpeech=NN Lemma=system NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=3306 CharacterOffsetEnd=3307 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=allowing CharacterOffsetBegin=3308 CharacterOffsetEnd=3316 PartOfSpeech=VBG Lemma=allow NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=3317 CharacterOffsetEnd=3320 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=modified CharacterOffsetBegin=3321 CharacterOffsetEnd=3329 PartOfSpeech=VBN Lemma=modify NamedEntityTag=O]
+[Text=ROM CharacterOffsetBegin=3330 CharacterOffsetEnd=3333 PartOfSpeech=NN Lemma=rom NamedEntityTag=O]
+[Text=images CharacterOffsetBegin=3334 CharacterOffsetEnd=3340 PartOfSpeech=NNS Lemma=image NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=3341 CharacterOffsetEnd=3343 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=run CharacterOffsetBegin=3344 CharacterOffsetEnd=3347 PartOfSpeech=VB Lemma=run NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=3348 CharacterOffsetEnd=3350 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=3351 CharacterOffsetEnd=3354 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=original CharacterOffsetBegin=3355 CharacterOffsetEnd=3363 PartOfSpeech=JJ Lemma=original NamedEntityTag=O]
+[Text=hardware CharacterOffsetBegin=3364 CharacterOffsetEnd=3372 PartOfSpeech=NN Lemma=hardware NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=3372 CharacterOffsetEnd=3373 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, used-15)
+mark(played-3, While-1)
+advmod(played-3, normally-2)
+advcl(used-15, played-3)
+case(emulators-5, on-4)
+nmod:on(played-3, emulators-5)
+punct(used-15, ,-6)
+det(images-11, these-7)
+advmod(edited-9, newly-8)
+amod(images-11, edited-9)
+compound(images-11, ROM-10)
+nsubjpass(used-15, images-11)
+aux(used-15, could-12)
+advmod(used-15, theoretically-13)
+auxpass(used-15, be-14)
+case(conjunction-17, in-16)
+nmod:in(used-15, conjunction-17)
+case(drive-21, with-18)
+det(drive-21, a-19)
+compound(drive-21, flash-20)
+nmod:with(conjunction-17, drive-21)
+mark(create-24, to-22)
+advmod(create-24, actually-23)
+acl(drive-21, create-24)
+dobj(create-24, carts-25)
+case(system-29, for-26)
+det(system-29, the-27)
+amod(system-29, older-28)
+nmod:for(carts-25, system-29)
+punct(used-15, ,-30)
+xcomp(used-15, allowing-31)
+det(images-35, the-32)
+amod(images-35, modified-33)
+compound(images-35, ROM-34)
+dobj(allowing-31, images-35)
+mark(run-37, to-36)
+xcomp(allowing-31, run-37)
+case(hardware-41, on-38)
+det(hardware-41, the-39)
+amod(hardware-41, original-40)
+nmod:on(run-37, hardware-41)
+punct(used-15, .-42)
+
+Sentence #25 (37 tokens):
+A notable recent example of such a fangame is "The Legend of Zelda: Parallel Worlds" which was hailed by reviewers as a remarkable unofficial sequel to "A Link to the Past".
+[Text=A CharacterOffsetBegin=3374 CharacterOffsetEnd=3375 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=notable CharacterOffsetBegin=3376 CharacterOffsetEnd=3383 PartOfSpeech=JJ Lemma=notable NamedEntityTag=O]
+[Text=recent CharacterOffsetBegin=3384 CharacterOffsetEnd=3390 PartOfSpeech=JJ Lemma=recent NamedEntityTag=O]
+[Text=example CharacterOffsetBegin=3391 CharacterOffsetEnd=3398 PartOfSpeech=NN Lemma=example NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=3399 CharacterOffsetEnd=3401 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=such CharacterOffsetBegin=3402 CharacterOffsetEnd=3406 PartOfSpeech=PDT Lemma=such NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=3407 CharacterOffsetEnd=3408 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=fangame CharacterOffsetBegin=3409 CharacterOffsetEnd=3416 PartOfSpeech=NN Lemma=fangame NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=3417 CharacterOffsetEnd=3419 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=3420 CharacterOffsetEnd=3421 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=3421 CharacterOffsetEnd=3424 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Legend CharacterOffsetBegin=3425 CharacterOffsetEnd=3431 PartOfSpeech=NNP Lemma=Legend NamedEntityTag=MISC]
+[Text=of CharacterOffsetBegin=3432 CharacterOffsetEnd=3434 PartOfSpeech=IN Lemma=of NamedEntityTag=MISC]
+[Text=Zelda CharacterOffsetBegin=3435 CharacterOffsetEnd=3440 PartOfSpeech=NNP Lemma=Zelda NamedEntityTag=MISC]
+[Text=: CharacterOffsetBegin=3440 CharacterOffsetEnd=3441 PartOfSpeech=: Lemma=: NamedEntityTag=MISC]
+[Text=Parallel CharacterOffsetBegin=3442 CharacterOffsetEnd=3450 PartOfSpeech=JJ Lemma=parallel NamedEntityTag=MISC]
+[Text=Worlds CharacterOffsetBegin=3451 CharacterOffsetEnd=3457 PartOfSpeech=NNS Lemma=world NamedEntityTag=MISC]
+[Text='' CharacterOffsetBegin=3457 CharacterOffsetEnd=3458 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=3459 CharacterOffsetEnd=3464 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=3465 CharacterOffsetEnd=3468 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=hailed CharacterOffsetBegin=3469 CharacterOffsetEnd=3475 PartOfSpeech=VBN Lemma=hail NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=3476 CharacterOffsetEnd=3478 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=reviewers CharacterOffsetBegin=3479 CharacterOffsetEnd=3488 PartOfSpeech=NNS Lemma=reviewer NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=3489 CharacterOffsetEnd=3491 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=3492 CharacterOffsetEnd=3493 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=remarkable CharacterOffsetBegin=3494 CharacterOffsetEnd=3504 PartOfSpeech=JJ Lemma=remarkable NamedEntityTag=O]
+[Text=unofficial CharacterOffsetBegin=3505 CharacterOffsetEnd=3515 PartOfSpeech=JJ Lemma=unofficial NamedEntityTag=O]
+[Text=sequel CharacterOffsetBegin=3516 CharacterOffsetEnd=3522 PartOfSpeech=NN Lemma=sequel NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=3523 CharacterOffsetEnd=3525 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=3526 CharacterOffsetEnd=3527 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=A CharacterOffsetBegin=3527 CharacterOffsetEnd=3528 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=Link CharacterOffsetBegin=3529 CharacterOffsetEnd=3533 PartOfSpeech=NN Lemma=link NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=3534 CharacterOffsetEnd=3536 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=3537 CharacterOffsetEnd=3540 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Past CharacterOffsetBegin=3541 CharacterOffsetEnd=3545 PartOfSpeech=NNP Lemma=Past NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=3545 CharacterOffsetEnd=3546 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=3546 CharacterOffsetEnd=3547 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, Legend-12)
+det(example-4, A-1)
+amod(example-4, notable-2)
+amod(example-4, recent-3)
+nsubj(Legend-12, example-4)
+case(fangame-8, of-5)
+det:predet(fangame-8, such-6)
+det(fangame-8, a-7)
+nmod:of(example-4, fangame-8)
+cop(Legend-12, is-9)
+punct(Legend-12, ``-10)
+det(Legend-12, The-11)
+case(Zelda-14, of-13)
+nmod:of(Legend-12, Zelda-14)
+punct(Legend-12, :-15)
+amod(Worlds-17, Parallel-16)
+dep(Legend-12, Worlds-17)
+punct(Worlds-17, ''-18)
+nsubjpass(hailed-21, which-19)
+auxpass(hailed-21, was-20)
+acl:relcl(Worlds-17, hailed-21)
+case(reviewers-23, by-22)
+nmod:agent(hailed-21, reviewers-23)
+case(sequel-28, as-24)
+det(sequel-28, a-25)
+amod(sequel-28, remarkable-26)
+amod(sequel-28, unofficial-27)
+nmod:as(hailed-21, sequel-28)
+case(Link-32, to-29)
+punct(Link-32, ``-30)
+det(Link-32, A-31)
+nmod:to(sequel-28, Link-32)
+case(Past-35, to-33)
+det(Past-35, the-34)
+nmod:to(Link-32, Past-35)
+punct(Link-32, ''-36)
+punct(Legend-12, .-37)
+
+Sentence #26 (32 tokens):
+Other notable examples include "Legend of Zelda: Curse from the Outskirts", "Blaster Master: Pimp Your Ride", ""Newer" Super Mario Bros.
+[Text=Other CharacterOffsetBegin=3548 CharacterOffsetEnd=3553 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text=notable CharacterOffsetBegin=3554 CharacterOffsetEnd=3561 PartOfSpeech=JJ Lemma=notable NamedEntityTag=O]
+[Text=examples CharacterOffsetBegin=3562 CharacterOffsetEnd=3570 PartOfSpeech=NNS Lemma=example NamedEntityTag=O]
+[Text=include CharacterOffsetBegin=3571 CharacterOffsetEnd=3578 PartOfSpeech=VBP Lemma=include NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=3579 CharacterOffsetEnd=3580 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=Legend CharacterOffsetBegin=3580 CharacterOffsetEnd=3586 PartOfSpeech=NNP Lemma=Legend NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=3587 CharacterOffsetEnd=3589 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Zelda CharacterOffsetBegin=3590 CharacterOffsetEnd=3595 PartOfSpeech=NNP Lemma=Zelda NamedEntityTag=PERSON]
+[Text=: CharacterOffsetBegin=3595 CharacterOffsetEnd=3596 PartOfSpeech=: Lemma=: NamedEntityTag=O]
+[Text=Curse CharacterOffsetBegin=3597 CharacterOffsetEnd=3602 PartOfSpeech=NN Lemma=curse NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=3603 CharacterOffsetEnd=3607 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=3608 CharacterOffsetEnd=3611 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Outskirts CharacterOffsetBegin=3612 CharacterOffsetEnd=3621 PartOfSpeech=NNPS Lemma=Outskirts NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=3621 CharacterOffsetEnd=3622 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=3622 CharacterOffsetEnd=3623 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=3624 CharacterOffsetEnd=3625 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=Blaster CharacterOffsetBegin=3625 CharacterOffsetEnd=3632 PartOfSpeech=NNP Lemma=Blaster NamedEntityTag=O]
+[Text=Master CharacterOffsetBegin=3633 CharacterOffsetEnd=3639 PartOfSpeech=NNP Lemma=Master NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=3639 CharacterOffsetEnd=3640 PartOfSpeech=: Lemma=: NamedEntityTag=O]
+[Text=Pimp CharacterOffsetBegin=3641 CharacterOffsetEnd=3645 PartOfSpeech=NNP Lemma=Pimp NamedEntityTag=O]
+[Text=Your CharacterOffsetBegin=3646 CharacterOffsetEnd=3650 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O]
+[Text=Ride CharacterOffsetBegin=3651 CharacterOffsetEnd=3655 PartOfSpeech=NN Lemma=ride NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=3655 CharacterOffsetEnd=3656 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=3656 CharacterOffsetEnd=3657 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=3658 CharacterOffsetEnd=3659 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=3659 CharacterOffsetEnd=3660 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=Newer CharacterOffsetBegin=3660 CharacterOffsetEnd=3665 PartOfSpeech=NNP Lemma=Newer NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=3665 CharacterOffsetEnd=3666 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=Super CharacterOffsetBegin=3667 CharacterOffsetEnd=3672 PartOfSpeech=NNP Lemma=Super NamedEntityTag=O]
+[Text=Mario CharacterOffsetBegin=3673 CharacterOffsetEnd=3678 PartOfSpeech=NNP Lemma=Mario NamedEntityTag=O]
+[Text=Bros. CharacterOffsetBegin=3679 CharacterOffsetEnd=3683 PartOfSpeech=NNP Lemma=Bros. NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=3683 CharacterOffsetEnd=3684 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, include-4)
+amod(examples-3, Other-1)
+amod(examples-3, notable-2)
+nsubj(include-4, examples-3)
+punct(Legend-6, ``-5)
+dobj(include-4, Legend-6)
+case(Zelda-8, of-7)
+nmod:of(Legend-6, Zelda-8)
+punct(Legend-6, :-9)
+compound(Bros.-31, Curse-10)
+case(Outskirts-13, from-11)
+det(Outskirts-13, the-12)
+nmod:from(Curse-10, Outskirts-13)
+punct(Curse-10, ''-14)
+punct(Curse-10, ,-15)
+punct(Master-18, ``-16)
+compound(Master-18, Blaster-17)
+appos(Curse-10, Master-18)
+punct(Curse-10, :-19)
+compound(Ride-22, Pimp-20)
+nmod:poss(Ride-22, Your-21)
+dep(Curse-10, Ride-22)
+punct(Ride-22, ''-23)
+punct(Curse-10, ,-24)
+punct(Curse-10, ''-25)
+punct(Curse-10, ``-26)
+compound(Bros.-31, Newer-27)
+punct(Bros.-31, ''-28)
+compound(Bros.-31, Super-29)
+compound(Bros.-31, Mario-30)
+dep(Legend-6, Bros.-31)
+punct(include-4, .-32)
+
+Sentence #27 (16 tokens):
+Wii", and "Super Mario World - The Second Reality Project 2".
+[Text=Wii CharacterOffsetBegin=3685 CharacterOffsetEnd=3688 PartOfSpeech=NNP Lemma=Wii NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=3688 CharacterOffsetEnd=3689 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=3689 CharacterOffsetEnd=3690 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=3691 CharacterOffsetEnd=3694 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=3695 CharacterOffsetEnd=3696 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=Super CharacterOffsetBegin=3696 CharacterOffsetEnd=3701 PartOfSpeech=NNP Lemma=Super NamedEntityTag=O]
+[Text=Mario CharacterOffsetBegin=3702 CharacterOffsetEnd=3707 PartOfSpeech=NNP Lemma=Mario NamedEntityTag=O]
+[Text=World CharacterOffsetBegin=3708 CharacterOffsetEnd=3713 PartOfSpeech=NNP Lemma=World NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=3714 CharacterOffsetEnd=3715 PartOfSpeech=: Lemma=- NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=3716 CharacterOffsetEnd=3719 PartOfSpeech=NNP Lemma=The NamedEntityTag=O]
+[Text=Second CharacterOffsetBegin=3720 CharacterOffsetEnd=3726 PartOfSpeech=NNP Lemma=Second NamedEntityTag=O]
+[Text=Reality CharacterOffsetBegin=3727 CharacterOffsetEnd=3734 PartOfSpeech=NN Lemma=reality NamedEntityTag=O]
+[Text=Project CharacterOffsetBegin=3735 CharacterOffsetEnd=3742 PartOfSpeech=NN Lemma=project NamedEntityTag=O]
+[Text=2 CharacterOffsetBegin=3743 CharacterOffsetEnd=3744 PartOfSpeech=CD Lemma=2 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0]
+[Text='' CharacterOffsetBegin=3744 CharacterOffsetEnd=3745 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=3745 CharacterOffsetEnd=3746 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, World-8)
+compound(World-8, Wii-1)
+punct(Wii-1, ''-2)
+punct(Wii-1, ,-3)
+cc(Wii-1, and-4)
+punct(Wii-1, ``-5)
+compound(World-8, Super-6)
+compound(World-8, Mario-7)
+punct(World-8, --9)
+det(Project-13, The-10)
+compound(Project-13, Second-11)
+compound(Project-13, Reality-12)
+dep(World-8, Project-13)
+nummod(Project-13, 2-14)
+punct(World-8, ''-15)
+punct(World-8, .-16)
+
+Sentence #28 (60 tokens):
+Famous fan mods (for example, "Counter-Strike", "Day of Defeat", and "Pirates, Vikings and Knights II") may even be adopted by the game developer (in both mentioned cases, Valve Corporation) and made into an official addition to the existing game ("Half-Life").
+[Text=Famous CharacterOffsetBegin=3747 CharacterOffsetEnd=3753 PartOfSpeech=NNP Lemma=Famous NamedEntityTag=O]
+[Text=fan CharacterOffsetBegin=3754 CharacterOffsetEnd=3757 PartOfSpeech=NN Lemma=fan NamedEntityTag=O]
+[Text=mods CharacterOffsetBegin=3758 CharacterOffsetEnd=3762 PartOfSpeech=NNS Lemma=mod NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=3763 CharacterOffsetEnd=3764 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=3764 CharacterOffsetEnd=3767 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=example CharacterOffsetBegin=3768 CharacterOffsetEnd=3775 PartOfSpeech=NN Lemma=example NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=3775 CharacterOffsetEnd=3776 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=3777 CharacterOffsetEnd=3778 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=Counter-Strike CharacterOffsetBegin=3778 CharacterOffsetEnd=3792 PartOfSpeech=NNP Lemma=Counter-Strike NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=3792 CharacterOffsetEnd=3793 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=3793 CharacterOffsetEnd=3794 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=3795 CharacterOffsetEnd=3796 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=Day CharacterOffsetBegin=3796 CharacterOffsetEnd=3799 PartOfSpeech=NN Lemma=day NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=3800 CharacterOffsetEnd=3802 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Defeat CharacterOffsetBegin=3803 CharacterOffsetEnd=3809 PartOfSpeech=NN Lemma=defeat NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=3809 CharacterOffsetEnd=3810 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=3810 CharacterOffsetEnd=3811 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=3812 CharacterOffsetEnd=3815 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=3816 CharacterOffsetEnd=3817 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=Pirates CharacterOffsetBegin=3817 CharacterOffsetEnd=3824 PartOfSpeech=NNP Lemma=Pirates NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=3824 CharacterOffsetEnd=3825 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Vikings CharacterOffsetBegin=3826 CharacterOffsetEnd=3833 PartOfSpeech=NNPS Lemma=Vikings NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=3834 CharacterOffsetEnd=3837 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Knights CharacterOffsetBegin=3838 CharacterOffsetEnd=3845 PartOfSpeech=NNP Lemma=Knights NamedEntityTag=O]
+[Text=II CharacterOffsetBegin=3846 CharacterOffsetEnd=3848 PartOfSpeech=NNP Lemma=II NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=3848 CharacterOffsetEnd=3849 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=3849 CharacterOffsetEnd=3850 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=may CharacterOffsetBegin=3851 CharacterOffsetEnd=3854 PartOfSpeech=MD Lemma=may NamedEntityTag=O]
+[Text=even CharacterOffsetBegin=3855 CharacterOffsetEnd=3859 PartOfSpeech=RB Lemma=even NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=3860 CharacterOffsetEnd=3862 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=adopted CharacterOffsetBegin=3863 CharacterOffsetEnd=3870 PartOfSpeech=VBN Lemma=adopt NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=3871 CharacterOffsetEnd=3873 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=3874 CharacterOffsetEnd=3877 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=3878 CharacterOffsetEnd=3882 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=developer CharacterOffsetBegin=3883 CharacterOffsetEnd=3892 PartOfSpeech=NN Lemma=developer NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=3893 CharacterOffsetEnd=3894 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=3894 CharacterOffsetEnd=3896 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=both CharacterOffsetBegin=3897 CharacterOffsetEnd=3901 PartOfSpeech=DT Lemma=both NamedEntityTag=O]
+[Text=mentioned CharacterOffsetBegin=3902 CharacterOffsetEnd=3911 PartOfSpeech=VBN Lemma=mention NamedEntityTag=O]
+[Text=cases CharacterOffsetBegin=3912 CharacterOffsetEnd=3917 PartOfSpeech=NNS Lemma=case NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=3917 CharacterOffsetEnd=3918 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Valve CharacterOffsetBegin=3919 CharacterOffsetEnd=3924 PartOfSpeech=NNP Lemma=Valve NamedEntityTag=ORGANIZATION]
+[Text=Corporation CharacterOffsetBegin=3925 CharacterOffsetEnd=3936 PartOfSpeech=NNP Lemma=Corporation NamedEntityTag=ORGANIZATION]
+[Text=-RRB- CharacterOffsetBegin=3936 CharacterOffsetEnd=3937 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=3938 CharacterOffsetEnd=3941 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=made CharacterOffsetBegin=3942 CharacterOffsetEnd=3946 PartOfSpeech=VBN Lemma=make NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=3947 CharacterOffsetEnd=3951 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=3952 CharacterOffsetEnd=3954 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=official CharacterOffsetBegin=3955 CharacterOffsetEnd=3963 PartOfSpeech=JJ Lemma=official NamedEntityTag=O]
+[Text=addition CharacterOffsetBegin=3964 CharacterOffsetEnd=3972 PartOfSpeech=NN Lemma=addition NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=3973 CharacterOffsetEnd=3975 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=3976 CharacterOffsetEnd=3979 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=existing CharacterOffsetBegin=3980 CharacterOffsetEnd=3988 PartOfSpeech=VBG Lemma=exist NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=3989 CharacterOffsetEnd=3993 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=3994 CharacterOffsetEnd=3995 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=3995 CharacterOffsetEnd=3996 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=Half-Life CharacterOffsetBegin=3996 CharacterOffsetEnd=4005 PartOfSpeech=NNP Lemma=Half-Life NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=4005 CharacterOffsetEnd=4006 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=4006 CharacterOffsetEnd=4007 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=4007 CharacterOffsetEnd=4008 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, adopted-31)
+amod(mods-3, Famous-1)
+compound(mods-3, fan-2)
+nsubjpass(adopted-31, mods-3)
+punct(example-6, -LRB--4)
+case(example-6, for-5)
+nmod:for(mods-3, example-6)
+punct(example-6, ,-7)
+punct(example-6, ``-8)
+dep(example-6, Counter-Strike-9)
+punct(example-6, ''-10)
+punct(example-6, ,-11)
+punct(example-6, ``-12)
+dep(example-6, Day-13)
+case(Defeat-15, of-14)
+nmod:of(Day-13, Defeat-15)
+punct(example-6, ''-16)
+punct(example-6, ,-17)
+cc(example-6, and-18)
+punct(example-6, ``-19)
+conj:and(example-6, Pirates-20)
+punct(example-6, ,-21)
+conj:and(example-6, Vikings-22)
+cc(example-6, and-23)
+compound(II-25, Knights-24)
+conj:and(example-6, II-25)
+punct(example-6, ''-26)
+punct(example-6, -RRB--27)
+aux(adopted-31, may-28)
+advmod(adopted-31, even-29)
+auxpass(adopted-31, be-30)
+case(developer-35, by-32)
+det(developer-35, the-33)
+compound(developer-35, game-34)
+nmod:agent(adopted-31, developer-35)
+punct(cases-40, -LRB--36)
+case(cases-40, in-37)
+det(cases-40, both-38)
+amod(cases-40, mentioned-39)
+nmod:in(developer-35, cases-40)
+punct(cases-40, ,-41)
+compound(Corporation-43, Valve-42)
+appos(cases-40, Corporation-43)
+punct(cases-40, -RRB--44)
+cc(adopted-31, and-45)
+conj:and(adopted-31, made-46)
+case(addition-50, into-47)
+det(addition-50, an-48)
+amod(addition-50, official-49)
+nmod:into(made-46, addition-50)
+case(game-54, to-51)
+det(game-54, the-52)
+amod(game-54, existing-53)
+nmod:to(addition-50, game-54)
+punct(Half-Life-57, -LRB--55)
+punct(Half-Life-57, ``-56)
+dep(made-46, Half-Life-57)
+punct(Half-Life-57, ''-58)
+punct(Half-Life-57, -RRB--59)
+punct(adopted-31, .-60)
+
+Sentence #29 (3 tokens):
+Development challenges.
+[Text=Development CharacterOffsetBegin=4009 CharacterOffsetEnd=4020 PartOfSpeech=NNP Lemma=Development NamedEntityTag=O]
+[Text=challenges CharacterOffsetBegin=4021 CharacterOffsetEnd=4031 PartOfSpeech=NNS Lemma=challenge NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=4031 CharacterOffsetEnd=4032 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, challenges-2)
+compound(challenges-2, Development-1)
+punct(challenges-2, .-3)
+
+Sentence #30 (17 tokens):
+Despite the good intentions and dedication of fan-game-makers, development of many fangames ended in abandonment.
+[Text=Despite CharacterOffsetBegin=4033 CharacterOffsetEnd=4040 PartOfSpeech=IN Lemma=despite NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=4041 CharacterOffsetEnd=4044 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=good CharacterOffsetBegin=4045 CharacterOffsetEnd=4049 PartOfSpeech=JJ Lemma=good NamedEntityTag=O]
+[Text=intentions CharacterOffsetBegin=4050 CharacterOffsetEnd=4060 PartOfSpeech=NNS Lemma=intention NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=4061 CharacterOffsetEnd=4064 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=dedication CharacterOffsetBegin=4065 CharacterOffsetEnd=4075 PartOfSpeech=NN Lemma=dedication NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=4076 CharacterOffsetEnd=4078 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=fan-game-makers CharacterOffsetBegin=4079 CharacterOffsetEnd=4094 PartOfSpeech=NNS Lemma=fan-game-maker NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=4094 CharacterOffsetEnd=4095 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=development CharacterOffsetBegin=4096 CharacterOffsetEnd=4107 PartOfSpeech=NN Lemma=development NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=4108 CharacterOffsetEnd=4110 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=many CharacterOffsetBegin=4111 CharacterOffsetEnd=4115 PartOfSpeech=JJ Lemma=many NamedEntityTag=O]
+[Text=fangames CharacterOffsetBegin=4116 CharacterOffsetEnd=4124 PartOfSpeech=NNS Lemma=fangame NamedEntityTag=O]
+[Text=ended CharacterOffsetBegin=4125 CharacterOffsetEnd=4130 PartOfSpeech=VBN Lemma=end NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=4131 CharacterOffsetEnd=4133 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=abandonment CharacterOffsetBegin=4134 CharacterOffsetEnd=4145 PartOfSpeech=NN Lemma=abandonment NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=4145 CharacterOffsetEnd=4146 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, intentions-4)
+case(intentions-4, Despite-1)
+det(intentions-4, the-2)
+amod(intentions-4, good-3)
+cc(intentions-4, and-5)
+conj:and(intentions-4, dedication-6)
+case(fan-game-makers-8, of-7)
+nmod:of(dedication-6, fan-game-makers-8)
+punct(fan-game-makers-8, ,-9)
+appos(fan-game-makers-8, development-10)
+case(fangames-13, of-11)
+amod(fangames-13, many-12)
+nmod:of(development-10, fangames-13)
+acl(fangames-13, ended-14)
+case(abandonment-16, in-15)
+nmod:in(ended-14, abandonment-16)
+punct(intentions-4, .-17)
+
+Sentence #31 (36 tokens):
+Notwithstanding the legal issues faced by these fans-turned-developers ("see Legal issues"), numerous development challenges are faced by individuals when attempting to develop any sort of game from start to finish.
+[Text=Notwithstanding CharacterOffsetBegin=4147 CharacterOffsetEnd=4162 PartOfSpeech=IN Lemma=notwithstanding NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=4163 CharacterOffsetEnd=4166 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=legal CharacterOffsetBegin=4167 CharacterOffsetEnd=4172 PartOfSpeech=JJ Lemma=legal NamedEntityTag=O]
+[Text=issues CharacterOffsetBegin=4173 CharacterOffsetEnd=4179 PartOfSpeech=NNS Lemma=issue NamedEntityTag=O]
+[Text=faced CharacterOffsetBegin=4180 CharacterOffsetEnd=4185 PartOfSpeech=VBN Lemma=face NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=4186 CharacterOffsetEnd=4188 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=these CharacterOffsetBegin=4189 CharacterOffsetEnd=4194 PartOfSpeech=DT Lemma=these NamedEntityTag=O]
+[Text=fans-turned-developers CharacterOffsetBegin=4195 CharacterOffsetEnd=4217 PartOfSpeech=NNS Lemma=fans-turned-developer NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=4218 CharacterOffsetEnd=4219 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=4219 CharacterOffsetEnd=4220 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=see CharacterOffsetBegin=4220 CharacterOffsetEnd=4223 PartOfSpeech=VB Lemma=see NamedEntityTag=O]
+[Text=Legal CharacterOffsetBegin=4224 CharacterOffsetEnd=4229 PartOfSpeech=JJ Lemma=legal NamedEntityTag=O]
+[Text=issues CharacterOffsetBegin=4230 CharacterOffsetEnd=4236 PartOfSpeech=NNS Lemma=issue NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=4236 CharacterOffsetEnd=4237 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=4237 CharacterOffsetEnd=4238 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=4238 CharacterOffsetEnd=4239 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=numerous CharacterOffsetBegin=4240 CharacterOffsetEnd=4248 PartOfSpeech=JJ Lemma=numerous NamedEntityTag=O]
+[Text=development CharacterOffsetBegin=4249 CharacterOffsetEnd=4260 PartOfSpeech=NN Lemma=development NamedEntityTag=O]
+[Text=challenges CharacterOffsetBegin=4261 CharacterOffsetEnd=4271 PartOfSpeech=NNS Lemma=challenge NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=4272 CharacterOffsetEnd=4275 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=faced CharacterOffsetBegin=4276 CharacterOffsetEnd=4281 PartOfSpeech=VBN Lemma=face NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=4282 CharacterOffsetEnd=4284 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=individuals CharacterOffsetBegin=4285 CharacterOffsetEnd=4296 PartOfSpeech=NNS Lemma=individual NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=4297 CharacterOffsetEnd=4301 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=attempting CharacterOffsetBegin=4302 CharacterOffsetEnd=4312 PartOfSpeech=VBG Lemma=attempt NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=4313 CharacterOffsetEnd=4315 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=develop CharacterOffsetBegin=4316 CharacterOffsetEnd=4323 PartOfSpeech=VB Lemma=develop NamedEntityTag=O]
+[Text=any CharacterOffsetBegin=4324 CharacterOffsetEnd=4327 PartOfSpeech=DT Lemma=any NamedEntityTag=O]
+[Text=sort CharacterOffsetBegin=4328 CharacterOffsetEnd=4332 PartOfSpeech=NN Lemma=sort NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=4333 CharacterOffsetEnd=4335 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=4336 CharacterOffsetEnd=4340 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=4341 CharacterOffsetEnd=4345 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=start CharacterOffsetBegin=4346 CharacterOffsetEnd=4351 PartOfSpeech=NN Lemma=start NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=4352 CharacterOffsetEnd=4354 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=finish CharacterOffsetBegin=4355 CharacterOffsetEnd=4361 PartOfSpeech=VB Lemma=finish NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=4361 CharacterOffsetEnd=4362 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, Notwithstanding-1)
+det(issues-4, the-2)
+amod(issues-4, legal-3)
+dep(Notwithstanding-1, issues-4)
+acl(issues-4, faced-5)
+case(fans-turned-developers-8, by-6)
+det(fans-turned-developers-8, these-7)
+nmod:by(faced-5, fans-turned-developers-8)
+punct(see-11, -LRB--9)
+punct(see-11, ``-10)
+dep(issues-4, see-11)
+amod(issues-13, Legal-12)
+dobj(see-11, issues-13)
+punct(see-11, ''-14)
+punct(see-11, -RRB--15)
+punct(issues-4, ,-16)
+amod(challenges-19, numerous-17)
+compound(challenges-19, development-18)
+nsubjpass(faced-21, challenges-19)
+auxpass(faced-21, are-20)
+dep(issues-4, faced-21)
+case(individuals-23, by-22)
+nmod:agent(faced-21, individuals-23)
+advmod(attempting-25, when-24)
+advcl(faced-21, attempting-25)
+mark(develop-27, to-26)
+xcomp(attempting-25, develop-27)
+det(sort-29, any-28)
+dobj(develop-27, sort-29)
+case(game-31, of-30)
+nmod:of(sort-29, game-31)
+case(start-33, from-32)
+nmod:from(develop-27, start-33)
+mark(finish-35, to-34)
+acl(start-33, finish-35)
+punct(Notwithstanding-1, .-36)
+
+Sentence #32 (26 tokens):
+These failures are often related to the lack of development experience, time, resources, money, interest, skillsets, and other factors.
+[Text=These CharacterOffsetBegin=4363 CharacterOffsetEnd=4368 PartOfSpeech=DT Lemma=these NamedEntityTag=O]
+[Text=failures CharacterOffsetBegin=4369 CharacterOffsetEnd=4377 PartOfSpeech=NNS Lemma=failure NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=4378 CharacterOffsetEnd=4381 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=often CharacterOffsetBegin=4382 CharacterOffsetEnd=4387 PartOfSpeech=RB Lemma=often NamedEntityTag=O]
+[Text=related CharacterOffsetBegin=4388 CharacterOffsetEnd=4395 PartOfSpeech=JJ Lemma=related NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=4396 CharacterOffsetEnd=4398 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=4399 CharacterOffsetEnd=4402 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=lack CharacterOffsetBegin=4403 CharacterOffsetEnd=4407 PartOfSpeech=NN Lemma=lack NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=4408 CharacterOffsetEnd=4410 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=development CharacterOffsetBegin=4411 CharacterOffsetEnd=4422 PartOfSpeech=NN Lemma=development NamedEntityTag=O]
+[Text=experience CharacterOffsetBegin=4423 CharacterOffsetEnd=4433 PartOfSpeech=NN Lemma=experience NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=4433 CharacterOffsetEnd=4434 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=time CharacterOffsetBegin=4435 CharacterOffsetEnd=4439 PartOfSpeech=NN Lemma=time NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=4439 CharacterOffsetEnd=4440 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=resources CharacterOffsetBegin=4441 CharacterOffsetEnd=4450 PartOfSpeech=NNS Lemma=resource NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=4450 CharacterOffsetEnd=4451 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=money CharacterOffsetBegin=4452 CharacterOffsetEnd=4457 PartOfSpeech=NN Lemma=money NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=4457 CharacterOffsetEnd=4458 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=interest CharacterOffsetBegin=4459 CharacterOffsetEnd=4467 PartOfSpeech=NN Lemma=interest NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=4467 CharacterOffsetEnd=4468 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=skillsets CharacterOffsetBegin=4469 CharacterOffsetEnd=4478 PartOfSpeech=NNS Lemma=skillset NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=4478 CharacterOffsetEnd=4479 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=4480 CharacterOffsetEnd=4483 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=other CharacterOffsetBegin=4484 CharacterOffsetEnd=4489 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text=factors CharacterOffsetBegin=4490 CharacterOffsetEnd=4497 PartOfSpeech=NNS Lemma=factor NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=4497 CharacterOffsetEnd=4498 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, related-5)
+det(failures-2, These-1)
+nsubj(related-5, failures-2)
+cop(related-5, are-3)
+advmod(related-5, often-4)
+case(lack-8, to-6)
+det(lack-8, the-7)
+nmod:to(related-5, lack-8)
+case(experience-11, of-9)
+compound(experience-11, development-10)
+nmod:of(lack-8, experience-11)
+punct(related-5, ,-12)
+appos(related-5, time-13)
+punct(time-13, ,-14)
+root(,-14, resources-15)
+punct(resources-15, ,-16)
+root(,-16, money-17)
+punct(money-17, ,-18)
+root(,-18, interest-19)
+punct(interest-19, ,-20)
+conj:and(interest-19, skillsets-21)
+punct(interest-19, ,-22)
+cc(interest-19, and-23)
+amod(factors-25, other-24)
+conj:and(interest-19, factors-25)
+punct(interest-19, .-26)
+
+Sentence #33 (15 tokens):
+It is unclear what proportion of fangames attempted are never successfully created and released.
+[Text=It CharacterOffsetBegin=4499 CharacterOffsetEnd=4501 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=4502 CharacterOffsetEnd=4504 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=unclear CharacterOffsetBegin=4505 CharacterOffsetEnd=4512 PartOfSpeech=JJ Lemma=unclear NamedEntityTag=O]
+[Text=what CharacterOffsetBegin=4513 CharacterOffsetEnd=4517 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=proportion CharacterOffsetBegin=4518 CharacterOffsetEnd=4528 PartOfSpeech=NN Lemma=proportion NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=4529 CharacterOffsetEnd=4531 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=fangames CharacterOffsetBegin=4532 CharacterOffsetEnd=4540 PartOfSpeech=NNS Lemma=fangame NamedEntityTag=O]
+[Text=attempted CharacterOffsetBegin=4541 CharacterOffsetEnd=4550 PartOfSpeech=VBN Lemma=attempt NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=4551 CharacterOffsetEnd=4554 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=never CharacterOffsetBegin=4555 CharacterOffsetEnd=4560 PartOfSpeech=RB Lemma=never NamedEntityTag=O]
+[Text=successfully CharacterOffsetBegin=4561 CharacterOffsetEnd=4573 PartOfSpeech=RB Lemma=successfully NamedEntityTag=O]
+[Text=created CharacterOffsetBegin=4574 CharacterOffsetEnd=4581 PartOfSpeech=VBN Lemma=create NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=4582 CharacterOffsetEnd=4585 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=released CharacterOffsetBegin=4586 CharacterOffsetEnd=4594 PartOfSpeech=VBN Lemma=release NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=4594 CharacterOffsetEnd=4595 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, unclear-3)
+nsubj(unclear-3, It-1)
+cop(unclear-3, is-2)
+det(proportion-5, what-4)
+nsubjpass(created-12, proportion-5)
+case(fangames-7, of-6)
+nmod:of(proportion-5, fangames-7)
+acl(fangames-7, attempted-8)
+auxpass(created-12, are-9)
+neg(created-12, never-10)
+advmod(created-12, successfully-11)
+ccomp(unclear-3, created-12)
+cc(created-12, and-13)
+conj:and(created-12, released-14)
+punct(unclear-3, .-15)
+
+Sentence #34 (27 tokens):
+Excluding mods (which are technically not true fangames), the vast majority of fangames that have been successfully completed and published are adventure games.
+[Text=Excluding CharacterOffsetBegin=4596 CharacterOffsetEnd=4605 PartOfSpeech=VBG Lemma=exclude NamedEntityTag=O]
+[Text=mods CharacterOffsetBegin=4606 CharacterOffsetEnd=4610 PartOfSpeech=NNS Lemma=mod NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=4611 CharacterOffsetEnd=4612 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=4612 CharacterOffsetEnd=4617 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=4618 CharacterOffsetEnd=4621 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=technically CharacterOffsetBegin=4622 CharacterOffsetEnd=4633 PartOfSpeech=RB Lemma=technically NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=4634 CharacterOffsetEnd=4637 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=true CharacterOffsetBegin=4638 CharacterOffsetEnd=4642 PartOfSpeech=JJ Lemma=true NamedEntityTag=O]
+[Text=fangames CharacterOffsetBegin=4643 CharacterOffsetEnd=4651 PartOfSpeech=NNS Lemma=fangame NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=4651 CharacterOffsetEnd=4652 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=4652 CharacterOffsetEnd=4653 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=4654 CharacterOffsetEnd=4657 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=vast CharacterOffsetBegin=4658 CharacterOffsetEnd=4662 PartOfSpeech=JJ Lemma=vast NamedEntityTag=O]
+[Text=majority CharacterOffsetBegin=4663 CharacterOffsetEnd=4671 PartOfSpeech=NN Lemma=majority NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=4672 CharacterOffsetEnd=4674 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=fangames CharacterOffsetBegin=4675 CharacterOffsetEnd=4683 PartOfSpeech=NNS Lemma=fangame NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=4684 CharacterOffsetEnd=4688 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=4689 CharacterOffsetEnd=4693 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=4694 CharacterOffsetEnd=4698 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=successfully CharacterOffsetBegin=4699 CharacterOffsetEnd=4711 PartOfSpeech=RB Lemma=successfully NamedEntityTag=O]
+[Text=completed CharacterOffsetBegin=4712 CharacterOffsetEnd=4721 PartOfSpeech=VBN Lemma=complete NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=4722 CharacterOffsetEnd=4725 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=published CharacterOffsetBegin=4726 CharacterOffsetEnd=4735 PartOfSpeech=VBN Lemma=publish NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=4736 CharacterOffsetEnd=4739 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=adventure CharacterOffsetBegin=4740 CharacterOffsetEnd=4749 PartOfSpeech=NN Lemma=adventure NamedEntityTag=O]
+[Text=games CharacterOffsetBegin=4750 CharacterOffsetEnd=4755 PartOfSpeech=NNS Lemma=game NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=4755 CharacterOffsetEnd=4756 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, games-26)
+dep(games-26, Excluding-1)
+dep(games-26, mods-2)
+punct(true-8, -LRB--3)
+nsubj(true-8, which-4)
+cop(true-8, are-5)
+advmod(true-8, technically-6)
+neg(true-8, not-7)
+dep(mods-2, true-8)
+dobj(true-8, fangames-9)
+punct(true-8, -RRB--10)
+punct(mods-2, ,-11)
+det(majority-14, the-12)
+amod(majority-14, vast-13)
+nsubj(games-26, majority-14)
+case(fangames-16, of-15)
+nmod:of(majority-14, fangames-16)
+nsubjpass(completed-21, that-17)
+aux(completed-21, have-18)
+auxpass(completed-21, been-19)
+advmod(completed-21, successfully-20)
+acl:relcl(fangames-16, completed-21)
+cc(completed-21, and-22)
+conj:and(completed-21, published-23)
+cop(games-26, are-24)
+compound(games-26, adventure-25)
+punct(games-26, .-27)
+
+Sentence #35 (28 tokens):
+This likely reflects the longer history of this genre related to other genres and the availability of many free third-party tools or engines to make these games.
+[Text=This CharacterOffsetBegin=4757 CharacterOffsetEnd=4761 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=likely CharacterOffsetBegin=4762 CharacterOffsetEnd=4768 PartOfSpeech=JJ Lemma=likely NamedEntityTag=O]
+[Text=reflects CharacterOffsetBegin=4769 CharacterOffsetEnd=4777 PartOfSpeech=VBZ Lemma=reflect NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=4778 CharacterOffsetEnd=4781 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=longer CharacterOffsetBegin=4782 CharacterOffsetEnd=4788 PartOfSpeech=RBR Lemma=longer NamedEntityTag=O]
+[Text=history CharacterOffsetBegin=4789 CharacterOffsetEnd=4796 PartOfSpeech=NN Lemma=history NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=4797 CharacterOffsetEnd=4799 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=4800 CharacterOffsetEnd=4804 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=genre CharacterOffsetBegin=4805 CharacterOffsetEnd=4810 PartOfSpeech=NN Lemma=genre NamedEntityTag=O]
+[Text=related CharacterOffsetBegin=4811 CharacterOffsetEnd=4818 PartOfSpeech=JJ Lemma=related NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=4819 CharacterOffsetEnd=4821 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=other CharacterOffsetBegin=4822 CharacterOffsetEnd=4827 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text=genres CharacterOffsetBegin=4828 CharacterOffsetEnd=4834 PartOfSpeech=NNS Lemma=genre NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=4835 CharacterOffsetEnd=4838 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=4839 CharacterOffsetEnd=4842 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=availability CharacterOffsetBegin=4843 CharacterOffsetEnd=4855 PartOfSpeech=NN Lemma=availability NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=4856 CharacterOffsetEnd=4858 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=many CharacterOffsetBegin=4859 CharacterOffsetEnd=4863 PartOfSpeech=JJ Lemma=many NamedEntityTag=O]
+[Text=free CharacterOffsetBegin=4864 CharacterOffsetEnd=4868 PartOfSpeech=JJ Lemma=free NamedEntityTag=O]
+[Text=third-party CharacterOffsetBegin=4869 CharacterOffsetEnd=4880 PartOfSpeech=JJ Lemma=third-party NamedEntityTag=O]
+[Text=tools CharacterOffsetBegin=4881 CharacterOffsetEnd=4886 PartOfSpeech=NNS Lemma=tool NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=4887 CharacterOffsetEnd=4889 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=engines CharacterOffsetBegin=4890 CharacterOffsetEnd=4897 PartOfSpeech=NNS Lemma=engine NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=4898 CharacterOffsetEnd=4900 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=make CharacterOffsetBegin=4901 CharacterOffsetEnd=4905 PartOfSpeech=VB Lemma=make NamedEntityTag=O]
+[Text=these CharacterOffsetBegin=4906 CharacterOffsetEnd=4911 PartOfSpeech=DT Lemma=these NamedEntityTag=O]
+[Text=games CharacterOffsetBegin=4912 CharacterOffsetEnd=4917 PartOfSpeech=NNS Lemma=game NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=4917 CharacterOffsetEnd=4918 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, reflects-3)
+det(likely-2, This-1)
+nsubj(reflects-3, likely-2)
+det(history-6, the-4)
+advmod(history-6, longer-5)
+dobj(reflects-3, history-6)
+case(genre-9, of-7)
+det(genre-9, this-8)
+nmod:of(history-6, genre-9)
+amod(genre-9, related-10)
+case(genres-13, to-11)
+amod(genres-13, other-12)
+nmod:to(related-10, genres-13)
+cc(genres-13, and-14)
+det(availability-16, the-15)
+conj:and(genres-13, availability-16)
+case(tools-21, of-17)
+amod(tools-21, many-18)
+amod(tools-21, free-19)
+amod(tools-21, third-party-20)
+nmod:of(availability-16, tools-21)
+cc(tools-21, or-22)
+conj:or(tools-21, engines-23)
+mark(make-25, to-24)
+acl(availability-16, make-25)
+det(games-27, these-26)
+dobj(make-25, games-27)
+punct(reflects-3, .-28)
+
+Sentence #36 (29 tokens):
+Most importantly, there must an unwavering passion by a core group of fans which extends over years to overcome any obstacle encountered during the project's development.
+[Text=Most CharacterOffsetBegin=4919 CharacterOffsetEnd=4923 PartOfSpeech=RBS Lemma=most NamedEntityTag=O]
+[Text=importantly CharacterOffsetBegin=4924 CharacterOffsetEnd=4935 PartOfSpeech=RB Lemma=importantly NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=4935 CharacterOffsetEnd=4936 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=there CharacterOffsetBegin=4937 CharacterOffsetEnd=4942 PartOfSpeech=EX Lemma=there NamedEntityTag=O]
+[Text=must CharacterOffsetBegin=4943 CharacterOffsetEnd=4947 PartOfSpeech=MD Lemma=must NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=4948 CharacterOffsetEnd=4950 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=unwavering CharacterOffsetBegin=4951 CharacterOffsetEnd=4961 PartOfSpeech=JJ Lemma=unwavering NamedEntityTag=O]
+[Text=passion CharacterOffsetBegin=4962 CharacterOffsetEnd=4969 PartOfSpeech=NN Lemma=passion NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=4970 CharacterOffsetEnd=4972 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=4973 CharacterOffsetEnd=4974 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=core CharacterOffsetBegin=4975 CharacterOffsetEnd=4979 PartOfSpeech=NN Lemma=core NamedEntityTag=O]
+[Text=group CharacterOffsetBegin=4980 CharacterOffsetEnd=4985 PartOfSpeech=NN Lemma=group NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=4986 CharacterOffsetEnd=4988 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=fans CharacterOffsetBegin=4989 CharacterOffsetEnd=4993 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=4994 CharacterOffsetEnd=4999 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=extends CharacterOffsetBegin=5000 CharacterOffsetEnd=5007 PartOfSpeech=VBZ Lemma=extend NamedEntityTag=O]
+[Text=over CharacterOffsetBegin=5008 CharacterOffsetEnd=5012 PartOfSpeech=IN Lemma=over NamedEntityTag=O]
+[Text=years CharacterOffsetBegin=5013 CharacterOffsetEnd=5018 PartOfSpeech=NNS Lemma=year NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=5019 CharacterOffsetEnd=5021 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=overcome CharacterOffsetBegin=5022 CharacterOffsetEnd=5030 PartOfSpeech=VB Lemma=overcome NamedEntityTag=O]
+[Text=any CharacterOffsetBegin=5031 CharacterOffsetEnd=5034 PartOfSpeech=DT Lemma=any NamedEntityTag=O]
+[Text=obstacle CharacterOffsetBegin=5035 CharacterOffsetEnd=5043 PartOfSpeech=NN Lemma=obstacle NamedEntityTag=O]
+[Text=encountered CharacterOffsetBegin=5044 CharacterOffsetEnd=5055 PartOfSpeech=VBN Lemma=encounter NamedEntityTag=O]
+[Text=during CharacterOffsetBegin=5056 CharacterOffsetEnd=5062 PartOfSpeech=IN Lemma=during NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=5063 CharacterOffsetEnd=5066 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=project CharacterOffsetBegin=5067 CharacterOffsetEnd=5074 PartOfSpeech=NN Lemma=project NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=5074 CharacterOffsetEnd=5076 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=development CharacterOffsetBegin=5077 CharacterOffsetEnd=5088 PartOfSpeech=NN Lemma=development NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=5088 CharacterOffsetEnd=5089 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, must-5)
+advmod(importantly-2, Most-1)
+advmod(must-5, importantly-2)
+punct(must-5, ,-3)
+expl(must-5, there-4)
+det(passion-8, an-6)
+amod(passion-8, unwavering-7)
+dobj(must-5, passion-8)
+case(group-12, by-9)
+det(group-12, a-10)
+compound(group-12, core-11)
+nmod:by(passion-8, group-12)
+case(fans-14, of-13)
+nmod:of(group-12, fans-14)
+nsubj(extends-16, which-15)
+acl:relcl(group-12, extends-16)
+case(years-18, over-17)
+nmod:over(extends-16, years-18)
+mark(overcome-20, to-19)
+xcomp(extends-16, overcome-20)
+det(obstacle-22, any-21)
+dobj(overcome-20, obstacle-22)
+acl(obstacle-22, encountered-23)
+case(development-28, during-24)
+det(project-26, the-25)
+nmod:poss(development-28, project-26)
+case(project-26, 's-27)
+nmod:during(encountered-23, development-28)
+punct(must-5, .-29)
+
+Sentence #37 (48 tokens):
+This sacrifice is best described by Britney Brimhall of AGD Interactive, regarding their 2001 released a remake of King's Quest I, "I think a lot of people don’t realize when they initiate a game project just how much sacrifice it will require.
+[Text=This CharacterOffsetBegin=5090 CharacterOffsetEnd=5094 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=sacrifice CharacterOffsetBegin=5095 CharacterOffsetEnd=5104 PartOfSpeech=NN Lemma=sacrifice NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=5105 CharacterOffsetEnd=5107 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=best CharacterOffsetBegin=5108 CharacterOffsetEnd=5112 PartOfSpeech=JJS Lemma=best NamedEntityTag=O]
+[Text=described CharacterOffsetBegin=5113 CharacterOffsetEnd=5122 PartOfSpeech=VBN Lemma=describe NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=5123 CharacterOffsetEnd=5125 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=Britney CharacterOffsetBegin=5126 CharacterOffsetEnd=5133 PartOfSpeech=NNP Lemma=Britney NamedEntityTag=PERSON]
+[Text=Brimhall CharacterOffsetBegin=5134 CharacterOffsetEnd=5142 PartOfSpeech=NNP Lemma=Brimhall NamedEntityTag=PERSON]
+[Text=of CharacterOffsetBegin=5143 CharacterOffsetEnd=5145 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=AGD CharacterOffsetBegin=5146 CharacterOffsetEnd=5149 PartOfSpeech=NNP Lemma=AGD NamedEntityTag=O]
+[Text=Interactive CharacterOffsetBegin=5150 CharacterOffsetEnd=5161 PartOfSpeech=NNP Lemma=Interactive NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=5161 CharacterOffsetEnd=5162 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=regarding CharacterOffsetBegin=5163 CharacterOffsetEnd=5172 PartOfSpeech=VBG Lemma=regard NamedEntityTag=O]
+[Text=their CharacterOffsetBegin=5173 CharacterOffsetEnd=5178 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O]
+[Text=2001 CharacterOffsetBegin=5179 CharacterOffsetEnd=5183 PartOfSpeech=CD Lemma=2001 NamedEntityTag=DATE NormalizedNamedEntityTag=2001]
+[Text=released CharacterOffsetBegin=5184 CharacterOffsetEnd=5192 PartOfSpeech=VBD Lemma=release NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=5193 CharacterOffsetEnd=5194 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=remake CharacterOffsetBegin=5195 CharacterOffsetEnd=5201 PartOfSpeech=NN Lemma=remake NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=5202 CharacterOffsetEnd=5204 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=5205 CharacterOffsetEnd=5209 PartOfSpeech=NNP Lemma=King NamedEntityTag=ORGANIZATION]
+[Text='s CharacterOffsetBegin=5209 CharacterOffsetEnd=5211 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=Quest CharacterOffsetBegin=5212 CharacterOffsetEnd=5217 PartOfSpeech=NNP Lemma=Quest NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=5218 CharacterOffsetEnd=5219 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=5219 CharacterOffsetEnd=5220 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=5221 CharacterOffsetEnd=5222 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=5222 CharacterOffsetEnd=5223 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=think CharacterOffsetBegin=5224 CharacterOffsetEnd=5229 PartOfSpeech=VBP Lemma=think NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=5230 CharacterOffsetEnd=5231 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=lot CharacterOffsetBegin=5232 CharacterOffsetEnd=5235 PartOfSpeech=NN Lemma=lot NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=5236 CharacterOffsetEnd=5238 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=people CharacterOffsetBegin=5239 CharacterOffsetEnd=5245 PartOfSpeech=NNS Lemma=people NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=5246 CharacterOffsetEnd=5248 PartOfSpeech=VBP Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=5248 CharacterOffsetEnd=5251 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=realize CharacterOffsetBegin=5252 CharacterOffsetEnd=5259 PartOfSpeech=VB Lemma=realize NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=5260 CharacterOffsetEnd=5264 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=5265 CharacterOffsetEnd=5269 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=initiate CharacterOffsetBegin=5270 CharacterOffsetEnd=5278 PartOfSpeech=VBP Lemma=initiate NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=5279 CharacterOffsetEnd=5280 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=5281 CharacterOffsetEnd=5285 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=project CharacterOffsetBegin=5286 CharacterOffsetEnd=5293 PartOfSpeech=NN Lemma=project NamedEntityTag=O]
+[Text=just CharacterOffsetBegin=5294 CharacterOffsetEnd=5298 PartOfSpeech=RB Lemma=just NamedEntityTag=O]
+[Text=how CharacterOffsetBegin=5299 CharacterOffsetEnd=5302 PartOfSpeech=WRB Lemma=how NamedEntityTag=O]
+[Text=much CharacterOffsetBegin=5303 CharacterOffsetEnd=5307 PartOfSpeech=JJ Lemma=much NamedEntityTag=O]
+[Text=sacrifice CharacterOffsetBegin=5308 CharacterOffsetEnd=5317 PartOfSpeech=NN Lemma=sacrifice NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=5318 CharacterOffsetEnd=5320 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=5321 CharacterOffsetEnd=5325 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=require CharacterOffsetBegin=5326 CharacterOffsetEnd=5333 PartOfSpeech=VB Lemma=require NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=5333 CharacterOffsetEnd=5334 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, described-5)
+det(sacrifice-2, This-1)
+nsubjpass(described-5, sacrifice-2)
+auxpass(described-5, is-3)
+advmod(described-5, best-4)
+case(Brimhall-8, by-6)
+compound(Brimhall-8, Britney-7)
+nmod:agent(described-5, Brimhall-8)
+case(Interactive-11, of-9)
+compound(Interactive-11, AGD-10)
+nmod:of(Brimhall-8, Interactive-11)
+punct(described-5, ,-12)
+case(2001-15, regarding-13)
+nmod:poss(2001-15, their-14)
+nmod:regarding(described-5, 2001-15)
+acl(2001-15, released-16)
+det(remake-18, a-17)
+dobj(released-16, remake-18)
+case(Quest-22, of-19)
+nmod:poss(Quest-22, King-20)
+case(King-20, 's-21)
+nmod:of(think-27, Quest-22)
+nsubj(think-27, I-23)
+punct(think-27, ,-24)
+punct(think-27, ``-25)
+nsubj(think-27, I-26)
+acl:relcl(remake-18, think-27)
+det(lot-29, a-28)
+nsubj(realize-34, lot-29)
+case(people-31, of-30)
+nmod:of(lot-29, people-31)
+aux(realize-34, do-32)
+neg(realize-34, n't-33)
+ccomp(think-27, realize-34)
+advmod(initiate-37, when-35)
+nsubj(initiate-37, they-36)
+advcl(realize-34, initiate-37)
+det(project-40, a-38)
+compound(project-40, game-39)
+dobj(initiate-37, project-40)
+advmod(much-43, just-41)
+advmod(much-43, how-42)
+amod(sacrifice-44, much-43)
+dobj(require-47, sacrifice-44)
+nsubj(require-47, it-45)
+aux(require-47, will-46)
+ccomp(initiate-37, require-47)
+punct(described-5, .-48)
+
+Sentence #38 (43 tokens):
+Whereas most people enjoy writing a story or making a piece of artwork, most would not enjoy writing hundreds of pages of dialogue or drawing over one hundred pictures when they could be socializing with friends or playing video games."
+[Text=Whereas CharacterOffsetBegin=5335 CharacterOffsetEnd=5342 PartOfSpeech=IN Lemma=whereas NamedEntityTag=O]
+[Text=most CharacterOffsetBegin=5343 CharacterOffsetEnd=5347 PartOfSpeech=JJS Lemma=most NamedEntityTag=O]
+[Text=people CharacterOffsetBegin=5348 CharacterOffsetEnd=5354 PartOfSpeech=NNS Lemma=people NamedEntityTag=O]
+[Text=enjoy CharacterOffsetBegin=5355 CharacterOffsetEnd=5360 PartOfSpeech=VBP Lemma=enjoy NamedEntityTag=O]
+[Text=writing CharacterOffsetBegin=5361 CharacterOffsetEnd=5368 PartOfSpeech=VBG Lemma=write NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=5369 CharacterOffsetEnd=5370 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=story CharacterOffsetBegin=5371 CharacterOffsetEnd=5376 PartOfSpeech=NN Lemma=story NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=5377 CharacterOffsetEnd=5379 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=making CharacterOffsetBegin=5380 CharacterOffsetEnd=5386 PartOfSpeech=VBG Lemma=make NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=5387 CharacterOffsetEnd=5388 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=piece CharacterOffsetBegin=5389 CharacterOffsetEnd=5394 PartOfSpeech=NN Lemma=piece NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=5395 CharacterOffsetEnd=5397 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=artwork CharacterOffsetBegin=5398 CharacterOffsetEnd=5405 PartOfSpeech=NN Lemma=artwork NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=5405 CharacterOffsetEnd=5406 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=most CharacterOffsetBegin=5407 CharacterOffsetEnd=5411 PartOfSpeech=JJS Lemma=most NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=5412 CharacterOffsetEnd=5417 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=5418 CharacterOffsetEnd=5421 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=enjoy CharacterOffsetBegin=5422 CharacterOffsetEnd=5427 PartOfSpeech=VB Lemma=enjoy NamedEntityTag=O]
+[Text=writing CharacterOffsetBegin=5428 CharacterOffsetEnd=5435 PartOfSpeech=VBG Lemma=write NamedEntityTag=O]
+[Text=hundreds CharacterOffsetBegin=5436 CharacterOffsetEnd=5444 PartOfSpeech=NNS Lemma=hundred NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=5445 CharacterOffsetEnd=5447 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=pages CharacterOffsetBegin=5448 CharacterOffsetEnd=5453 PartOfSpeech=NNS Lemma=page NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=5454 CharacterOffsetEnd=5456 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=dialogue CharacterOffsetBegin=5457 CharacterOffsetEnd=5465 PartOfSpeech=NN Lemma=dialogue NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=5466 CharacterOffsetEnd=5468 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=drawing CharacterOffsetBegin=5469 CharacterOffsetEnd=5476 PartOfSpeech=VBG Lemma=draw NamedEntityTag=O]
+[Text=over CharacterOffsetBegin=5477 CharacterOffsetEnd=5481 PartOfSpeech=IN Lemma=over NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=5482 CharacterOffsetEnd=5485 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=>100.0]
+[Text=hundred CharacterOffsetBegin=5486 CharacterOffsetEnd=5493 PartOfSpeech=CD Lemma=hundred NamedEntityTag=NUMBER NormalizedNamedEntityTag=>100.0]
+[Text=pictures CharacterOffsetBegin=5494 CharacterOffsetEnd=5502 PartOfSpeech=NNS Lemma=picture NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=5503 CharacterOffsetEnd=5507 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=5508 CharacterOffsetEnd=5512 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=5513 CharacterOffsetEnd=5518 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=5519 CharacterOffsetEnd=5521 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=socializing CharacterOffsetBegin=5522 CharacterOffsetEnd=5533 PartOfSpeech=VBG Lemma=socialize NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=5534 CharacterOffsetEnd=5538 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=friends CharacterOffsetBegin=5539 CharacterOffsetEnd=5546 PartOfSpeech=NNS Lemma=friend NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=5547 CharacterOffsetEnd=5549 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=playing CharacterOffsetBegin=5550 CharacterOffsetEnd=5557 PartOfSpeech=VBG Lemma=play NamedEntityTag=O]
+[Text=video CharacterOffsetBegin=5558 CharacterOffsetEnd=5563 PartOfSpeech=NN Lemma=video NamedEntityTag=O]
+[Text=games CharacterOffsetBegin=5564 CharacterOffsetEnd=5569 PartOfSpeech=NNS Lemma=game NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=5569 CharacterOffsetEnd=5570 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=5570 CharacterOffsetEnd=5571 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+root(ROOT-0, enjoy-18)
+mark(enjoy-4, Whereas-1)
+amod(people-3, most-2)
+nsubj(enjoy-4, people-3)
+advcl(enjoy-18, enjoy-4)
+dobj(enjoy-4, writing-5)
+det(story-7, a-6)
+dobj(writing-5, story-7)
+cc(writing-5, or-8)
+conj:or(writing-5, making-9)
+det(piece-11, a-10)
+dobj(making-9, piece-11)
+case(artwork-13, of-12)
+nmod:of(piece-11, artwork-13)
+punct(enjoy-18, ,-14)
+nsubj(enjoy-18, most-15)
+aux(enjoy-18, would-16)
+neg(enjoy-18, not-17)
+xcomp(enjoy-18, writing-19)
+dobj(writing-19, hundreds-20)
+case(pages-22, of-21)
+nmod:of(hundreds-20, pages-22)
+case(dialogue-24, of-23)
+nmod:of(pages-22, dialogue-24)
+cc(dialogue-24, or-25)
+conj:or(dialogue-24, drawing-26)
+case(pictures-30, over-27)
+nummod(pictures-30, one-28)
+nummod(pictures-30, hundred-29)
+nmod:over(drawing-26, pictures-30)
+advmod(socializing-35, when-31)
+nsubj(socializing-35, they-32)
+aux(socializing-35, could-33)
+aux(socializing-35, be-34)
+advcl(writing-19, socializing-35)
+case(friends-37, with-36)
+nmod:with(socializing-35, friends-37)
+cc(friends-37, or-38)
+conj:or(friends-37, playing-39)
+compound(games-41, video-40)
+dobj(playing-39, games-41)
+punct(enjoy-18, .-42)
+punct(enjoy-18, ''-43)
+
+Sentence #39 (3 tokens):
+Legal issues.
+[Text=Legal CharacterOffsetBegin=5572 CharacterOffsetEnd=5577 PartOfSpeech=JJ Lemma=legal NamedEntityTag=O]
+[Text=issues CharacterOffsetBegin=5578 CharacterOffsetEnd=5584 PartOfSpeech=NNS Lemma=issue NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=5584 CharacterOffsetEnd=5585 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, issues-2)
+amod(issues-2, Legal-1)
+punct(issues-2, .-3)
+
+Sentence #40 (9 tokens):
+Some companies shut down fangames as copyright infringements.
+[Text=Some CharacterOffsetBegin=5586 CharacterOffsetEnd=5590 PartOfSpeech=DT Lemma=some NamedEntityTag=O]
+[Text=companies CharacterOffsetBegin=5591 CharacterOffsetEnd=5600 PartOfSpeech=NNS Lemma=company NamedEntityTag=O]
+[Text=shut CharacterOffsetBegin=5601 CharacterOffsetEnd=5605 PartOfSpeech=VBD Lemma=shut NamedEntityTag=O]
+[Text=down CharacterOffsetBegin=5606 CharacterOffsetEnd=5610 PartOfSpeech=RP Lemma=down NamedEntityTag=O]
+[Text=fangames CharacterOffsetBegin=5611 CharacterOffsetEnd=5619 PartOfSpeech=NNS Lemma=fangame NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=5620 CharacterOffsetEnd=5622 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=copyright CharacterOffsetBegin=5623 CharacterOffsetEnd=5632 PartOfSpeech=NN Lemma=copyright NamedEntityTag=O]
+[Text=infringements CharacterOffsetBegin=5633 CharacterOffsetEnd=5646 PartOfSpeech=NNS Lemma=infringement NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=5646 CharacterOffsetEnd=5647 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, shut-3)
+det(companies-2, Some-1)
+nsubj(shut-3, companies-2)
+compound:prt(shut-3, down-4)
+dobj(shut-3, fangames-5)
+case(infringements-8, as-6)
+compound(infringements-8, copyright-7)
+nmod:as(shut-3, infringements-8)
+punct(shut-3, .-9)
+
+Sentence #41 (42 tokens):
+The term "foxed" is often used to describe these incidents, stemming from the original coining of the term from 20th Century Fox's shut down of an "Aliens"-themed total conversion of "Quake".
+[Text=The CharacterOffsetBegin=5648 CharacterOffsetEnd=5651 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=term CharacterOffsetBegin=5652 CharacterOffsetEnd=5656 PartOfSpeech=NN Lemma=term NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=5657 CharacterOffsetEnd=5658 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=foxed CharacterOffsetBegin=5658 CharacterOffsetEnd=5663 PartOfSpeech=VBD Lemma=fox NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=5663 CharacterOffsetEnd=5664 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=5665 CharacterOffsetEnd=5667 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=often CharacterOffsetBegin=5668 CharacterOffsetEnd=5673 PartOfSpeech=RB Lemma=often NamedEntityTag=O]
+[Text=used CharacterOffsetBegin=5674 CharacterOffsetEnd=5678 PartOfSpeech=VBN Lemma=use NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=5679 CharacterOffsetEnd=5681 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=describe CharacterOffsetBegin=5682 CharacterOffsetEnd=5690 PartOfSpeech=VB Lemma=describe NamedEntityTag=O]
+[Text=these CharacterOffsetBegin=5691 CharacterOffsetEnd=5696 PartOfSpeech=DT Lemma=these NamedEntityTag=O]
+[Text=incidents CharacterOffsetBegin=5697 CharacterOffsetEnd=5706 PartOfSpeech=NNS Lemma=incident NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=5706 CharacterOffsetEnd=5707 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=stemming CharacterOffsetBegin=5708 CharacterOffsetEnd=5716 PartOfSpeech=VBG Lemma=stem NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=5717 CharacterOffsetEnd=5721 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=5722 CharacterOffsetEnd=5725 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=original CharacterOffsetBegin=5726 CharacterOffsetEnd=5734 PartOfSpeech=JJ Lemma=original NamedEntityTag=O]
+[Text=coining CharacterOffsetBegin=5735 CharacterOffsetEnd=5742 PartOfSpeech=NN Lemma=coining NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=5743 CharacterOffsetEnd=5745 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=5746 CharacterOffsetEnd=5749 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=term CharacterOffsetBegin=5750 CharacterOffsetEnd=5754 PartOfSpeech=NN Lemma=term NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=5755 CharacterOffsetEnd=5759 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=20th CharacterOffsetBegin=5760 CharacterOffsetEnd=5764 PartOfSpeech=JJ Lemma=20th NamedEntityTag=ORDINAL NormalizedNamedEntityTag=20.0]
+[Text=Century CharacterOffsetBegin=5765 CharacterOffsetEnd=5772 PartOfSpeech=NNP Lemma=Century NamedEntityTag=O]
+[Text=Fox CharacterOffsetBegin=5773 CharacterOffsetEnd=5776 PartOfSpeech=NNP Lemma=Fox NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=5776 CharacterOffsetEnd=5778 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=shut CharacterOffsetBegin=5779 CharacterOffsetEnd=5783 PartOfSpeech=VBN Lemma=shut NamedEntityTag=O]
+[Text=down CharacterOffsetBegin=5784 CharacterOffsetEnd=5788 PartOfSpeech=IN Lemma=down NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=5789 CharacterOffsetEnd=5791 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=5792 CharacterOffsetEnd=5794 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=5795 CharacterOffsetEnd=5796 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=Aliens CharacterOffsetBegin=5796 CharacterOffsetEnd=5802 PartOfSpeech=NNP Lemma=Aliens NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=5802 CharacterOffsetEnd=5803 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=5803 CharacterOffsetEnd=5804 PartOfSpeech=: Lemma=- NamedEntityTag=O]
+[Text=themed CharacterOffsetBegin=5804 CharacterOffsetEnd=5810 PartOfSpeech=VBN Lemma=theme NamedEntityTag=O]
+[Text=total CharacterOffsetBegin=5811 CharacterOffsetEnd=5816 PartOfSpeech=JJ Lemma=total NamedEntityTag=O]
+[Text=conversion CharacterOffsetBegin=5817 CharacterOffsetEnd=5827 PartOfSpeech=NN Lemma=conversion NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=5828 CharacterOffsetEnd=5830 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=5831 CharacterOffsetEnd=5832 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=Quake CharacterOffsetBegin=5832 CharacterOffsetEnd=5837 PartOfSpeech=NN Lemma=quake NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=5837 CharacterOffsetEnd=5838 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=5838 CharacterOffsetEnd=5839 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, used-8)
+det(term-2, The-1)
+nsubjpass(used-8, term-2)
+punct(foxed-4, ``-3)
+dep(term-2, foxed-4)
+punct(foxed-4, ''-5)
+auxpass(used-8, is-6)
+advmod(used-8, often-7)
+mark(describe-10, to-9)
+xcomp(used-8, describe-10)
+det(incidents-12, these-11)
+dobj(describe-10, incidents-12)
+punct(used-8, ,-13)
+xcomp(used-8, stemming-14)
+case(coining-18, from-15)
+det(coining-18, the-16)
+amod(coining-18, original-17)
+nmod:from(stemming-14, coining-18)
+case(term-21, of-19)
+det(term-21, the-20)
+nmod:of(coining-18, term-21)
+case(shut-27, from-22)
+amod(Fox-25, 20th-23)
+compound(Fox-25, Century-24)
+nmod:poss(shut-27, Fox-25)
+case(Fox-25, 's-26)
+nmod:from(term-21, shut-27)
+advmod(shut-27, down-28)
+case(Aliens-32, of-29)
+det(Aliens-32, an-30)
+punct(Aliens-32, ``-31)
+nmod:of(down-28, Aliens-32)
+punct(Aliens-32, ''-33)
+punct(conversion-37, --34)
+amod(conversion-37, themed-35)
+amod(conversion-37, total-36)
+dep(Aliens-32, conversion-37)
+case(Quake-40, of-38)
+punct(Quake-40, ``-39)
+nmod:of(conversion-37, Quake-40)
+punct(Quake-40, ''-41)
+punct(used-8, .-42)
+
+Sentence #42 (24 tokens):
+Original copyright holders can order a cease and desist upon fangame projects, as by definition fangames are unauthorized uses of copyrighted property.
+[Text=Original CharacterOffsetBegin=5840 CharacterOffsetEnd=5848 PartOfSpeech=JJ Lemma=original NamedEntityTag=O]
+[Text=copyright CharacterOffsetBegin=5849 CharacterOffsetEnd=5858 PartOfSpeech=NN Lemma=copyright NamedEntityTag=O]
+[Text=holders CharacterOffsetBegin=5859 CharacterOffsetEnd=5866 PartOfSpeech=NNS Lemma=holder NamedEntityTag=O]
+[Text=can CharacterOffsetBegin=5867 CharacterOffsetEnd=5870 PartOfSpeech=MD Lemma=can NamedEntityTag=O]
+[Text=order CharacterOffsetBegin=5871 CharacterOffsetEnd=5876 PartOfSpeech=VB Lemma=order NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=5877 CharacterOffsetEnd=5878 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=cease CharacterOffsetBegin=5879 CharacterOffsetEnd=5884 PartOfSpeech=VB Lemma=cease NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=5885 CharacterOffsetEnd=5888 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=desist CharacterOffsetBegin=5889 CharacterOffsetEnd=5895 PartOfSpeech=VB Lemma=desist NamedEntityTag=O]
+[Text=upon CharacterOffsetBegin=5896 CharacterOffsetEnd=5900 PartOfSpeech=IN Lemma=upon NamedEntityTag=O]
+[Text=fangame CharacterOffsetBegin=5901 CharacterOffsetEnd=5908 PartOfSpeech=JJ Lemma=fangame NamedEntityTag=O]
+[Text=projects CharacterOffsetBegin=5909 CharacterOffsetEnd=5917 PartOfSpeech=NNS Lemma=project NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=5917 CharacterOffsetEnd=5918 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=5919 CharacterOffsetEnd=5921 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=5922 CharacterOffsetEnd=5924 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=definition CharacterOffsetBegin=5925 CharacterOffsetEnd=5935 PartOfSpeech=NN Lemma=definition NamedEntityTag=O]
+[Text=fangames CharacterOffsetBegin=5936 CharacterOffsetEnd=5944 PartOfSpeech=NNS Lemma=fangame NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=5945 CharacterOffsetEnd=5948 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=unauthorized CharacterOffsetBegin=5949 CharacterOffsetEnd=5961 PartOfSpeech=JJ Lemma=unauthorized NamedEntityTag=O]
+[Text=uses CharacterOffsetBegin=5962 CharacterOffsetEnd=5966 PartOfSpeech=NNS Lemma=use NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=5967 CharacterOffsetEnd=5969 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=copyrighted CharacterOffsetBegin=5970 CharacterOffsetEnd=5981 PartOfSpeech=VBN Lemma=copyright NamedEntityTag=O]
+[Text=property CharacterOffsetBegin=5982 CharacterOffsetEnd=5990 PartOfSpeech=NN Lemma=property NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=5990 CharacterOffsetEnd=5991 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, order-5)
+amod(holders-3, Original-1)
+compound(holders-3, copyright-2)
+nsubj(order-5, holders-3)
+aux(order-5, can-4)
+det(cease-7, a-6)
+dobj(order-5, cease-7)
+cc(cease-7, and-8)
+conj:and(cease-7, desist-9)
+case(projects-12, upon-10)
+amod(projects-12, fangame-11)
+nmod:upon(desist-9, projects-12)
+punct(order-5, ,-13)
+case(fangames-17, as-14)
+case(fangames-17, by-15)
+compound(fangames-17, definition-16)
+nmod:by(order-5, fangames-17)
+cop(uses-20, are-18)
+amod(uses-20, unauthorized-19)
+dep(order-5, uses-20)
+case(property-23, of-21)
+amod(property-23, copyrighted-22)
+nmod:of(uses-20, property-23)
+punct(order-5, .-24)
+
+Sentence #43 (16 tokens):
+Many fangames go as far as taking music and graphics directly from the original games.
+[Text=Many CharacterOffsetBegin=5992 CharacterOffsetEnd=5996 PartOfSpeech=JJ Lemma=many NamedEntityTag=O]
+[Text=fangames CharacterOffsetBegin=5997 CharacterOffsetEnd=6005 PartOfSpeech=NNS Lemma=fangame NamedEntityTag=O]
+[Text=go CharacterOffsetBegin=6006 CharacterOffsetEnd=6008 PartOfSpeech=VBP Lemma=go NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=6009 CharacterOffsetEnd=6011 PartOfSpeech=RB Lemma=as NamedEntityTag=O]
+[Text=far CharacterOffsetBegin=6012 CharacterOffsetEnd=6015 PartOfSpeech=RB Lemma=far NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=6016 CharacterOffsetEnd=6018 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=taking CharacterOffsetBegin=6019 CharacterOffsetEnd=6025 PartOfSpeech=VBG Lemma=take NamedEntityTag=O]
+[Text=music CharacterOffsetBegin=6026 CharacterOffsetEnd=6031 PartOfSpeech=NN Lemma=music NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=6032 CharacterOffsetEnd=6035 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=graphics CharacterOffsetBegin=6036 CharacterOffsetEnd=6044 PartOfSpeech=NNS Lemma=graphic NamedEntityTag=O]
+[Text=directly CharacterOffsetBegin=6045 CharacterOffsetEnd=6053 PartOfSpeech=RB Lemma=directly NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=6054 CharacterOffsetEnd=6058 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=6059 CharacterOffsetEnd=6062 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=original CharacterOffsetBegin=6063 CharacterOffsetEnd=6071 PartOfSpeech=JJ Lemma=original NamedEntityTag=O]
+[Text=games CharacterOffsetBegin=6072 CharacterOffsetEnd=6077 PartOfSpeech=NNS Lemma=game NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=6077 CharacterOffsetEnd=6078 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, go-3)
+amod(fangames-2, Many-1)
+nsubj(go-3, fangames-2)
+advmod(far-5, as-4)
+advmod(go-3, far-5)
+mark(taking-7, as-6)
+advcl(far-5, taking-7)
+dobj(taking-7, music-8)
+cc(music-8, and-9)
+conj:and(music-8, graphics-10)
+advmod(games-15, directly-11)
+case(games-15, from-12)
+det(games-15, the-13)
+amod(games-15, original-14)
+nmod:from(taking-7, games-15)
+punct(go-3, .-16)
+
+Sentence #44 (34 tokens):
+A notable case in late 2005 involved Vivendi Universal shutting down a "King's Quest" fan project, "King's Quest IX: Every Cloak Has a Silver Lining".
+[Text=A CharacterOffsetBegin=6079 CharacterOffsetEnd=6080 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=notable CharacterOffsetBegin=6081 CharacterOffsetEnd=6088 PartOfSpeech=JJ Lemma=notable NamedEntityTag=O]
+[Text=case CharacterOffsetBegin=6089 CharacterOffsetEnd=6093 PartOfSpeech=NN Lemma=case NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=6094 CharacterOffsetEnd=6096 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=late CharacterOffsetBegin=6097 CharacterOffsetEnd=6101 PartOfSpeech=JJ Lemma=late NamedEntityTag=O]
+[Text=2005 CharacterOffsetBegin=6102 CharacterOffsetEnd=6106 PartOfSpeech=CD Lemma=2005 NamedEntityTag=DATE NormalizedNamedEntityTag=2005]
+[Text=involved CharacterOffsetBegin=6107 CharacterOffsetEnd=6115 PartOfSpeech=VBN Lemma=involve NamedEntityTag=O]
+[Text=Vivendi CharacterOffsetBegin=6116 CharacterOffsetEnd=6123 PartOfSpeech=NNP Lemma=Vivendi NamedEntityTag=ORGANIZATION]
+[Text=Universal CharacterOffsetBegin=6124 CharacterOffsetEnd=6133 PartOfSpeech=NNP Lemma=Universal NamedEntityTag=ORGANIZATION]
+[Text=shutting CharacterOffsetBegin=6134 CharacterOffsetEnd=6142 PartOfSpeech=VBG Lemma=shut NamedEntityTag=O]
+[Text=down CharacterOffsetBegin=6143 CharacterOffsetEnd=6147 PartOfSpeech=RP Lemma=down NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=6148 CharacterOffsetEnd=6149 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=6150 CharacterOffsetEnd=6151 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=6151 CharacterOffsetEnd=6155 PartOfSpeech=NNP Lemma=King NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=6155 CharacterOffsetEnd=6157 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=Quest CharacterOffsetBegin=6158 CharacterOffsetEnd=6163 PartOfSpeech=NNP Lemma=Quest NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=6163 CharacterOffsetEnd=6164 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=fan CharacterOffsetBegin=6165 CharacterOffsetEnd=6168 PartOfSpeech=NN Lemma=fan NamedEntityTag=O]
+[Text=project CharacterOffsetBegin=6169 CharacterOffsetEnd=6176 PartOfSpeech=NN Lemma=project NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=6176 CharacterOffsetEnd=6177 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=6178 CharacterOffsetEnd=6179 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=6179 CharacterOffsetEnd=6183 PartOfSpeech=NNP Lemma=King NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=6183 CharacterOffsetEnd=6185 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=Quest CharacterOffsetBegin=6186 CharacterOffsetEnd=6191 PartOfSpeech=NNP Lemma=Quest NamedEntityTag=O]
+[Text=IX CharacterOffsetBegin=6192 CharacterOffsetEnd=6194 PartOfSpeech=CD Lemma=ix NamedEntityTag=NUMBER NormalizedNamedEntityTag=0.0]
+[Text=: CharacterOffsetBegin=6194 CharacterOffsetEnd=6195 PartOfSpeech=: Lemma=: NamedEntityTag=O]
+[Text=Every CharacterOffsetBegin=6196 CharacterOffsetEnd=6201 PartOfSpeech=DT Lemma=every NamedEntityTag=O]
+[Text=Cloak CharacterOffsetBegin=6202 CharacterOffsetEnd=6207 PartOfSpeech=NN Lemma=cloak NamedEntityTag=O]
+[Text=Has CharacterOffsetBegin=6208 CharacterOffsetEnd=6211 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=6212 CharacterOffsetEnd=6213 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=Silver CharacterOffsetBegin=6214 CharacterOffsetEnd=6220 PartOfSpeech=NN Lemma=silver NamedEntityTag=O]
+[Text=Lining CharacterOffsetBegin=6221 CharacterOffsetEnd=6227 PartOfSpeech=NN Lemma=lining NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=6227 CharacterOffsetEnd=6228 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=6228 CharacterOffsetEnd=6229 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, case-3)
+det(case-3, A-1)
+amod(case-3, notable-2)
+case(2005-6, in-4)
+amod(2005-6, late-5)
+nmod:in(shutting-10, 2005-6)
+amod(Universal-9, involved-7)
+compound(Universal-9, Vivendi-8)
+nsubj(shutting-10, Universal-9)
+acl:relcl(case-3, shutting-10)
+compound:prt(shutting-10, down-11)
+det(project-19, a-12)
+punct(project-19, ``-13)
+nmod:poss(Quest-16, King-14)
+case(King-14, 's-15)
+nsubj(project-19, Quest-16)
+punct(Quest-16, ''-17)
+compound(project-19, fan-18)
+dobj(shutting-10, project-19)
+punct(case-3, ,-20)
+punct(case-3, ``-21)
+root(``-21, King-22)
+case(King-22, 's-23)
+dep(King-22, Quest-24)
+nummod(Quest-24, IX-25)
+punct(King-22, :-26)
+det(Cloak-28, Every-27)
+nsubj(Has-29, Cloak-28)
+dep(King-22, Has-29)
+det(Lining-32, a-30)
+compound(Lining-32, Silver-31)
+dobj(Has-29, Lining-32)
+punct(Lining-32, ''-33)
+punct(King-22, .-34)
+
+Sentence #45 (21 tokens):
+It was to be an unofficial sequel granting closure to the series, which had its last release in 1998.
+[Text=It CharacterOffsetBegin=6230 CharacterOffsetEnd=6232 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=6233 CharacterOffsetEnd=6236 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=6237 CharacterOffsetEnd=6239 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=6240 CharacterOffsetEnd=6242 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=6243 CharacterOffsetEnd=6245 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=unofficial CharacterOffsetBegin=6246 CharacterOffsetEnd=6256 PartOfSpeech=JJ Lemma=unofficial NamedEntityTag=O]
+[Text=sequel CharacterOffsetBegin=6257 CharacterOffsetEnd=6263 PartOfSpeech=NN Lemma=sequel NamedEntityTag=O]
+[Text=granting CharacterOffsetBegin=6264 CharacterOffsetEnd=6272 PartOfSpeech=VBG Lemma=grant NamedEntityTag=O]
+[Text=closure CharacterOffsetBegin=6273 CharacterOffsetEnd=6280 PartOfSpeech=NN Lemma=closure NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=6281 CharacterOffsetEnd=6283 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=6284 CharacterOffsetEnd=6287 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=series CharacterOffsetBegin=6288 CharacterOffsetEnd=6294 PartOfSpeech=NN Lemma=series NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=6294 CharacterOffsetEnd=6295 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=6296 CharacterOffsetEnd=6301 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=had CharacterOffsetBegin=6302 CharacterOffsetEnd=6305 PartOfSpeech=VBD Lemma=have NamedEntityTag=O]
+[Text=its CharacterOffsetBegin=6306 CharacterOffsetEnd=6309 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O]
+[Text=last CharacterOffsetBegin=6310 CharacterOffsetEnd=6314 PartOfSpeech=JJ Lemma=last NamedEntityTag=O]
+[Text=release CharacterOffsetBegin=6315 CharacterOffsetEnd=6322 PartOfSpeech=NN Lemma=release NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=6323 CharacterOffsetEnd=6325 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=1998 CharacterOffsetBegin=6326 CharacterOffsetEnd=6330 PartOfSpeech=CD Lemma=1998 NamedEntityTag=DATE NormalizedNamedEntityTag=1998]
+[Text=. CharacterOffsetBegin=6330 CharacterOffsetEnd=6331 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, was-2)
+nsubj(was-2, It-1)
+mark(sequel-7, to-3)
+cop(sequel-7, be-4)
+det(sequel-7, an-5)
+amod(sequel-7, unofficial-6)
+xcomp(was-2, sequel-7)
+acl(sequel-7, granting-8)
+dobj(granting-8, closure-9)
+case(series-12, to-10)
+det(series-12, the-11)
+nmod:to(granting-8, series-12)
+punct(series-12, ,-13)
+nsubj(had-15, which-14)
+acl:relcl(series-12, had-15)
+nmod:poss(release-18, its-16)
+amod(release-18, last-17)
+dobj(had-15, release-18)
+case(1998-20, in-19)
+nmod:in(had-15, 1998-20)
+punct(was-2, .-21)
+
+Sentence #46 (22 tokens):
+After a letter-writing campaign and fan protests, Vivendi reversed its decision and gave permission for the game to be made.
+[Text=After CharacterOffsetBegin=6332 CharacterOffsetEnd=6337 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=6338 CharacterOffsetEnd=6339 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=letter-writing CharacterOffsetBegin=6340 CharacterOffsetEnd=6354 PartOfSpeech=JJ Lemma=letter-writing NamedEntityTag=O]
+[Text=campaign CharacterOffsetBegin=6355 CharacterOffsetEnd=6363 PartOfSpeech=NN Lemma=campaign NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=6364 CharacterOffsetEnd=6367 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=fan CharacterOffsetBegin=6368 CharacterOffsetEnd=6371 PartOfSpeech=NN Lemma=fan NamedEntityTag=O]
+[Text=protests CharacterOffsetBegin=6372 CharacterOffsetEnd=6380 PartOfSpeech=NNS Lemma=protest NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=6380 CharacterOffsetEnd=6381 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Vivendi CharacterOffsetBegin=6382 CharacterOffsetEnd=6389 PartOfSpeech=NNP Lemma=Vivendi NamedEntityTag=ORGANIZATION]
+[Text=reversed CharacterOffsetBegin=6390 CharacterOffsetEnd=6398 PartOfSpeech=VBD Lemma=reverse NamedEntityTag=O]
+[Text=its CharacterOffsetBegin=6399 CharacterOffsetEnd=6402 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O]
+[Text=decision CharacterOffsetBegin=6403 CharacterOffsetEnd=6411 PartOfSpeech=NN Lemma=decision NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=6412 CharacterOffsetEnd=6415 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=gave CharacterOffsetBegin=6416 CharacterOffsetEnd=6420 PartOfSpeech=VBD Lemma=give NamedEntityTag=O]
+[Text=permission CharacterOffsetBegin=6421 CharacterOffsetEnd=6431 PartOfSpeech=NN Lemma=permission NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=6432 CharacterOffsetEnd=6435 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=6436 CharacterOffsetEnd=6439 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=6440 CharacterOffsetEnd=6444 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=6445 CharacterOffsetEnd=6447 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=6448 CharacterOffsetEnd=6450 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=made CharacterOffsetBegin=6451 CharacterOffsetEnd=6455 PartOfSpeech=VBN Lemma=make NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=6455 CharacterOffsetEnd=6456 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, reversed-10)
+case(campaign-4, After-1)
+det(campaign-4, a-2)
+amod(campaign-4, letter-writing-3)
+nmod:after(reversed-10, campaign-4)
+cc(campaign-4, and-5)
+compound(protests-7, fan-6)
+conj:and(campaign-4, protests-7)
+punct(reversed-10, ,-8)
+nsubj(reversed-10, Vivendi-9)
+nmod:poss(decision-12, its-11)
+dobj(reversed-10, decision-12)
+cc(reversed-10, and-13)
+conj:and(reversed-10, gave-14)
+dobj(gave-14, permission-15)
+case(game-18, for-16)
+det(game-18, the-17)
+nmod:for(permission-15, game-18)
+mark(made-21, to-19)
+auxpass(made-21, be-20)
+xcomp(gave-14, made-21)
+punct(reversed-10, .-22)
+
+Sentence #47 (21 tokens):
+As part of the negotiations, the developers were required to remove "King's Quest" from the title.
+[Text=As CharacterOffsetBegin=6457 CharacterOffsetEnd=6459 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=part CharacterOffsetBegin=6460 CharacterOffsetEnd=6464 PartOfSpeech=NN Lemma=part NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=6465 CharacterOffsetEnd=6467 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=6468 CharacterOffsetEnd=6471 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=negotiations CharacterOffsetBegin=6472 CharacterOffsetEnd=6484 PartOfSpeech=NNS Lemma=negotiation NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=6484 CharacterOffsetEnd=6485 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=6486 CharacterOffsetEnd=6489 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=developers CharacterOffsetBegin=6490 CharacterOffsetEnd=6500 PartOfSpeech=NNS Lemma=developer NamedEntityTag=O]
+[Text=were CharacterOffsetBegin=6501 CharacterOffsetEnd=6505 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=required CharacterOffsetBegin=6506 CharacterOffsetEnd=6514 PartOfSpeech=VBN Lemma=require NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=6515 CharacterOffsetEnd=6517 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=remove CharacterOffsetBegin=6518 CharacterOffsetEnd=6524 PartOfSpeech=VB Lemma=remove NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=6525 CharacterOffsetEnd=6526 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=6526 CharacterOffsetEnd=6530 PartOfSpeech=NNP Lemma=King NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=6530 CharacterOffsetEnd=6532 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=Quest CharacterOffsetBegin=6533 CharacterOffsetEnd=6538 PartOfSpeech=NNP Lemma=Quest NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=6538 CharacterOffsetEnd=6539 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=6540 CharacterOffsetEnd=6544 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=6545 CharacterOffsetEnd=6548 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=title CharacterOffsetBegin=6549 CharacterOffsetEnd=6554 PartOfSpeech=NN Lemma=title NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=6554 CharacterOffsetEnd=6555 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, required-10)
+case(part-2, As-1)
+nmod:as(required-10, part-2)
+case(negotiations-5, of-3)
+det(negotiations-5, the-4)
+nmod:of(part-2, negotiations-5)
+punct(required-10, ,-6)
+det(developers-8, the-7)
+nsubjpass(required-10, developers-8)
+auxpass(required-10, were-9)
+mark(remove-12, to-11)
+xcomp(required-10, remove-12)
+punct(Quest-16, ``-13)
+nmod:poss(Quest-16, King-14)
+case(King-14, 's-15)
+dobj(remove-12, Quest-16)
+punct(Quest-16, ''-17)
+case(title-20, from-18)
+det(title-20, the-19)
+nmod:from(Quest-16, title-20)
+punct(required-10, .-21)
+
+Sentence #48 (39 tokens):
+Conversely, fan protests for the shutting down of "Chrono Resurrection" (a remake demo of "Chrono Trigger") in 2004 have yielded no result on Square Enix's action to block the project.
+[Text=Conversely CharacterOffsetBegin=6556 CharacterOffsetEnd=6566 PartOfSpeech=RB Lemma=conversely NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=6566 CharacterOffsetEnd=6567 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=fan CharacterOffsetBegin=6568 CharacterOffsetEnd=6571 PartOfSpeech=NN Lemma=fan NamedEntityTag=O]
+[Text=protests CharacterOffsetBegin=6572 CharacterOffsetEnd=6580 PartOfSpeech=NNS Lemma=protest NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=6581 CharacterOffsetEnd=6584 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=6585 CharacterOffsetEnd=6588 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=shutting CharacterOffsetBegin=6589 CharacterOffsetEnd=6597 PartOfSpeech=VBG Lemma=shut NamedEntityTag=O]
+[Text=down CharacterOffsetBegin=6598 CharacterOffsetEnd=6602 PartOfSpeech=RB Lemma=down NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=6603 CharacterOffsetEnd=6605 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=6606 CharacterOffsetEnd=6607 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=Chrono CharacterOffsetBegin=6607 CharacterOffsetEnd=6613 PartOfSpeech=NNP Lemma=Chrono NamedEntityTag=O]
+[Text=Resurrection CharacterOffsetBegin=6614 CharacterOffsetEnd=6626 PartOfSpeech=NNP Lemma=Resurrection NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=6626 CharacterOffsetEnd=6627 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=6628 CharacterOffsetEnd=6629 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=6629 CharacterOffsetEnd=6630 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=remake CharacterOffsetBegin=6631 CharacterOffsetEnd=6637 PartOfSpeech=NN Lemma=remake NamedEntityTag=O]
+[Text=demo CharacterOffsetBegin=6638 CharacterOffsetEnd=6642 PartOfSpeech=NN Lemma=demo NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=6643 CharacterOffsetEnd=6645 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=6646 CharacterOffsetEnd=6647 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=Chrono CharacterOffsetBegin=6647 CharacterOffsetEnd=6653 PartOfSpeech=NNP Lemma=Chrono NamedEntityTag=O]
+[Text=Trigger CharacterOffsetBegin=6654 CharacterOffsetEnd=6661 PartOfSpeech=NN Lemma=trigger NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=6661 CharacterOffsetEnd=6662 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=6662 CharacterOffsetEnd=6663 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=6664 CharacterOffsetEnd=6666 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=2004 CharacterOffsetBegin=6667 CharacterOffsetEnd=6671 PartOfSpeech=CD Lemma=2004 NamedEntityTag=DATE NormalizedNamedEntityTag=2004]
+[Text=have CharacterOffsetBegin=6672 CharacterOffsetEnd=6676 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=yielded CharacterOffsetBegin=6677 CharacterOffsetEnd=6684 PartOfSpeech=VBN Lemma=yield NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=6685 CharacterOffsetEnd=6687 PartOfSpeech=DT Lemma=no NamedEntityTag=O]
+[Text=result CharacterOffsetBegin=6688 CharacterOffsetEnd=6694 PartOfSpeech=NN Lemma=result NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=6695 CharacterOffsetEnd=6697 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=Square CharacterOffsetBegin=6698 CharacterOffsetEnd=6704 PartOfSpeech=NNP Lemma=Square NamedEntityTag=ORGANIZATION]
+[Text=Enix CharacterOffsetBegin=6705 CharacterOffsetEnd=6709 PartOfSpeech=NNP Lemma=Enix NamedEntityTag=ORGANIZATION]
+[Text='s CharacterOffsetBegin=6709 CharacterOffsetEnd=6711 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=action CharacterOffsetBegin=6712 CharacterOffsetEnd=6718 PartOfSpeech=NN Lemma=action NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=6719 CharacterOffsetEnd=6721 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=block CharacterOffsetBegin=6722 CharacterOffsetEnd=6727 PartOfSpeech=VB Lemma=block NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=6728 CharacterOffsetEnd=6731 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=project CharacterOffsetBegin=6732 CharacterOffsetEnd=6739 PartOfSpeech=NN Lemma=project NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=6739 CharacterOffsetEnd=6740 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, yielded-27)
+advmod(yielded-27, Conversely-1)
+punct(yielded-27, ,-2)
+compound(protests-4, fan-3)
+nsubj(yielded-27, protests-4)
+mark(shutting-7, for-5)
+det(shutting-7, the-6)
+acl(protests-4, shutting-7)
+advmod(shutting-7, down-8)
+case(Resurrection-12, of-9)
+punct(Resurrection-12, ``-10)
+compound(Resurrection-12, Chrono-11)
+nmod:of(down-8, Resurrection-12)
+punct(Resurrection-12, ''-13)
+punct(demo-17, -LRB--14)
+det(demo-17, a-15)
+compound(demo-17, remake-16)
+dep(Resurrection-12, demo-17)
+case(Trigger-21, of-18)
+punct(Trigger-21, ``-19)
+compound(Trigger-21, Chrono-20)
+nmod:of(demo-17, Trigger-21)
+punct(Trigger-21, ''-22)
+punct(demo-17, -RRB--23)
+case(2004-25, in-24)
+nmod:in(Resurrection-12, 2004-25)
+aux(yielded-27, have-26)
+neg(result-29, no-28)
+dobj(yielded-27, result-29)
+case(action-34, on-30)
+compound(Enix-32, Square-31)
+nmod:poss(action-34, Enix-32)
+case(Enix-32, 's-33)
+nmod:on(result-29, action-34)
+mark(block-36, to-35)
+acl(action-34, block-36)
+det(project-38, the-37)
+dobj(block-36, project-38)
+punct(yielded-27, .-39)
+
+Sentence #49 (8 tokens):
+Other times, companies have endorsed fangames.
+[Text=Other CharacterOffsetBegin=6741 CharacterOffsetEnd=6746 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text=times CharacterOffsetBegin=6747 CharacterOffsetEnd=6752 PartOfSpeech=NNS Lemma=time NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=6752 CharacterOffsetEnd=6753 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=companies CharacterOffsetBegin=6754 CharacterOffsetEnd=6763 PartOfSpeech=NNS Lemma=company NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=6764 CharacterOffsetEnd=6768 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=endorsed CharacterOffsetBegin=6769 CharacterOffsetEnd=6777 PartOfSpeech=VBN Lemma=endorse NamedEntityTag=O]
+[Text=fangames CharacterOffsetBegin=6778 CharacterOffsetEnd=6786 PartOfSpeech=NNS Lemma=fangame NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=6786 CharacterOffsetEnd=6787 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, endorsed-6)
+amod(times-2, Other-1)
+nmod:tmod(endorsed-6, times-2)
+punct(endorsed-6, ,-3)
+nsubj(endorsed-6, companies-4)
+aux(endorsed-6, have-5)
+dobj(endorsed-6, fangames-7)
+punct(endorsed-6, .-8)
+
+Sentence #50 (22 tokens):
+For example, Capcom has featured Peter Sjöstrand's Mega Man 2.5D fangame in their community site more than once.
+[Text=For CharacterOffsetBegin=6788 CharacterOffsetEnd=6791 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=example CharacterOffsetBegin=6792 CharacterOffsetEnd=6799 PartOfSpeech=NN Lemma=example NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=6799 CharacterOffsetEnd=6800 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Capcom CharacterOffsetBegin=6801 CharacterOffsetEnd=6807 PartOfSpeech=NNP Lemma=Capcom NamedEntityTag=ORGANIZATION]
+[Text=has CharacterOffsetBegin=6808 CharacterOffsetEnd=6811 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=featured CharacterOffsetBegin=6812 CharacterOffsetEnd=6820 PartOfSpeech=VBN Lemma=feature NamedEntityTag=O]
+[Text=Peter CharacterOffsetBegin=6821 CharacterOffsetEnd=6826 PartOfSpeech=NNP Lemma=Peter NamedEntityTag=PERSON]
+[Text=Sjöstrand CharacterOffsetBegin=6827 CharacterOffsetEnd=6836 PartOfSpeech=NNP Lemma=Sjöstrand NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=6836 CharacterOffsetEnd=6838 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=Mega CharacterOffsetBegin=6839 CharacterOffsetEnd=6843 PartOfSpeech=JJ Lemma=mega NamedEntityTag=MISC]
+[Text=Man CharacterOffsetBegin=6844 CharacterOffsetEnd=6847 PartOfSpeech=NN Lemma=man NamedEntityTag=MISC]
+[Text=2.5 CharacterOffsetBegin=6848 CharacterOffsetEnd=6851 PartOfSpeech=CD Lemma=2.5 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.5]
+[Text=D CharacterOffsetBegin=6851 CharacterOffsetEnd=6852 PartOfSpeech=NN Lemma=d NamedEntityTag=O]
+[Text=fangame CharacterOffsetBegin=6853 CharacterOffsetEnd=6860 PartOfSpeech=NN Lemma=fangame NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=6861 CharacterOffsetEnd=6863 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=their CharacterOffsetBegin=6864 CharacterOffsetEnd=6869 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O]
+[Text=community CharacterOffsetBegin=6870 CharacterOffsetEnd=6879 PartOfSpeech=NN Lemma=community NamedEntityTag=O]
+[Text=site CharacterOffsetBegin=6880 CharacterOffsetEnd=6884 PartOfSpeech=NN Lemma=site NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=6885 CharacterOffsetEnd=6889 PartOfSpeech=JJR Lemma=more NamedEntityTag=O]
+[Text=than CharacterOffsetBegin=6890 CharacterOffsetEnd=6894 PartOfSpeech=IN Lemma=than NamedEntityTag=O]
+[Text=once CharacterOffsetBegin=6895 CharacterOffsetEnd=6899 PartOfSpeech=RB Lemma=once NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=6899 CharacterOffsetEnd=6900 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, featured-6)
+case(example-2, For-1)
+nmod:for(featured-6, example-2)
+punct(featured-6, ,-3)
+nsubj(featured-6, Capcom-4)
+aux(featured-6, has-5)
+compound(Sjöstrand-8, Peter-7)
+nmod:poss(D-13, Sjöstrand-8)
+case(Sjöstrand-8, 's-9)
+amod(D-13, Mega-10)
+compound(D-13, Man-11)
+nummod(D-13, 2.5-12)
+nsubj(fangame-14, D-13)
+ccomp(featured-6, fangame-14)
+case(site-18, in-15)
+nmod:poss(site-18, their-16)
+compound(site-18, community-17)
+nmod:in(fangame-14, site-18)
+advmod(fangame-14, more-19)
+case(once-21, than-20)
+nmod:than(more-19, once-21)
+punct(featured-6, .-22)
+
+Sentence #51 (29 tokens):
+However, Capcom Senior Vice President Christian Svennson has stated that, while they legally can't sanction fangames, they won't proactively go after them either.
+[Text=However CharacterOffsetBegin=6901 CharacterOffsetEnd=6908 PartOfSpeech=RB Lemma=however NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=6908 CharacterOffsetEnd=6909 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Capcom CharacterOffsetBegin=6910 CharacterOffsetEnd=6916 PartOfSpeech=NNP Lemma=Capcom NamedEntityTag=ORGANIZATION]
+[Text=Senior CharacterOffsetBegin=6917 CharacterOffsetEnd=6923 PartOfSpeech=NNP Lemma=Senior NamedEntityTag=O]
+[Text=Vice CharacterOffsetBegin=6924 CharacterOffsetEnd=6928 PartOfSpeech=NNP Lemma=Vice NamedEntityTag=O]
+[Text=President CharacterOffsetBegin=6929 CharacterOffsetEnd=6938 PartOfSpeech=NNP Lemma=President NamedEntityTag=O]
+[Text=Christian CharacterOffsetBegin=6939 CharacterOffsetEnd=6948 PartOfSpeech=NNP Lemma=Christian NamedEntityTag=PERSON]
+[Text=Svennson CharacterOffsetBegin=6949 CharacterOffsetEnd=6957 PartOfSpeech=NNP Lemma=Svennson NamedEntityTag=PERSON]
+[Text=has CharacterOffsetBegin=6958 CharacterOffsetEnd=6961 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=stated CharacterOffsetBegin=6962 CharacterOffsetEnd=6968 PartOfSpeech=VBN Lemma=state NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=6969 CharacterOffsetEnd=6973 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=6973 CharacterOffsetEnd=6974 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=while CharacterOffsetBegin=6975 CharacterOffsetEnd=6980 PartOfSpeech=IN Lemma=while NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=6981 CharacterOffsetEnd=6985 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=legally CharacterOffsetBegin=6986 CharacterOffsetEnd=6993 PartOfSpeech=RB Lemma=legally NamedEntityTag=O]
+[Text=ca CharacterOffsetBegin=6994 CharacterOffsetEnd=6996 PartOfSpeech=MD Lemma=can NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=6996 CharacterOffsetEnd=6999 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=sanction CharacterOffsetBegin=7000 CharacterOffsetEnd=7008 PartOfSpeech=NN Lemma=sanction NamedEntityTag=O]
+[Text=fangames CharacterOffsetBegin=7009 CharacterOffsetEnd=7017 PartOfSpeech=NNS Lemma=fangame NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=7017 CharacterOffsetEnd=7018 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=7019 CharacterOffsetEnd=7023 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=wo CharacterOffsetBegin=7024 CharacterOffsetEnd=7026 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=7026 CharacterOffsetEnd=7029 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=proactively CharacterOffsetBegin=7030 CharacterOffsetEnd=7041 PartOfSpeech=RB Lemma=proactively NamedEntityTag=O]
+[Text=go CharacterOffsetBegin=7042 CharacterOffsetEnd=7044 PartOfSpeech=VB Lemma=go NamedEntityTag=O]
+[Text=after CharacterOffsetBegin=7045 CharacterOffsetEnd=7050 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=them CharacterOffsetBegin=7051 CharacterOffsetEnd=7055 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=either CharacterOffsetBegin=7056 CharacterOffsetEnd=7062 PartOfSpeech=RB Lemma=either NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=7062 CharacterOffsetEnd=7063 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, stated-10)
+advmod(stated-10, However-1)
+punct(stated-10, ,-2)
+compound(Svennson-8, Capcom-3)
+compound(Svennson-8, Senior-4)
+compound(Svennson-8, Vice-5)
+compound(Svennson-8, President-6)
+compound(Svennson-8, Christian-7)
+nsubj(stated-10, Svennson-8)
+aux(stated-10, has-9)
+mark(go-25, that-11)
+punct(go-25, ,-12)
+mark(sanction-18, while-13)
+nsubj(sanction-18, they-14)
+advmod(sanction-18, legally-15)
+aux(sanction-18, ca-16)
+neg(sanction-18, n't-17)
+advcl(go-25, sanction-18)
+dobj(sanction-18, fangames-19)
+punct(go-25, ,-20)
+nsubj(go-25, they-21)
+aux(go-25, wo-22)
+neg(go-25, n't-23)
+advmod(go-25, proactively-24)
+ccomp(stated-10, go-25)
+case(them-27, after-26)
+nmod:after(go-25, them-27)
+advmod(go-25, either-28)
+punct(stated-10, .-29)
+
+Sentence #52 (35 tokens):
+More recently, Capcom took Seo Zong Hui's "Street Fighter X Mega Man" and funded it, promoting it from a simple fangame, to an officially-licensed freeware Mega Man game.
+[Text=More CharacterOffsetBegin=7064 CharacterOffsetEnd=7068 PartOfSpeech=RBR Lemma=more NamedEntityTag=O]
+[Text=recently CharacterOffsetBegin=7069 CharacterOffsetEnd=7077 PartOfSpeech=RB Lemma=recently NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=7077 CharacterOffsetEnd=7078 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Capcom CharacterOffsetBegin=7079 CharacterOffsetEnd=7085 PartOfSpeech=NNP Lemma=Capcom NamedEntityTag=ORGANIZATION]
+[Text=took CharacterOffsetBegin=7086 CharacterOffsetEnd=7090 PartOfSpeech=VBD Lemma=take NamedEntityTag=O]
+[Text=Seo CharacterOffsetBegin=7091 CharacterOffsetEnd=7094 PartOfSpeech=NNP Lemma=Seo NamedEntityTag=PERSON]
+[Text=Zong CharacterOffsetBegin=7095 CharacterOffsetEnd=7099 PartOfSpeech=NNP Lemma=Zong NamedEntityTag=PERSON]
+[Text=Hui CharacterOffsetBegin=7100 CharacterOffsetEnd=7103 PartOfSpeech=NNP Lemma=Hui NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=7103 CharacterOffsetEnd=7105 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=7106 CharacterOffsetEnd=7107 PartOfSpeech=`` Lemma=`` NamedEntityTag=MISC]
+[Text=Street CharacterOffsetBegin=7107 CharacterOffsetEnd=7113 PartOfSpeech=NNP Lemma=Street NamedEntityTag=MISC]
+[Text=Fighter CharacterOffsetBegin=7114 CharacterOffsetEnd=7121 PartOfSpeech=NNP Lemma=Fighter NamedEntityTag=MISC]
+[Text=X CharacterOffsetBegin=7122 CharacterOffsetEnd=7123 PartOfSpeech=NNP Lemma=X NamedEntityTag=MISC]
+[Text=Mega CharacterOffsetBegin=7124 CharacterOffsetEnd=7128 PartOfSpeech=JJ Lemma=mega NamedEntityTag=MISC]
+[Text=Man CharacterOffsetBegin=7129 CharacterOffsetEnd=7132 PartOfSpeech=NN Lemma=man NamedEntityTag=MISC]
+[Text='' CharacterOffsetBegin=7132 CharacterOffsetEnd=7133 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=7134 CharacterOffsetEnd=7137 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=funded CharacterOffsetBegin=7138 CharacterOffsetEnd=7144 PartOfSpeech=VBD Lemma=fund NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=7145 CharacterOffsetEnd=7147 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=7147 CharacterOffsetEnd=7148 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=promoting CharacterOffsetBegin=7149 CharacterOffsetEnd=7158 PartOfSpeech=VBG Lemma=promote NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=7159 CharacterOffsetEnd=7161 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=7162 CharacterOffsetEnd=7166 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=7167 CharacterOffsetEnd=7168 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=simple CharacterOffsetBegin=7169 CharacterOffsetEnd=7175 PartOfSpeech=JJ Lemma=simple NamedEntityTag=O]
+[Text=fangame CharacterOffsetBegin=7176 CharacterOffsetEnd=7183 PartOfSpeech=NN Lemma=fangame NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=7183 CharacterOffsetEnd=7184 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=7185 CharacterOffsetEnd=7187 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=7188 CharacterOffsetEnd=7190 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=officially-licensed CharacterOffsetBegin=7191 CharacterOffsetEnd=7210 PartOfSpeech=JJ Lemma=officially-licensed NamedEntityTag=O]
+[Text=freeware CharacterOffsetBegin=7211 CharacterOffsetEnd=7219 PartOfSpeech=NN Lemma=freeware NamedEntityTag=O]
+[Text=Mega CharacterOffsetBegin=7220 CharacterOffsetEnd=7224 PartOfSpeech=JJ Lemma=mega NamedEntityTag=PERSON]
+[Text=Man CharacterOffsetBegin=7225 CharacterOffsetEnd=7228 PartOfSpeech=NN Lemma=man NamedEntityTag=PERSON]
+[Text=game CharacterOffsetBegin=7229 CharacterOffsetEnd=7233 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=7233 CharacterOffsetEnd=7234 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, took-5)
+advmod(recently-2, More-1)
+advmod(took-5, recently-2)
+punct(took-5, ,-3)
+nsubj(took-5, Capcom-4)
+compound(Hui-8, Seo-6)
+compound(Hui-8, Zong-7)
+nmod:poss(Man-15, Hui-8)
+case(Hui-8, 's-9)
+punct(Man-15, ``-10)
+compound(Man-15, Street-11)
+compound(Man-15, Fighter-12)
+compound(Man-15, X-13)
+amod(Man-15, Mega-14)
+dobj(took-5, Man-15)
+punct(Man-15, ''-16)
+cc(Man-15, and-17)
+conj:and(Man-15, funded-18)
+dobj(funded-18, it-19)
+punct(took-5, ,-20)
+advcl(took-5, promoting-21)
+dobj(promoting-21, it-22)
+case(fangame-26, from-23)
+det(fangame-26, a-24)
+amod(fangame-26, simple-25)
+nmod:from(promoting-21, fangame-26)
+punct(fangame-26, ,-27)
+case(game-34, to-28)
+det(game-34, an-29)
+amod(game-34, officially-licensed-30)
+compound(game-34, freeware-31)
+amod(game-34, Mega-32)
+compound(game-34, Man-33)
+nmod:to(fangame-26, game-34)
+punct(took-5, .-35)
+
+Sentence #53 (26 tokens):
+Because fangames are developed with a relatively low budget, a fangame is rarely available on a console system; licensing fees are too prohibitive.
+[Text=Because CharacterOffsetBegin=7235 CharacterOffsetEnd=7242 PartOfSpeech=IN Lemma=because NamedEntityTag=O]
+[Text=fangames CharacterOffsetBegin=7243 CharacterOffsetEnd=7251 PartOfSpeech=NNS Lemma=fangame NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=7252 CharacterOffsetEnd=7255 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=developed CharacterOffsetBegin=7256 CharacterOffsetEnd=7265 PartOfSpeech=VBN Lemma=develop NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=7266 CharacterOffsetEnd=7270 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=7271 CharacterOffsetEnd=7272 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=relatively CharacterOffsetBegin=7273 CharacterOffsetEnd=7283 PartOfSpeech=RB Lemma=relatively NamedEntityTag=O]
+[Text=low CharacterOffsetBegin=7284 CharacterOffsetEnd=7287 PartOfSpeech=JJ Lemma=low NamedEntityTag=O]
+[Text=budget CharacterOffsetBegin=7288 CharacterOffsetEnd=7294 PartOfSpeech=NN Lemma=budget NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=7294 CharacterOffsetEnd=7295 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=7296 CharacterOffsetEnd=7297 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=fangame CharacterOffsetBegin=7298 CharacterOffsetEnd=7305 PartOfSpeech=NN Lemma=fangame NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=7306 CharacterOffsetEnd=7308 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=rarely CharacterOffsetBegin=7309 CharacterOffsetEnd=7315 PartOfSpeech=RB Lemma=rarely NamedEntityTag=O]
+[Text=available CharacterOffsetBegin=7316 CharacterOffsetEnd=7325 PartOfSpeech=JJ Lemma=available NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=7326 CharacterOffsetEnd=7328 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=7329 CharacterOffsetEnd=7330 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=console CharacterOffsetBegin=7331 CharacterOffsetEnd=7338 PartOfSpeech=NN Lemma=console NamedEntityTag=O]
+[Text=system CharacterOffsetBegin=7339 CharacterOffsetEnd=7345 PartOfSpeech=NN Lemma=system NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=7345 CharacterOffsetEnd=7346 PartOfSpeech=: Lemma=; NamedEntityTag=O]
+[Text=licensing CharacterOffsetBegin=7347 CharacterOffsetEnd=7356 PartOfSpeech=NN Lemma=licensing NamedEntityTag=O]
+[Text=fees CharacterOffsetBegin=7357 CharacterOffsetEnd=7361 PartOfSpeech=NNS Lemma=fee NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=7362 CharacterOffsetEnd=7365 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=too CharacterOffsetBegin=7366 CharacterOffsetEnd=7369 PartOfSpeech=RB Lemma=too NamedEntityTag=O]
+[Text=prohibitive CharacterOffsetBegin=7370 CharacterOffsetEnd=7381 PartOfSpeech=JJ Lemma=prohibitive NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=7381 CharacterOffsetEnd=7382 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, available-15)
+mark(developed-4, Because-1)
+nsubjpass(developed-4, fangames-2)
+auxpass(developed-4, are-3)
+advcl(available-15, developed-4)
+case(budget-9, with-5)
+det(budget-9, a-6)
+advmod(low-8, relatively-7)
+amod(budget-9, low-8)
+nmod:with(developed-4, budget-9)
+punct(available-15, ,-10)
+det(fangame-12, a-11)
+nsubj(available-15, fangame-12)
+cop(available-15, is-13)
+advmod(available-15, rarely-14)
+case(system-19, on-16)
+det(system-19, a-17)
+compound(system-19, console-18)
+nmod:on(available-15, system-19)
+punct(available-15, ;-20)
+compound(fees-22, licensing-21)
+nsubj(prohibitive-25, fees-22)
+cop(prohibitive-25, are-23)
+advmod(prohibitive-25, too-24)
+parataxis(available-15, prohibitive-25)
+punct(available-15, .-26)
+
+Sentence #54 (29 tokens):
+However, homebrew fangames have occasionally made it onto consoles with prolific homebrew gaming, such as the Dreamcast, PlayStation Portable, Wii and Game Boy Advance.
+[Text=However CharacterOffsetBegin=7383 CharacterOffsetEnd=7390 PartOfSpeech=RB Lemma=however NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=7390 CharacterOffsetEnd=7391 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=homebrew CharacterOffsetBegin=7392 CharacterOffsetEnd=7400 PartOfSpeech=NN Lemma=homebrew NamedEntityTag=O]
+[Text=fangames CharacterOffsetBegin=7401 CharacterOffsetEnd=7409 PartOfSpeech=NNS Lemma=fangame NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=7410 CharacterOffsetEnd=7414 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=occasionally CharacterOffsetBegin=7415 CharacterOffsetEnd=7427 PartOfSpeech=RB Lemma=occasionally NamedEntityTag=O]
+[Text=made CharacterOffsetBegin=7428 CharacterOffsetEnd=7432 PartOfSpeech=VBN Lemma=make NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=7433 CharacterOffsetEnd=7435 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=onto CharacterOffsetBegin=7436 CharacterOffsetEnd=7440 PartOfSpeech=IN Lemma=onto NamedEntityTag=O]
+[Text=consoles CharacterOffsetBegin=7441 CharacterOffsetEnd=7449 PartOfSpeech=VBZ Lemma=console NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=7450 CharacterOffsetEnd=7454 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=prolific CharacterOffsetBegin=7455 CharacterOffsetEnd=7463 PartOfSpeech=JJ Lemma=prolific NamedEntityTag=O]
+[Text=homebrew CharacterOffsetBegin=7464 CharacterOffsetEnd=7472 PartOfSpeech=NN Lemma=homebrew NamedEntityTag=O]
+[Text=gaming CharacterOffsetBegin=7473 CharacterOffsetEnd=7479 PartOfSpeech=NN Lemma=gaming NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=7479 CharacterOffsetEnd=7480 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=such CharacterOffsetBegin=7481 CharacterOffsetEnd=7485 PartOfSpeech=JJ Lemma=such NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=7486 CharacterOffsetEnd=7488 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=7489 CharacterOffsetEnd=7492 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Dreamcast CharacterOffsetBegin=7493 CharacterOffsetEnd=7502 PartOfSpeech=NNP Lemma=Dreamcast NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=7502 CharacterOffsetEnd=7503 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=PlayStation CharacterOffsetBegin=7504 CharacterOffsetEnd=7515 PartOfSpeech=NNP Lemma=PlayStation NamedEntityTag=O]
+[Text=Portable CharacterOffsetBegin=7516 CharacterOffsetEnd=7524 PartOfSpeech=NNP Lemma=Portable NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=7524 CharacterOffsetEnd=7525 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Wii CharacterOffsetBegin=7526 CharacterOffsetEnd=7529 PartOfSpeech=NNP Lemma=Wii NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=7530 CharacterOffsetEnd=7533 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Game CharacterOffsetBegin=7534 CharacterOffsetEnd=7538 PartOfSpeech=NNP Lemma=Game NamedEntityTag=O]
+[Text=Boy CharacterOffsetBegin=7539 CharacterOffsetEnd=7542 PartOfSpeech=NNP Lemma=Boy NamedEntityTag=O]
+[Text=Advance CharacterOffsetBegin=7543 CharacterOffsetEnd=7550 PartOfSpeech=NNP Lemma=Advance NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=7550 CharacterOffsetEnd=7551 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+root(ROOT-0, made-7)
+advmod(made-7, However-1)
+punct(made-7, ,-2)
+compound(fangames-4, homebrew-3)
+nsubj(made-7, fangames-4)
+aux(made-7, have-5)
+advmod(made-7, occasionally-6)
+dobj(made-7, it-8)
+mark(consoles-10, onto-9)
+advcl(made-7, consoles-10)
+case(gaming-14, with-11)
+amod(gaming-14, prolific-12)
+compound(gaming-14, homebrew-13)
+nmod:with(consoles-10, gaming-14)
+punct(gaming-14, ,-15)
+case(Dreamcast-19, such-16)
+mwe(such-16, as-17)
+det(Dreamcast-19, the-18)
+nmod:such_as(gaming-14, Dreamcast-19)
+punct(Dreamcast-19, ,-20)
+compound(Portable-22, PlayStation-21)
+conj:and(Dreamcast-19, Portable-22)
+punct(Dreamcast-19, ,-23)
+conj:and(Dreamcast-19, Wii-24)
+cc(Dreamcast-19, and-25)
+compound(Advance-28, Game-26)
+compound(Advance-28, Boy-27)
+conj:and(Dreamcast-19, Advance-28)
+punct(made-7, .-29)
+

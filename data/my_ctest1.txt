@@ -1,0 +1,4 @@
+Cause-Effect(e2,e1)	0	5	The fire inside WTC was caused by fuel.
+Cause-Effect(e2,e1)	0	3	dollar is causing inflation to go higher.
+Cause-Effect(e2,e1)	0	2	dollar and inflation are two macroeconomics variables.
+Cause-Effect(e2,e1)	0	2	dollar kill inflation.

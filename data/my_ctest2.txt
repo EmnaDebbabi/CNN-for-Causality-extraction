@@ -1,0 +1,5 @@
+0	6	The fire inside WTC was caused by fuel.
+0	2	fuel cause fire.
+0	2	fuel kill fire.
+0	3	dollar is causing inflation to go higher.
+0	2	dollar with inflation.
