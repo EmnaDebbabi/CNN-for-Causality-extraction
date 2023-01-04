@@ -361,7 +361,7 @@ business death, is not explicitly stated. </li>
 the classification of the unmarked and implicit causation. As a perspective to our work, causality
 extraction can be improved
  
- ## Conclusion
+
  
 In this part we evaluated our CNN in terms of speed ,accuracy and efficiency by proving that the
 CNN model is capable to handle the problem of causality classification on textual data to model relationships be-
