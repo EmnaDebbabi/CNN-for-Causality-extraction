@@ -345,7 +345,7 @@ signals sometimes a causation, it is ambiguous (e.g. "since" ). </li>
 absent, it is implicit. "Inflation erodes a consumer’s purchasing power after interfering with his
 ability to retire." is explicit; "Inflation killing small business." is implicit, since the effect, small
 business death, is not explicitly stated. </li>
-<ul>
+</ul>
  
  CNN model has been selected for classification because of its advantages:
  
