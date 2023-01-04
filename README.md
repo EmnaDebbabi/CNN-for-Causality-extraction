@@ -349,13 +349,13 @@ business death, is not explicitly stated. </li>
  
  CNN model has been selected for classification because of its advantages:
  
- <ul>
+<ul>
 <li> Suitable for large and noisy data for example for 1M doc from news, blogs and tweets,...</li>
 <li> No text preprocessing </li>
 <li> Good handling of misspelled or out-of-vocabulary words </li>
 <li>Fast training </li>
- <li>Small model size and low memory usage </li>
- </ul>
+<li>Small model size and low memory usage </li>
+</ul>
  
 CNN has shown good results for the marked and explicit causation and has shown limits with
 the classification of the unmarked and implicit causation. As a perspective to our work, causality
